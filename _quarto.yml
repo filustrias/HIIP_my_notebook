@@ -6,6 +6,10 @@ book:
   title: "HIIP - Adelson's Notebook"
   date: today
   date-format: "D MMMM YYYY"
+  site-url: https://filustrias.github.io/HIIP_my_notebook/
+  repo-url: https://github.com/filustrias/HIIP_my_notebook
+  repo-branch: main
+  repo-actions: [edit, issue]
   search: true
   page-navigation: true
   sidebar:
