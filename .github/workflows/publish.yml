@@ -28,7 +28,11 @@ jobs:
       - name: Render book
         run: quarto render
 
+      # enablement liga o GitHub Pages automaticamente na primeira execução,
+      # dispensando configurar a fonte manualmente em Settings > Pages.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
