@@ -1,0 +1,251 @@
+# The four HHFA modules
+
+This chapter describes each module from the questionnaire actually extracted into a workbook. The extraction used the stand-alone questionnaires. Question numbers, section numbers and counts below refer to those files, and not to the combined questionnaire, which reorganizes the same questions by service site and uses a different section sequence.
+
+Versions extracted:
+
+| Module | Questionnaire extracted | Version | Pages |
+|---|---|---|---|
+| 1 | Service availability: Building structure (Additional/Supplementary) | 27 December 2021 | — |
+| 2 | Service readiness: Core | 19 January 2022 | 167 |
+| 3 | Quality of care: Record review (Additional/Supplementary) | Version 2.1, June 2023 | — |
+| 4 | Management and finance: Core+Additional | 19 January 2022 | 98 |
+
+Modules 1, 2 and 4 are from the December 2021 generation; Module 3 is from the June 2023 revision. WHO now publishes June 2023 versions of all questionnaires (links at the end). Any question number quoted here should be checked against the June 2023 file before it is used in a country adaptation.
+
+The Availability Core and Availability Core+Additional questionnaires, which hold the facility infrastructure, staffing, beds and specific-services content of Module 1, have not been extracted. Module 1 below therefore covers only the building structure questionnaire, with a short note on the rest.
+
+## Module 1. Service availability
+
+### What it measures
+
+Module 1 is about physical presence: does the facility exist, what is it, who works there, how many beds does it have, which services does it offer, and what state is the building in. The availability questionnaires (Core and Core+Additional) hold the first four; the building structure questionnaire holds the last.
+
+From the combined questionnaire, the workforce block (label A_C) records staff counts by occupational category at the facility. The service availability blocks record, service by service, whether the facility offers it.
+
+### The building structure questionnaire
+
+Label A_AS. Only two sections: Section 1 (cover) and Section 17 (building infrastructure). Everything in between belongs to other questionnaires.
+
+Method: direct observation. The data collector walks each service area with a staff member and records the materials seen and one overall condition rating per building element.
+
+Size: 262 numbered questions, 528 sub-items (790 data fields), 1,055 question-indicator pairs, 290 distinct indicator IDs, 10 documented source anomalies.
+
+Structure: Section 17 is one block of 15 questions repeated across 16 service areas (17.1 to 17.12, plus four ward sub-blocks under 17.9). Each block runs: a gate question (does this area exist here), then interior doors and dividers, interior ceiling, interior flooring, interior wall finishing, external doors, external windows, and roof.
+
+Each building element uses a two-part grid. Column (A) OBSERVED records yes/no for each material type present. Column (B) OVERALL CONDITION records one three-level rating for the whole element.
+
+Seven of the sixteen areas add a grid on access for persons with mobility limitations: wheelchair-accessible area, grab bars, accessible toilet, handwashing station within 5 metres. Surgical services, the operating theatre, the delivery area, the four wards, the mortuary and the main roof have no access grid.
+
+### Examples
+
+Cover page (label ALL, shared by all questionnaires):
+
+- Q100: Facility code (6 digits).
+- Q101: Is this a supervisor validation check of a facility?
+
+Section 17, per service area:
+
+- Gate: "Are there any interior doors or dividers?"
+- Materials grid: one yes/no per material type, then one overall condition rating.
+- "Can all interior doors be locked and secured from outside entry?" (yes/no)
+- "Can all external windows be locked and secured from outside entry?" (yes/no)
+- Roof: "Is service area in the main facility building?" then roof materials.
+
+Data collector instruction printed before each block, in capitals: take a quick walk around the area; you are assessing the total area, so conditions may differ between sections; mark yes for each material observed; then give one overall assessment of condition.
+
+### Source anomalies to know about
+
+Inverted skip logic in one gate question; duplicate item codes; inconsistent ordering of roof materials between blocks; missing indicator IDs in the pharmacy block. All are listed in the Anomalies tab of the workbook.
+
+## Module 2. Service readiness
+
+### What it measures
+
+Module 2 asks whether the resources needed to deliver a service to a defined standard are present and working on the day of the visit. Readiness is measured with tracer items: guidelines, trained staff, equipment, diagnostics, medicines and commodities. It is measured for the facility as a whole (general readiness) and for each specific service the facility offers (service-specific readiness).
+
+### The readiness core questionnaire
+
+Label R_C. Cover questions carry ALL. A few questions carry "A_C, R_C" because they serve both availability and readiness.
+
+Sections covered: 1 (cover), 9 (patient safety), 10 (facility-level resources and safety practices), 18 (services and infrastructure), 19 (blood transfusion), 20 (laboratory), 21 (consumable commodities), 22 (pharmaceutical commodities).
+
+Size: 658 numbered questions, 1,441 tracer items (2,099 data fields), 8,961 question-indicator pairs, 1,795 distinct indicator IDs.
+
+Most of the content is in the tracer items, not in the numbered questions. A single question such as "Please tell me if the following basic equipment is available" carries dozens of items, each with its own indicator IDs.
+
+### Where the weight sits
+
+| Sub-subsection | Data fields | Distinct indicators |
+|---|---|---|
+| 22.1.1 Pharmaceutical commodity availability | 279 | 472 |
+| 20.1.5 Specific tests, equipment, laboratory conditions | 156 | 176 |
+| 18.15.6 Emergency: medicines, diagnostics, equipment | 130 | 168 |
+| 18.13.5 Surgical resources, equipment, infrastructure | 110 | 102 |
+| 18.6.4 Delivery room equipment, supplies, infrastructure | 90 | 96 |
+
+Pharmaceutical availability alone is 13% of the data fields and carries more than a quarter of the indicators. In field time, a readiness survey is mostly a stock check.
+
+### The response grid
+
+Tracer items use a two-part grid:
+
+- (A) Availability: observed / reported but not seen / not available.
+- (B) Functioning: yes / no / don't know.
+
+Medicines extend (A) to five codes that separate "at least one unit not expired" from "available but expired", plus a separate column: any stock-out in the past three months.
+
+The observed-versus-reported split means the data carries its own verification status. A strict index (observed only) and a permissive index (observed plus reported) can both be produced from the same dataset.
+
+The three-month stock-out column is the only item in the module that looks backwards in time. Everything else is a snapshot of the day of the visit.
+
+### Examples
+
+- Per service, the trained-staff question uses one formula throughout: whether any provider of the service "received training in the last 2 years" on the relevant guideline.
+- Basic equipment (Section 18): "Please tell me if the following basic equipment is available", followed by the item list (scales, thermometer, stethoscope, blood pressure apparatus, examination light, and so on), each with availability and functioning codes.
+- Laboratory (Section 20): per test, whether the test is performed on site, and whether the equipment and reagents are present and functioning.
+- Medicines (Section 22): per tracer medicine, availability code, expiry status, and stock-out in the past three months.
+
+### Points that matter for country adaptation
+
+379 indicators attach only to tracer items, never to a numbered question. Deactivating one grid question in CSPro removes its whole item list and every indicator on it. The Indicator_map tab has a level column (question or item) to test any proposed cut.
+
+Two text-layer errors in indicator codes were found and corrected against the rasterized page ("KW Z" for KWZ, "BN" for BNL). Anything quoted from the workbook should be spot-checked against the pdf_page column.
+
+## Module 3. Quality of care
+
+### What it measures
+
+Module 3 is the only part of the HHFA that looks at care actually delivered to individual clients. It checks whether the steps required by clinical standards are documented in the client's record. The resources and systems that support quality are measured in Modules 2 and 4, not here.
+
+### The record review questionnaire
+
+Label Q_A (Quality of care, Additional). There is no Core questionnaire for this module; every question is additional, apart from the cover page (ALL).
+
+Size: 84 numbered parent questions, 173 sub-questions (257 printed rows), 313 question-indicator pairs, 163 distinct indicator IDs, 17 documented anomalies. Because most rows are answered once per sampled client, the 257 rows become 837 data fields per facility.
+
+Six record reviews:
+
+| Review | Rows | Data fields |
+|---|---|---|
+| Antenatal care (ANC) | 54 | 202 |
+| Prevention of mother-to-child transmission of HIV (PMTCT) | 44 | 164 |
+| Tuberculosis (TB) | 49 | 153 |
+| Antiretroviral therapy (ART) | 41 | 145 |
+| Uncomplicated malaria in children under five | 32 | 108 |
+| HIV testing services (HTS) | 18 | 46 |
+
+Of the 163 indicator IDs, 54 sit on the cover page (Q113 and Q118 carry the availability-module indicator sets); the record reviews themselves feed 109.
+
+### Sampling design
+
+For each review: identify at least 10 eligible clients from a register, going back no more than six full months; toss a coin to choose starting position 1 or 2; take every other eligible client until five are selected; replace any record that cannot be found with the next eligible client.
+
+ANC, malaria, PMTCT and HTS count backwards from the most recent complete month. ART and TB count forwards from the current month in the preceding year. The difference reflects cohort registers versus summary registers.
+
+Each review also records which register types were used, the time the review started and ended, and any issues.
+
+### Examples
+
+- Gate: Q13400 "Does this facility offer ART life-long treatment services?" (no → skip to 13500).
+- Eligibility, ART: current client aged 15 or over on the national first-line regimen who has completed at least six months of ART. Marked COUNTRY ADAPT: to cover under-5 or 5–14, duplicate the review and run it per age group.
+- Q13403 "How many full months has the client been enrolled in ART as of today?" (months; not documented = 98).
+- Q13404_01 "Is there documentation that a confirmatory HIV test was conducted prior to the client starting on ART?"
+- Q13303 (HTS) "Is there documentation that the client refused enrollment into ART or HIV care and support?"
+
+Each of these is answered five times, once per sampled client.
+
+### Source anomalies to know about
+
+- The indicator block printed against ANC question 13010 is the malaria indicator set (CQD, CQF, DBL and others), all of which are measured at 13103–13105. The malaria gate question 13100 is the only gate in the module with no indicator block. The block appears to have been printed one section early.
+- Two runs of sub-questions are missing: 13009 jumps from 07 to 10, and 13009_04 skips to 08, which does not exist on paper; 13204 jumps from 02 to 05.
+- The cover and antenatal care are both printed as section 1; the section name distinguishes them.
+
+## Module 4. Management and finance
+
+### What it measures
+
+Module 4 asks whether the management systems that keep services available and of acceptable quality exist and are used: governance, finance and accounting, staff management and support, commodity management, maintenance, health information systems, quality monitoring, and hospital service statistics.
+
+### The management and finance Core+Additional questionnaire
+
+Labels M_C (Core), M_A (Additional), ALL (cover). A few questions carry "R_C, M_C".
+
+Size: 447 numbered questions (113 Core, 315 Additional, 19 cover), 570 sub-items (1,017 data fields), 699 question-indicator pairs, 550 distinct indicator IDs, 12 documented anomalies.
+
+Sections present: 1, 2, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16. Sections 3, 4, 10, 17, 19 and 21 belong to Modules 1–3.
+
+### Where the weight sits
+
+| Section | Questions |
+|---|---|
+| 16. Key hospital information and service statistics | 74 |
+| 12. Health financing and accounting | 61 |
+| 15. Implementation of the International Classification of Diseases (ICD) | 45 |
+| 8. Monitoring systems for quality | 45 |
+
+### The response scale
+
+A large share of questions use a three-level scale: YES, OBSERVED / YES, REPORTED, NOT SEEN / NO. This is the module's main verification device and should be kept in analysis rather than collapsed to yes/no.
+
+### Section 12: the public financial management block
+
+This is the section a public financial management (PFM) reading of the HHFA depends on.
+
+- Q3002–Q3015: budget allocation and execution. Q3008 and Q3015 ask the percentage of the recurrent budget actually received in the current year and in the last complete fiscal year. These are the facility-level counterpart of the budget-execution question in the Health Financing Progress Matrix (HFPM).
+- Q3017: budget line items.
+- Q3018–Q3025: funding sources other than the managing authority.
+- Q3101–Q3104: expenditures.
+- Q3200, Q3302–Q3309: user fees and exemption policy.
+- Q3300–Q3301: internal and external audit.
+
+The financial questions have explicit consent gates (Q3004, Q3009, Q3016, Q3022, Q3100): the respondent agreed, refused, or did not have the information available that day. These give three kinds of missingness and should not be merged. Amount fields are in local currency with country-adapted field widths; don't-know is 9999998 and not-applicable 9999995 in seven-digit fields (998 and 995 in three-digit fields). These sentinel values must be set to missing before any financial analysis.
+
+### Section 16: the only outcome data in the HHFA
+
+Section 16 collects compiled service statistics and outcome rates: bed occupancy, average length of stay, case fatality, post-operative infection, 30-day mortality, readmissions, avoidable admissions. Each block is behind a gate question and the values are as reported by the facility. The section measures what the facility monitors, not the underlying performance.
+
+### Section 13.2: individual patient records
+
+Q3600–Q3624 (25 questions) cover unique patient identifiers, chart types, software, storage conditions and retrieval systems. This is the only place in the HHFA that describes the record-keeping system on which any linked outcome measurement would depend.
+
+### Examples
+
+- Q1303–Q1304: does the facility have a strategic or business plan, and does it name quality as a priority.
+- Q1400: support service units available (column header printed "NOT AVALABLE" in the source; kept verbatim).
+- Q2100: does the facility have inpatient services (no → skip to Q2125, removing case reviews, death reviews, adverse-event and post-operative infection monitoring). Q2113 does the same for inpatient surgery.
+- Q3008: percentage of the recurrent budget received in the current year.
+- Q4200: were there any patient deaths in the past 12 months (no → skip to Q4300, bypassing cause-of-death determination, death certification and ICD mortality coding).
+- Q12601a: is this facility willing to share information on medicine pricing (the only question number in the module with a letter suffix).
+- Q12602: for each of 25 tracer medicines, whether it is available, the procurement pack size and price, and the pack size and price charged to the patient.
+
+### Source anomalies to know about
+
+- Q4558 is used twice in section 16.3.14: for the gate question on case fatality monitoring and for the matrix that follows.
+- Q4110: both "no separate cancer reporting" and "no cancer services" skip to Q4213, jumping over Q4111–Q4119, which hold the general ICD morbidity coding questions. A facility with no cancer services yields no data on morbidity coding at all.
+- Q400–Q601 are to be skipped when the availability and readiness questionnaires are also implemented, because the questions are duplicated.
+- "Not applicable" is coded 5 in most matrices (Q2901, Q2904, Q3017) but 3 in others (Q1501); "never procure" is 5 in Q1312, Q1315, Q1318.
+- Q12602: the tracer medicine list breaks alphabetical order at items 16–18 (magnesium sulfate between haloperidol and hydrochlorothiazide). Item codes, not position, are the reliable key.
+
+## Sources
+
+Questionnaires extracted (December 2021 / January 2022 generation; Module 3 June 2023). The WHO link points to the June 2023 version now published; the SharePoint link is the file actually extracted.
+
+- Module 1, Building structure (27 December 2021). [WHO, June 2023](https://www.who.int/publications/m/item/hhfa-building-structure-june-2023) · [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/1_hhfa-avail-building-structure-questionnaire_27dec2021.pdf?d=w5c92e7f2aaef439297dcd9c8952bd32b&csf=1&web=1&e=ETWfKb)
+- Module 1, Availability Core (not extracted). [WHO, June 2023](https://www.who.int/publications/m/item/hhfa-service-availability--core-questionnaire-june-2023)
+- Module 1, Availability Core+Additional (not extracted). [WHO, June 2023](https://www.who.int/publications/m/item/hhfa-service-availability--core-additional-questionnaire-june-2023)
+- Module 2, Readiness Core (19 January 2022). [WHO, June 2023](https://www.who.int/publications/m/item/hhfa-service-readiness--core-questionnaire-june-2023) · [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/4_hhfa-readiness-questionnaire_core_19jan2022.pdf?d=w7db80a79e1f548d1b61ed191ae73ddf1&csf=1&web=1&e=Mr4xa0)
+- Module 3, Record review, version 2.1 (June 2023). [WHO page](https://www.who.int/publications/m/item/hhfa-quality-of-care-record-review-june-2023) · [PDF](https://cdn.who.int/media/docs/default-source/world-health-data-platform/hhfa/hhfa-quality-of-care-record-review_additional-supplementary_june-2023_.pdf?sfvrsn=f4956761_1&download=true) · [December 2021 version](https://www.who.int/publications/m/item/harmonized-health-facility-assessment-(hhfa)quality-of-care--record-review)
+- Module 4, Management and finance Core (19 January 2022). [WHO, June 2023](https://www.who.int/publications/m/item/hhfa-management-and-finance--core-questionnaire-june-2023) · [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/5_hhfa-management-and-finance_questionnaire_core_19jan2022.pdf?d=wa280cf896cc94e479f545919d10a18ad&csf=1&web=1&e=1pfE9L)
+- Module 4, Management and finance Core+Additional (19 January 2022). [WHO, June 2023](https://www.who.int/publications/m/item/hhfa-management-and-finance--core-additional-questionnaire-june-2023) · [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/6_hhfa-management-and-finance-questionnaire_core-add_19jan2022.pdf?d=wc031c808b2f841a8b7413ad1ffd63f89&csf=1&web=1&e=RyxEFd)
+- Combined Core, Availability, Readiness, Management and finance (June 2023). [WHO](https://www.who.int/publications/m/item/hhfa-combined-questionnaire-availability--readiness-and-management-and-finance-june-2023_core_only)
+- Combined Core+Additional (June 2023). [WHO](https://www.who.int/publications/m/item/hhfa-combined-questionnaire-availability--readiness--management-and-finance-june-2023)
+- Indicator reference questionnaire (October 2023). [WHO](https://www.who.int/publications/m/item/hhfa-indicator-reference-questionnaire-october-2023)
+- Questionnaire archive (earlier versions). [WHO](https://www.who.int/data/data-collection-tools/harmonized-health-facility-assessment/questionnaires-archive)
+
+Workbooks produced from the extraction (seven-tab schema: README, Questions, Items, Indicator_map, Sections, Anomalies, Summary).
+
+- HHFA_Module1_Building_Structure_questionnaire.xlsx. [SharePoint](https://worldhealthorg-my.sharepoint.com/:x:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/Question%C3%A1rios%20em%20xlsx/HHFA_Module1_Building_Structure_questionnaire.xlsx?d=wa4a9a82939e7499286aefec585e86a15&csf=1&web=1&e=Q9BHCW) · [Chat](https://claude.ai/chat/33aea658-cefe-4145-80d7-6782258e6471)
+- HHFA_Module2_Service_Readiness_Core_questionnaire.xlsx. [SharePoint](https://worldhealthorg-my.sharepoint.com/:x:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/Question%C3%A1rios%20em%20xlsx/HHFA_Module2_Service_Readiness_Core_questionnaire.xlsx?d=wcf4d83d0239641698421915e56937e7a&csf=1&web=1&e=QfdKQb) · [Chat](https://claude.ai/chat/33aea658-cefe-4145-80d7-6782258e6471)
+- HHFA_Module3_Quality_of_care_Record_review_questionnaire.xlsx. [SharePoint](https://worldhealthorg-my.sharepoint.com/:x:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/Question%C3%A1rios%20em%20xlsx/HHFA_Module3_Quality_of_care_Record_review_questionnaire.xlsx?d=wd26f0cbf512c4d23ad7bc705ed36f5a4&csf=1&web=1&e=x4bZ2C) · [Chat](https://claude.ai/chat/135d79e1-6bf1-4467-9695-856c3febb1e3)
+- HHFA_Module4_Management_and_Finance_questionnaire.xlsx. [SharePoint](https://worldhealthorg-my.sharepoint.com/:x:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/Question%C3%A1rios%20em%20xlsx/HHFA_Module4_Management_and_Finance_questionnaire.xlsx?d=wd66420046b074ea5b86d12af075b77b5&csf=1&web=1&e=1jfNmD) · [Chat](https://claude.ai/chat/a5fb19d6-d130-4d3d-92a6-82a56398862d)

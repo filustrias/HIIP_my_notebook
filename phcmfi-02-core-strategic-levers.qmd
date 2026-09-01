@@ -1,0 +1,182 @@
+# PHC MFI 2. Indicators for the core strategic levers
+
+This sub-chapter covers the 13 indicators attached to the four core strategic levers of the Operational Framework: indicators 1 to 8 (Governance domain) and 14 to 18 (Financing domain, subdomain Funding and allocation of resources). All 13 sit in the Structures block of the framework. All are national or subnational; none is measurable at facility level.
+
+For each lever: what the lever covers, the indicators one by one, which instruments in the HIIP project reach them, what Angola would need to measure them, and any source anomalies.
+
+Each indicator block gives: number and short name; tier; level; measurement type; definition as printed (with the assessment criteria for qualitative indicators, or numerator and denominator for quantitative ones); preferred data source and existing tool; and a short reading. Criteria are paraphrased where the printed text is long; the page number refers to the Web Annex PDF.
+
+## Lever 1. Political commitment and leadership
+
+### What the lever covers
+
+Political commitment and leadership that put PHC at the centre of the effort to reach universal health coverage and recognize its contribution to the SDGs. In the framework this is measured by two structural indicators: whether the country works across sectors on health, and whether the right to health has legal standing.
+
+### Indicators
+
+**1. Health in All Policies (HiAP) with multisectoral coordination.** Tier 1 + Global. National, subnational. Qualitative. Page 26.
+
+Definition: the country has implemented a HiAP approach with six elements: (1) a national HiAP strategy and plan of action involving multiple sectors; (2) recognized functional mechanisms to manage and monitor HiAP; (3) a mechanism to examine the impact of HiAP on health and equity; (4) evidence of cross-sector collaboration on determinants, checked against a list of specific policies (physical inactivity plan; alcohol age limits, taxation, drunk-driving law, advertising restrictions, licensing; seat-belt law; speed limits; full MPOWER tobacco measures; salt reduction; marketing of foods to children; tax on sugar-sweetened beverages); (5) training and knowledge change for the health workforce and institutions; (6) opportunities for community engagement through consultation.
+
+Source: qualitative assessment, key-informant interview and desk review. Tool: none at publication; a WHO qualitative tool with scoring was announced for end 2022.
+
+Reading: criterion 4 is the operational one. It turns a governance principle into a checklist of twelve named policies, most of them already tracked by the NCD and road-safety monitoring systems.
+
+**2. Existence of right to health legislation.** Tier 2. National, subnational. Qualitative. Page 27.
+
+Definition: the country has an enabling legal environment for UHC with three elements: (1) legal recognition of the right of all people to essential health services, medicines and vaccines; (2) protection from discrimination when accessing them; (3) a right of access to a limited set of essential services, medicines and vaccines for everyone, independent of coverage status.
+
+Source: qualitative assessment. Tool: WHO tool announced for end 2022.
+
+Reading: the test is what the law says, not what the system delivers. Criterion 3 is the one that separates a constitutional statement from an enforceable entitlement.
+
+## Lever 2. Governance and policy frameworks
+
+### What the lever covers
+
+Governance structures, policy frameworks and regulation that support PHC, build partnerships within and across sectors, and promote community leadership and mutual accountability. Four indicators: the national health strategy, the quality strategy, the emergency strategy, and the public health institution.
+
+### Indicators
+
+**3. Existence of national health policy oriented to PHC and UHC.** Tier 1 + Global. National, subnational. Qualitative. Page 28.
+
+Definition: a comprehensive national health sector policy or strategy oriented to PHC and UHC, measured against ten standards: (1) developed or revised within the past five years; (2) sets out priorities, goals, objectives and interventions oriented to PHC, UHC and the health SDGs; (3) based on evidence-based situation analysis; (4) promotes integrated services with emphasis on primary care and essential public health functions at facility and community level; (5) addresses broader determinants and links to other sectors; (6) includes actions to empower individuals and communities as co-developers and self-carers; (7) specifies plans and interventions for health equity and for marginalized populations; (8) describes how resources will be deployed, including allocation to subnational level and non-state actors; (9) developed and reviewed through a regular, transparent process with broad stakeholder involvement; (10) has an effective country-led mechanism for governance, coordination and accountability of implementation.
+
+Source: qualitative assessment against national health strategic plans, PHC plans, annual operational plans and budgets, national development plans, policy and legal frameworks. Tool: WHO tool announced for end 2022.
+
+Reading: criterion 8 is where the strategy meets public financial management. A strategy that does not say how money reaches provinces, municipalities and non-state providers fails this criterion regardless of its PHC language.
+
+**4. Existence of policy, strategy or plan for improvement of quality and safety.** Tier 1 + Global. National, subnational. Qualitative. Page 29.
+
+Definition: a validated national strategic direction on quality and safety, aligned with the national health strategy and addressing effectiveness, safety, people-centredness, timeliness, equity, efficiency and integration. Six criteria: (1) a policy, strategy or plan exists, separate or within the sector plan, developed or revised in the last five years; (2) developed through a consultative process including communities or civil society; (3) defines quality planning, improvement and assurance interventions covering the enabling system (registration, licensing, accreditation, clinical governance, training and supervision), harm reduction (safety standards, checklists, adverse event reporting), clinical care (decision support, standards, pathways, morbidity and mortality reviews) and patient and community engagement; (4) names the regulatory mechanisms to be used (licensing, certification, external evaluation, accreditation); (5) covers all service delivery platforms, from community to inpatient; (6) has dedicated funding in the government budget and a recognized structure (quality directorate, department or unit) to carry it forward.
+
+Source: qualitative assessment. Tool: WHO tool announced for end 2022.
+
+Reading: this is the indicator most often confused with facility-level data. HHFA Module 4 asks whether the facility's own plan names quality as a priority (Q1303–Q1304). That is an analogue, not indicator 4. Indicator 4 is about the national document.
+
+**5. Existence of health emergency and disaster risk management strategies.** Tier 1. National, subnational. Qualitative. Page 30.
+
+Definition: an all-hazards strategy for preparedness and response, under whatever title the country uses, measured against ten criteria: (1) developed or revised within the past five years; (2) based on the country's risk assessment; (3) specifies the role of primary care providers; (4) covers the full cycle: prevention, preparedness, response, recovery; (5) includes protocols for continuity of essential services during response, safe restoration afterwards, and the backlog of care; (6) whole-of-health-system and whole-of-society approach with roles of allied sectors; (7) roles at all administrative levels; (8) people- and community-centred, addressing vulnerabilities and capacities of communities; (9) equity lens, including financial barriers before, during and after emergencies; (10) ethical and rights-based approach.
+
+Source: desk review. Tool: the IHR State Party Self-Assessment Annual Reporting tool (SPAR).
+
+Reading: the framework points to SPAR as the existing tool, but SPAR scores capacity on a five-level scale and does not check the ten criteria above. Criteria 3 and 5 (primary care role; continuity of essential services) are the PHC-specific additions.
+
+**6. Institutional capacity to meet essential public health functions and operations.** Tier 2. National, subnational. Qualitative. Page 31.
+
+Definition: a national public health institute (NPHI) or equivalent entity exists, in any institutional form (standalone institute, semi-autonomous body, department of the ministry, or several agencies collectively), with seven characteristics: (1) develops policies and interventions for the country's public health problems; (2) is a public institution operating as part of or with the concurrence of government; (3) is the main source of technical and scientific information for the ministry, lawmakers and government; (4) has adequate human and financial resources; (5) has adequate infrastructure (computing, communications, laboratory access); (6) coordinates with other national and subnational organizations; (7) has a defined workplan covering the essential public health functions, listed as eleven: monitoring and surveillance; emergency management; quality and access assurance, including health protection; health promotion and social determinants; disease prevention; community engagement; public health research; governance, regulation and legislation; planning, financing and management support; public health workforce; access to and rational use of medicines and technologies.
+
+Source: qualitative assessment against public health policies and acts. Tools: regional self-assessment instruments from the WHO European, Eastern Mediterranean and Americas regions; a consolidated WHO tool announced for end 2022.
+
+Reading: the indicator accepts a distributed arrangement. The test is whether the eleven functions have an owner with resources and a workplan, not whether a building called "institute" exists.
+
+## Lever 3. Funding and allocation of resources
+
+### What the lever covers
+
+Adequate funding for PHC, mobilized and allocated to promote equity in access, to create the platform and incentive environment for quality, and to minimize financial hardship. Five indicators: four expenditure measures from the national health accounts and one qualitative indicator on emergency funds. Lever 10 (purchasing and payment systems, indicators 19 to 21) is the other half of the Financing domain and is covered in the operational levers sub-chapter.
+
+### The PHC expenditure definition shared by indicators 14 to 17
+
+Indicators 14, 15, 16 and 17 all compute a PHC-specific value using one definition, based on the System of Health Accounts 2011 (SHA 2011) classification of health care functions (HC):
+
+1. General outpatient curative care (HC.1.3.1)
+2. Dental outpatient curative care (HC.1.3.2)
+3. Curative outpatient care not elsewhere classified (HC.1.3.nec), excluding specialized outpatient care
+4. Home-based curative care (HC.1.4)
+5. Outpatient (HC.3.3) and home-based (HC.3.4) long-term health care
+6. Preventive care (HC.6)
+7. 80% of medical goods provided outside health care services (HC.5)
+8. 80% of health system administration and governance (HC.7)
+
+SHA 2011 has no PHC category of its own. The definition above is a reclassification, and the two 80% shares are stated assumptions, not measurements. Any PHC expenditure figure reported for Angola should say which of these eight components could be populated from the national health accounts and which were estimated.
+
+### Indicators
+
+**14. Current expenditure on health (total and PHC-specific) as a percentage of GDP.** Tier 1. National, subnational. Quantitative. Page 41.
+
+Numerator: sum of all current expenditure on health in a 12-month period. Denominator: GDP. Disaggregation: PHC-specific; by source of funding (domestic government, private, external). Source: national health accounts (NHA). Tool: OECD/WHO guidelines for SHA 2011.
+
+**15. Per capita total health expenditure (and PHC-specific).** Tier 1 + Global. National, subnational. Quantitative. Page 43.
+
+Numerator: total current health expenditure and total current PHC expenditure, in US dollars. Denominator: population. Disaggregation: PHC-specific; by source. Source: NHA.
+
+**16. Government PHC spending as percentage of government health expenditure.** Tier 1 + Global. National, subnational. Quantitative. Page 45.
+
+Numerator: domestic general government expenditure on PHC. Denominator: domestic general government expenditure on health. No disaggregation. Source: NHA.
+
+Reading: this is the indicator the framework treats as the measure of PHC prioritization by government. It depends entirely on the reclassification above.
+
+**17. Sources of expenditure on health (and PHC-specific).** Tier 2. National, subnational. Quantitative. Page 47.
+
+Definition: distribution of health expenditure by source (government schemes, compulsory contributory schemes, voluntary schemes, household out-of-pocket, rest of world), and, for PHC, the proportion from pre-paid sources (everything except out-of-pocket) with its change over time. Numerator: expenditure from each source. Denominator: total expenditure on health. Source: NHA.
+
+**18. Contingency funds available for emergencies.** Tier 2. National, subnational. Qualitative. Page 49.
+
+Definition: three criteria: (1) an emergency contingency fund exists at national, regional or international level through which a national or subnational authority can coordinate reception and distribution of funds, in place at national, intermediate and local levels (IHR, SPAR C1.3); (2) the fund explicitly covers maintenance of essential health services, including primary care; (3) financing can be executed and monitored in a timely, coordinated way at all levels and for all sectors during an acute public health emergency (JEE P1.3).
+
+Source: qualitative assessment. Tool: SPAR.
+
+Reading: criterion 2 is the PHC-specific addition to what SPAR already scores. Criterion 3 is a public financial management question: whether emergency money can move through the treasury system in time.
+
+## Lever 4. Engagement of communities and other stakeholders
+
+### What the lever covers
+
+Engagement of communities and stakeholders in the design, delivery and monitoring of PHC, so that the system is accountable to the people it serves. Two indicators, both at the level of national mechanisms and strategies. Community engagement at facility level is measured elsewhere (indicators 56 to 59 in Models of care).
+
+### Indicators
+
+**7. Coordination mechanisms with multistakeholder participation and community engagement.** Tier 1 + Global. National, subnational. Qualitative. Page 33.
+
+Definition: a national coordination mechanism exists meeting five criteria: (1) responsible for coordinating, monitoring and implementing PHC and UHC strategies within the national health policy; (2) participation includes community groups (including vulnerable and excluded populations), members of the parliamentary health committee, health worker associations and patient groups, civil society, health insurance bodies, provider organizations and the private sector; (3) accountable for the range of activities defined in national plans; (4) has adequate budget and staff; (5) its mandate covers the public sector and, where feasible, oversight and regulation of the private sector.
+
+Source: qualitative assessment. Tool: WHO tool announced for end 2022.
+
+**8. Existence of national, subnational and local strategies for community engagement.** Tier 2. National, subnational. Qualitative. Page 34.
+
+Definition: strategies exist to promote community engagement and social accountability in defining and monitoring the objectives of national health plans, against seven minimum standards: (1) participation of communities in needs assessment, planning, implementation and evaluation; (2) ownership; (3) inclusion of under-served, disadvantaged and marginalized groups, with attention to power dynamics; (4) two-way communication on a regular basis; (5) adaptability to local context; (6) building on local capacity; (7) a budget that addresses community concerns and priorities.
+
+Source: qualitative assessment. Tool: the UNICEF Minimum Quality Standards and Indicators for Community Engagement, which include a checklist.
+
+Reading: criterion 7 is the only one with a financial test. The other six can be met on paper.
+
+## Which instruments in the project reach these indicators
+
+None of the 13 indicators is produced by the HHFA, by EmONC, or by any facility instrument. The crosswalk scored Governance 0 of 9 and Financing 0 of 8. This is by design: every indicator here is about a national document, mechanism or account.
+
+Two instruments the project uses are named by the framework itself:
+
+- SPAR, for indicators 5 and 18. SPAR gives a capacity level, not a criteria check, so it supports the assessment rather than completing it.
+- National health accounts and SHA 2011, for indicators 14 to 17.
+
+Two others cover the same ground without being named:
+
+- The Health Financing Progress Matrix (HFPM). Stage 1 maps the financing landscape using Global Health Expenditure Database data, which is where indicators 14 to 17 come from. Stage 2 asks about the national health strategy, benefit design and PFM, which overlaps with indicators 3, 18 and (in lever 10) 19 to 21.
+- The public financial management assessment, for criterion 8 of indicator 3 (how resources reach subnational level) and criterion 3 of indicator 18 (whether emergency financing can be executed through the treasury).
+
+One analogue to avoid: HHFA Module 4 Q1303–Q1304 (facility plan names quality) is not indicator 4.
+
+## What Angola would need
+
+| Indicator | Data source | Owner | Instrument in the project |
+|---|---|---|---|
+| 1, 2, 3, 4, 7, 8 | Desk review of national documents; key-informant interviews | Ministry of Health planning and legal directorates | Stakeholder engagement guide (key-informant round); HFPM Stage 2 for indicator 3 |
+| 5 | Emergency strategy; SPAR submission | Ministry of Health emergency directorate | SPAR (level), plus criteria check |
+| 6 | Public health act; institutional mapping of the eleven functions | Ministry of Health; national public health institute if one exists | Key-informant round |
+| 14, 15, 16, 17 | National health accounts with SHA 2011 functional classification; population and GDP from the statistics office | Ministry of Health health accounts unit; Ministry of Finance; national statistics institute | HFPM Stage 1; PFM assessment for budget data |
+| 18 | Budget law; emergency fund regulations; treasury execution rules | Ministry of Finance; emergency directorate | PFM assessment; SPAR C1.3 |
+
+Two points specific to Angola. First, the subnational level for indicators 14 to 17 now means 326 municipalities, and the health accounts will not carry that granularity; budget execution data from SIGFE can, but with a different classification. Second, indicators 14 to 17 require the eight-component PHC reclassification; whether Angola's health accounts allow it at the HC.1.3.1 level should be confirmed before any PHC expenditure figure is published.
+
+## Source anomalies
+
+None of the five documented anomalies in the Web Annex falls in this set. Two presentation points: indicators 14 to 17 repeat the same eight-component PHC definition on each sheet, so a country document needs to state it once; and the tool for indicators 1, 2, 3, 4 and 7 was "under development, forthcoming by end 2022" at publication. Whether it was published should be checked before an assessment is designed around it.
+
+## Sources
+
+- Web Annex: technical specifications (2022), sheets for indicators 1 to 8 and 14 to 18. [WHO IRIS PDF](https://iris.who.int/bitstream/handle/10665/352201/9789240044234-eng.pdf)
+- Operational framework for primary health care (2020), Table 1 (overview of levers). [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/PHC%20references/operational%20framework%20for%20PHC.pdf?d=wb885ef5ebd77494a9e443b84644683fd&csf=1&web=1&e=6L3eFz)
+- OECD and WHO. Guidelines for the implementation of the SHA 2011 framework for accounting health care financing (2014).
+- WHO. IHR (2005) State Party Self-Assessment Annual Reporting tool (SPAR). SPAR User Guide 2021 in project knowledge.
+- Instrument crosswalk (Governance and Financing rows). [Chat](https://claude.ai/chat/d38ca85e-50d9-48f2-9e1b-d9a5e27ccf2c)

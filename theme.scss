@@ -1,0 +1,57 @@
+/*-- scss:defaults --*/
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+$font-family-sans-serif: "Inter", system-ui, sans-serif;
+$headings-font-family: "Space Grotesk", "Inter", sans-serif;
+$font-family-monospace: "JetBrains Mono", ui-monospace, monospace;
+
+$headings-font-weight: 600;
+$h1-font-size: 2.1rem;
+$h2-font-size: 1.5rem;
+$h3-font-size: 1.2rem;
+
+$link-decoration: none;
+$link-hover-decoration: underline;
+
+$table-cell-padding-y: 0.5rem;
+$table-cell-padding-x: 0.75rem;
+
+/*-- scss:rules --*/
+  
+  h1, h2, h3 {
+    letter-spacing: -0.01em;
+  }
+
+h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+p {
+  max-width: 72ch;
+}
+
+table {
+  font-size: 0.93em;
+}
+
+thead th {
+  font-family: $headings-font-family;
+  font-weight: 600;
+}
+
+code:not(pre code) {
+  font-size: 0.9em;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+.sidebar-navigation .sidebar-item-text {
+  font-size: 0.92em;
+}
+
+#quarto-margin-sidebar .nav-link.active {
+font-weight: 600;
+}

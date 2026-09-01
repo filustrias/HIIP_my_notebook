@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.positai
+
+/.quarto/
+**/*.quarto_ipynb
+
+# Livro renderizado: gerado pelo GitHub Actions, não versionado
+/_book/

@@ -1,0 +1,404 @@
+# PHC MFI 3. Indicators for the operational levers
+
+This sub-chapter covers the 40 indicators attached to the ten operational levers of the Operational Framework. Same format as the previous sub-chapter: what the lever covers, the indicators one by one, which project instruments reach them, what would be needed to measure them, and source anomalies.
+
+Block format: number and short name; tier; level; measurement type; definition with criteria (qualitative) or numerator and denominator (quantitative); source and tool; a short reading where useful. Page numbers refer to the Web Annex PDF. Long item lists (medicines, diagnostics, equipment) are summarized, not reproduced.
+
+The 40 indicators split by block of the framework: 8 in Structures (9 to 13, 19 to 21), 15 in Inputs (22 to 33, 42 to 44) and 17 in Processes (45 to 60). Eighteen carry the facility level.
+
+## Lever 5. Models of care
+
+### What the lever covers
+
+Selection, design, organization and delivery of services around people's needs, with primary care as first contact, continuity, coordination with other levels, and links to the community. This is the largest lever in the framework: 15 indicators in four subdomains. Seven are national qualitative indicators about how the system is designed; eight are facility-level measures of whether the design is present at the facility.
+
+### Selection and planning of services
+
+**45. Service package meeting criteria.** Tier 1 + Global. National, subnational. Qualitative. Page 86.
+
+Definition: a service package of essential health services, including primary care, and public health functions exists and meets seven criteria: (1) covers protection, prevention, promotion, management (diagnosis, treatment, rehabilitation, resuscitation) and palliation; (2) includes key life-course needs and disease programmes, from emergency syndromes and common primary care presentations to reproductive, maternal, child, adolescent and older-age needs, communicable and noncommunicable disease, mental health, and injuries; (3) addresses disease burden and national priorities including risk factor projections; (4) developed with a wide range of stakeholders; (5) based on an evaluation of existing resources; (6) routinely revised in national planning; (7) designates services for the emergency events the country is at risk of.
+
+Source: key-informant survey and desk review. Tool: WHO tool announced for end 2022.
+
+Reading: indicator 19 (health benefits package, lever 10) asks what is publicly financed; indicator 45 asks what is defined as essential. The two lists are not the same document in most countries.
+
+**46. Roles and functions of service delivery platforms and settings defined.** Tier 1. National, subnational. Qualitative. Page 88.
+
+Definition: the roles of service delivery platforms are defined within integrated networks and include a minimum set per platform: (1) community-based services (self-care, community services, community health worker visits); (2) general outpatient services in a clinical setting staffed at least by a nurse or mid-level provider; (3) prehospital emergency care (scene care, ambulance transport); (4) first referral level (outpatient, emergency unit, inpatient, diagnostics); (5) second referral level and above (advanced outpatient, emergency and inpatient services).
+
+Source: key-informant survey and desk review. Tool: WHO tool announced for end 2022.
+
+### Service design
+
+**47. Existence of an empanelment system.** Tier 2. National, subnational. Qualitative. Page 90.
+
+Definition: an empanelment system exists, described by three attributes: (1) proportion of the population empanelled to a provider, care team or facility; (2) frequency at which patient panels are updated; (3) whether patients can choose or switch the facility, provider or team.
+
+Source: key-informant survey and desk review. Tool: PHCPI Progression Model assessment tool, measure 27.
+
+Reading: the framework sources this at national level, but the three attributes are facility facts. No instrument in the project asks them; HHFA Module 4 asks about catchment area, which is a geographic notion, not a patient list.
+
+**48. System to promote first contact accessibility.** Tier 1. National, subnational. Qualitative. Page 91.
+
+Definition: governance and financing mechanisms promote primary care providers as first point of contact: (1) gatekeeping or conditional access to specialist care; (2) financial incentives for primary care as first contact, such as removal of out-of-pocket payments and fee structures.
+
+Source: key-informant survey and desk review. Tool: WHO tool announced for end 2022.
+
+**49. Protocols for patient referral, counter-referral and emergency transfer.** Tier 2. National, subnational. Qualitative. Page 92.
+
+Definition: explicit protocols and structured communication for referral, counter-referral and emergency transfer exist, covering 18 elements: for referral, identification, reason and services needed, illness information, investigations done, medication list, socio-psychological factors, practitioner contact; for counter-referral, assessment, investigations, medication prescribed, next steps; for emergency transfer, screening and stabilization, condition, timing, mode, level of care during transfer, destination, records and images.
+
+Source: key-informant survey and desk review. Tool: adapted from the WHO European PHC Impact, Performance and Capacity Tool indicator passport.
+
+**50. Existence of care pathways for tracer conditions.** Tier 2. National, subnational. Qualitative. Page 94.
+
+Definition: a management plan maps care pathways through the system (1) for tracer conditions (chronic heart disease, diabetes, breast, cervical and colorectal cancer, asthma, chronic obstructive pulmonary disease, and others listed), (2) with pathways for multimorbidity, (3) with attributes: evidence-based care elements, communication among the team and with patients and families, roles and responsibilities.
+
+Source: key-informant survey and desk review. Tool: WHO tool announced for end 2022.
+
+### Organization and facility management
+
+**51. Professionalization of management.** Tier 2. National, subnational. Qualitative. Page 96.
+
+Definition: national and subnational conditions for professionalized management of health care organizations, measured by (1) adequate numbers of managers (management posts listed in the workforce information system, training, procedures for filling posts); (2) competency (formal post descriptions, accredited competency-based training curriculum, a system of appraisal); (3) motivation and enabling environment (governing boards with terms of reference, community participation in management); and by managers' responsibility for (4) volume and coverage of services, (5) resources and (6) external relations, including service users.
+
+Source: key-informant survey and desk review. Tool: WHO tool announced for end 2022.
+
+**52. Management capability and leadership.** Tier 1. National, subnational, facility. Quantitative. Page 98.
+
+Definition: percentage of facilities with a manager or management team with decision-making responsibility in ten areas: procurement of equipment, medicines and commodities; staff recruitment; staff promotion; disciplinary action; approval of absence; minor repairs and maintenance; selecting staff for training; budget and financial management; facility performance management; linkages with community organizations. Numerator: facilities with trained managers. Denominator: total facilities.
+
+Source: facility survey. Tool: SARA, HHFA, SDI, SPA, fully or partially.
+
+Reading: the numerator as printed ("facilities with trained managers") does not match the definition (facilities with decision-making responsibility in ten areas). The definition is the operative text.
+
+**53. Multidisciplinary team-based service delivery.** Tier 2. National, subnational, facility. Facility survey, no numerator stated. Page 100.
+
+Definition: percentage of facilities that have adopted multidisciplinary team approaches in primary care, measured by (1) proportion of professional staff integrated in multidisciplinary care; (2) number of team attributes met (team identity, regular meetings, shared methods and goals, and others); (3) team composition (number of professions); (4) caseload managed through multidisciplinary programmes.
+
+Source: facility survey. Tool: WHO was revising its facility survey modules to include this.
+
+**54. Existence of supportive supervision system.** Tier 1. National, subnational, facility. Quantitative. Page 102.
+
+Definition: percentage of providers (individual, team or health centre) that receive supportive supervision for PHC as a whole, not only for specific disease programmes, with four attributes: (1) collaborative problem-solving and open dialogue; (2) routine mentoring on gaps in performance, knowledge or skills; (3) support in setting individual goals and reviewing progress; (4) access to specific technical expertise when needed. Numerator: facilities meeting the attributes. Denominator: total facilities.
+
+Source: facility or provider survey. Tool: SARA, HHFA and SPA measure external supervision (whether a visit occurred), not the four attributes.
+
+**55. Existence of facility budgets and expenditures meeting criteria.** Tier 2. National, subnational. Quantitative. Page 103.
+
+Definition: percentage of facilities whose budgets and expenditures have five attributes: (1) line-item funds or global budgets, as relevant; (2) tracking of billing, insurance or other patient financial coverage; (3) internally generated funds from user fees or other point-of-care fees; (4) flexibility to use or reallocate funds across lines and to retain fees collected at service level; (5) a comprehensive annual budget used for systematic forecasting. Numerator: facilities able to use or reallocate funds across budget lines. Denominator: facilities surveyed.
+
+Source: facility survey. Tool: SARA, HHFA, SDI, SPA, fully or partially.
+
+Reading: this is the one indicator in the framework that describes facility-level public financial management. The numerator reduces the five attributes to one, attribute 4 (reallocation and retention). HHFA Module 4 Section 12 asks the questions behind attributes 1, 3 and 4 and reports budget received as a share of budget allocated, which the framework does not ask.
+
+### Community linkages and engagement
+
+**56. Collaboration between facility-based and community-based services.** Tier 2. National, subnational, facility. Quantitative. Page 105.
+
+Definition: percentage of primary care facilities and first-referral hospitals with formal linkages to community-based providers, including community health workers, with six attributes: (1) clear roles between facility and community providers; (2) two-way communication channels; (3) community providers integrated in facility management, teams and data systems; (4) supportive supervision and training offered by the facility to community providers; (5) geographic proximity; (6) two-way referral. Numerator: facilities with the attributes. Denominator: facilities surveyed.
+
+Source: facility survey. Tool: HHFA covers community linkages for HIV, TB and malaria service delivery.
+
+**57. Community engagement in service planning and organization.** Tier 2. National, subnational. Qualitative. Page 107.
+
+Definition: a system ensures that local service planning is informed by community voices, including vulnerable groups, through activities such as (1) community needs and asset assessment; (2) participatory priority setting; (3) patient and relative surveys; (4) training of patient advocates; (5) community representatives on local advisory boards or facility supervisory boards.
+
+Source: key-informant survey and desk review. Tool: WHO tool announced for end 2022.
+
+**58. Proactive population outreach.** Tier 2. National, subnational, facility. Quantitative. Page 108.
+
+Definition: percentage of facilities that actively provide services to communities according to local needs, and average number of outreach activities per facility, from a list of eleven: mobile units, transport systems, home-based care, telemedicine, proactive follow-up of chronic patients, health promotion, health education, identification of acute cases, pregnant women needing referral, family planning provision, chronic disease adherence follow-up. Numerator: facilities providing outreach; average number of activities.
+
+Source: facility survey. Tool: HHFA measures some of the items, not all.
+
+**59. Services for self-care and health literacy in primary care.** Tier blank in Table 1. National, subnational, facility. Quantitative. Page 110.
+
+Definition: percentage of facilities that promote self-care and health literacy, and average number of such services, from six: telephone-based services, computer-based programmes, printed resources, support for in-home electronic aids, one-on-one patient education by a dedicated worker, peer support groups. Numerator: facilities with the attributes. Denominator: facilities surveyed.
+
+Source: facility survey. Tool: WHO was revising its facility survey modules.
+
+## Lever 6. PHC workforce
+
+### What the lever covers
+
+Adequate quantity, competence and distribution of the health workforce for PHC, including community health workers, and the education and regulation systems behind it. Three indicators, all sourced to the National Health Workforce Accounts (NHWA), none at facility level.
+
+### Indicators
+
+**27. Health worker density and distribution.** Tier 1 + Global. National, subnational. Quantitative. Page 59.
+
+Definition: health workers per 10,000 population by occupation, with distribution by facility type, managing authority, location and a Gini coefficient. Numerator: health workers by occupation (ISCO-08 codes: medical doctors, generalist and specialist; nursing and midwifery; dentists; pharmacists; community health workers and others). Denominator: population as estimated by the UN Statistics Division. Disaggregation by activity level: practising, professionally active, licensed to practise.
+
+Source: NHWA.
+
+Reading: the HHFA collects staff counts by occupational category per facility. That gives density only when the survey is a census of all facilities with population denominators, which is why the crosswalk scored indicator 27 as not produced by the sample-based modules.
+
+**28. Accreditation mechanisms for education and training institutions.** Tier 2. National, subnational. Qualitative. Page 61.
+
+Definition: national or subnational accreditation mechanisms for health workforce education and training institutions and their programmes, against four criteria: (1) established; (2) compulsory; (3) additional non-compulsory mechanisms exist; (4) mechanisms take account of national workforce education plans, matching competencies to population needs. Disaggregation by occupation.
+
+Source: NHWA.
+
+Anomaly: the metadata sheet gives Domain and Subdomain as "Physical infrastructure"; Table 1 and the section heading place it in Health workforce.
+
+**29. National systems for continuing professional development (CPD).** Tier 2. National. Qualitative. Page 63.
+
+Definition: a national CPD system exists that (1) is compulsory, (2) is linked to re-licensure, (3) is integrated into national workforce education plans for the occupation (NHWA indicator 09-04). Disaggregation by occupation.
+
+Source: NHWA.
+
+## Lever 7. Physical infrastructure
+
+### What the lever covers
+
+Facilities in the right places with reliable water, sanitation, waste management, power, communications and transport. Five indicators; four of them come straight from a facility survey.
+
+### Indicators
+
+**22. Health facility density and distribution (including primary care).** Tier 1 + Global. National, subnational, facility. Quantitative. Page 54.
+
+Definition: facilities, and primary care facilities, per 10,000 population, by managing authority. Numerator: public and private facilities. Denominator: total population. Disaggregation by facility type (primary care, specialty outpatient, first-level hospital, higher) and managing authority.
+
+Source: routine facility information system, master facility list, geospatial modelling.
+
+Reading: needs a complete master facility list. A sample survey cannot produce it.
+
+**23. Availability of basic water, sanitation and hygiene (WASH) amenities.** Tier 1 + Global. National, subnational, facility. Quantitative. Page 55.
+
+Definition: percentage of facilities with all five basic WASH elements: (1) water from an improved source on premises; (2) usable improved sanitation, at least one toilet for staff, one sex-separated with menstrual hygiene facilities, one accessible to persons with limited mobility; (3) functional hand hygiene facility at points of care and within 5 metres of toilets; (4) waste segregated into three bins, sharps and infectious waste treated and disposed of safely; (5) basic cleaning protocols with trained cleaning staff. Numerator: facilities meeting the standard. Denominator: facilities examined. Disaggregation: hospital or non-hospital; managing authority; urban or rural.
+
+Source: facility survey. Tool: SARA, HHFA; WHO/UNICEF Joint Monitoring Programme definitions.
+
+**24. Availability of power.** Tier 1. National, subnational, facility. Quantitative. Page 56.
+
+Definition: percentage of facilities that use, at least some of the time, any source of electrical power, excluding standalone medical devices. Numerator: facilities with power. Denominator: total facilities.
+
+Source: facility survey. Tool: SARA, HHFA, SDI, SPA.
+
+Reading: the threshold is low ("at least some of the time"). The HHFA readiness module records regularity of supply and backup, which allow a stricter cut.
+
+**25. Availability of communications.** Tier 1. National, subnational, facility. Quantitative. Page 57.
+
+Definition: percentage of facilities with access to communication systems, measured by five attributes: ownership of telephone, radio and computer; a functioning telephone able to call outside at all times services are offered; functioning shortwave radio; functioning computer; email or internet access. Numerator: facilities with a communication system. Denominator: facilities surveyed.
+
+Source: facility survey. Tool: SARA, HHFA, SDI, SPA.
+
+**26. Access to emergency transport for interfacility transfer.** Tier 2. National, subnational, facility. Quantitative. Page 58.
+
+Definition: percentage of facilities with (1) access to a functional ambulance or other emergency vehicle, on call or stationed at the facility, and (2) vehicle, emergency care health worker and driver available 24 hours. Numerator: facilities with emergency transport. Denominator: facilities examined.
+
+Source: facility survey. Tool: SARA, HHFA, SDI, SPA.
+
+## Lever 8. Medicines and other health products
+
+### What the lever covers
+
+Regulation, availability and affordability of quality medicines, diagnostics and devices. One national regulatory indicator and three facility availability indicators.
+
+### Indicators
+
+**30. Regulatory mechanisms for medicines.** Tier 2. National, subnational. Qualitative. Page 64.
+
+Definition: regulatory mechanisms exist, against thirteen criteria: national regulatory authority; marketing authorization; licensing of manufacturers; licensing of importers, exporters, wholesalers and distributors; licensing of pharmacies and retail outlets; registration of pharmacy personnel; post-marketing surveillance; control of promotion and advertising; pharmacovigilance; regulation of clinical trials; regulatory inspections; laboratory quality control; control of narcotics, psychotropics and precursors.
+
+Source: key informant. Tool: WHO Data Collection Tool for the Review of Drug Regulatory Systems (2007).
+
+**31. Availability of essential medicines.** Tier 1 + Global. National, subnational, facility. Quantitative. Page 65.
+
+Definition: percentage of facilities with a core set of relevant essential medicines available and affordable on a sustainable basis (SDG 3.b.3). A medicine is available when found in the facility on the day of the visit. The core set is a fixed list by category: noncommunicable diseases (respiratory, diabetes, cardiovascular), pain and palliative care, central nervous system, anti-infectives, contraception and maternal and child health, and others. Numerator: facilities with the core set available and affordable. Denominator: surveyed facilities.
+
+Source: facility survey. Tool: existing facility surveys measure availability; affordability requires price data. This is the indicator behind the HHFA Module 4 medicine price matrix (Q12602).
+
+**32. Availability of essential in vitro diagnostics (IVDs).** Tier 2. National, subnational, facility. Quantitative. Page 67.
+
+Definition: percentage of facilities with the appropriate set of essential IVDs, associated laboratory equipment and consumables for their level, based on the WHO Essential Diagnostics List (EDL 3) and the priority medical devices list (MEDEVIS). The printed list has 55 items: blood typing, clinical chemistry, haematology and pregnancy tests; disease-specific rapid tests (cholera, SARS-CoV-2, hepatitis B and C, HIV, CD4, cryptococcal antigen, influenza, malaria, group A streptococcus, sickle cell, syphilis, tuberculosis, visceral leishmaniasis, Chagas); laboratory equipment; consumables. Numerator: facilities with the appropriate set. Denominator: surveyed facilities.
+
+Source: facility survey. Tool: SARA, SDI, SPA.
+
+**33. Availability of essential medical equipment and consumables.** Tier 2. National, subnational, facility. Quantitative. Page 70.
+
+Definition: percentage of facilities with the listed equipment and products in stock, available and functional. The printed list has 52 items: examination equipment (scales, blood pressure device, thermometer, stethoscope, light, height board, pulse oximeter, tape, otoscope, ophthalmoscope); oxygen (concentrator, tank with regulator, flowmeter, humidifier, delivery devices); consumables (sutures, infusion and blood-giving sets, cannulae, needles, syringes, splints, casts, gloves, swabs, gauze, tape, condoms, catheters, endotracheal tubes); diagnostic imaging (X-ray, ultrasound, ECG); treatment equipment (phototherapy, incubator, anaesthesia system, operating table, basic surgery set, defibrillator); general equipment (autoclave, dry-heat sterilizer, refrigerators, surgical lamp). Hospital-specific items are starred. Numerator: facilities with the item; for imaging, national count of devices by type. Denominator: facilities surveyed.
+
+Source: facility survey. Tool: SARA, HHFA, SDI, SPA.
+
+Naming: the cross-cutting tables call this indicator "Availability of priority medical equipment and other medical devices".
+
+## Lever 9. Engagement with private sector providers
+
+### What the lever covers
+
+Stewardship of a mixed public and private system: regulation, contracting, data sharing and accountability of private providers. One indicator.
+
+### Indicator
+
+**9. Evidence of effective stewardship of mixed health systems.** Tier 2. National, subnational. Qualitative. Page 35.
+
+Definition: a national policy, strategy or plan guides private sector engagement in service delivery and shows the five WHO-recommended governance behaviours: (1) builds understanding (data sharing platforms; private sector data used in national and subnational decisions); (2) fosters relations (regulations and standards evenly applied and enforced across sectors); (3) nurtures trust (accountability monitoring, results made public); (4) enables stakeholders (contracting models, private sector in tax regulation and in national insurance or other schemes); (5) delivers strategy (defined roles and responsibilities of public and private sectors, policies implemented).
+
+Source: key-informant interview and desk review. Tool: WHO tool announced for end 2022.
+
+## Lever 10. Purchasing and payment systems
+
+### What the lever covers
+
+How public funds buy services: what is covered, who is entitled, and how providers are paid. Three indicators, all qualitative, all sourced to the Health Financing Progress Matrix (HFPM) data collection template.
+
+### Indicators
+
+**19. Services included in the health benefits package (HBP).** Tier 1. National, subnational. Qualitative. Page 50.
+
+Definition: the package defines services financed from public sources, selected through a systematic and transparent process with economic and budget-impact criteria, and meets five criteria: (1) explicitly defined benefits for the whole population; (2) transparent, criteria-based, participatory decisions on what is publicly funded; (3) entitlements and conditions of access defined and communicated; (4) user charges clear, with exemption mechanisms for vulnerable persons; (5) broad stakeholder participation (other ministries, parliamentary health committee, civil society, professional bodies, private sector). Disaggregation by type of service, disease area and delivery platform.
+
+Source: key-informant interview and desk review. Tool: HFPM data collection template.
+
+**20. Purchasing and provider payment methods are in place.** Tier 2. National, subnational. Qualitative. Page 52.
+
+Definition: appropriate provider payment methods exist, against six criteria: (1) payment driven by information on the health needs of the population served; (2) payments harmonized within and across purchasers for coherent incentives; (3) purchasing arrangements promote quality; (4) payment methods and administrative mechanisms address over- and under-provision; (5) purchasers capture adequate information on provider activity; (6) providers have financial autonomy and are held accountable.
+
+Source: key-informant interview and desk review. Tool: HFPM data collection template.
+
+Reading: criterion 6 (provider financial autonomy) is the point where this indicator, indicator 55 (facility budgets) and HHFA Module 4 Section 12 describe the same thing from three positions: the national rule, the framework's facility measure, and the survey question.
+
+**21. Health financing follows established guidelines.** Tier 2. National, subnational. Qualitative. Page 53.
+
+Definition: health financing, or access to the benefits package or insurance scheme, follows WHO guidance on three criteria: (1) entitlements and conditions of access defined explicitly and in understandable terms; (2) user charges designed so that obligations are clear and protection mechanisms function; (3) defined benefits aligned with available revenues, services and purchasing mechanisms.
+
+Source: key-informant interview and desk review. Tool: HFPM data collection template.
+
+## Lever 11. Digital technologies for health
+
+### What the lever covers
+
+Digital strategy, telemedicine and electronic records in support of PHC. Three indicators with three different sources: a national document, a population survey and a facility survey.
+
+### Indicators
+
+**42. National eHealth strategy.** Tier 2. National, subnational. Qualitative. Page 82.
+
+Definition: a valid national eHealth or digital health strategy exists, against nine criteria: health data architecture; data standards and exchange; telehealth policy; data security; confidentiality and storage; access to data; alignment with the national health information system strategy; financing; organizational roles and responsibilities.
+
+Source: key-informant interview and desk review. Tool: SCORE assessment instrument.
+
+**43. Telemedicine access.** Tier 2. National, subnational. Quantitative. Page 83.
+
+Definition: percentage of people with at least one virtual health consultation in the past 12 months, and average number of such consultations. Telemedicine is defined from the global digital health strategy as delivery of care at a distance by health professionals using ICT for diagnosis and treatment. Numerator: people with at least one consultation; average number. Denominator: people interviewed. Disaggregation: age, gender, subnational, urban or rural, socioeconomic status.
+
+Source: population-based survey. Tool: WHO was developing survey modules.
+
+**44. Percentage of facilities using electronic health records.** Tier 1. National, subnational, facility. Quantitative. Page 84.
+
+Definition: percentage of facilities with electronic capture of patient-level data that (1) is standardized across facilities, (2) interoperable, (3) integrated with the aggregate routine system, (4) linked to clinical systems (vaccination alerts, pathology, imaging, pharmacy, laboratory), (5) shareable among providers and facilities, (6) covers multiple conditions. Numerator: facilities with electronic records having the attributes. Denominator: facilities surveyed.
+
+Source: facility survey. Tool: SCORE collects the extent of electronic patient record availability as an approximation.
+
+## Lever 12. Systems for improving the quality of care
+
+### What the lever covers
+
+Facility-level systems that make quality improvement routine. One indicator, and the only one in the framework whose named tool is the HHFA itself.
+
+### Indicator
+
+**60. Percentage of facilities with systems to support the improvement of quality of care and safety.** Tier 1. Level printed as "Facility survey" in Table 1 (anomaly; the sheet describes a facility measure). Quantitative. Page 111.
+
+Definition: percentage of facilities with systems for quality improvement, against eight criteria: (1) a focal person for quality and patient safety; (2) dedicated resources; (3) regular application of quality improvement methods (performance measurement, improvement cycles, audit and feedback, learning systems); (4) processes for clinical audits and mortality reviews, including maternal and neonatal death review and response; (5) clinical guidelines, protocols and checklists available; (6) adverse event reporting, including medication harm; (7) an up-to-date risk management protocol; (8) a mechanism to measure patient experience. Numerator: facilities meeting the criteria. Denominator: facilities surveyed.
+
+Source: facility survey. Tool: HHFA (March 2021 questionnaires).
+
+Reading: the eight criteria are the quality-monitoring block of HHFA Module 4 (focal point, committee, case and death reviews, adverse event system, guidelines, client feedback system). The indicator measures that the system exists, not what it produces; that limit is discussed in the HHFA critical analysis chapter.
+
+## Lever 13. PHC-oriented research
+
+### What the lever covers
+
+Research capacity and funding oriented to primary care. Two indicators, one taken from SDG monitoring and one with metadata still under development.
+
+### Indicators
+
+**12. Total net ODA to medical research and basic health sector.** Tier 1. National, subnational. Quantitative. Page 39.
+
+Definition: SDG 3.b.2, measured as gross disbursements of official development assistance from all donors to medical research and basic health. Numerator: sum of ODA flows. No denominator.
+
+Source: WHO, OECD or other international database. Tool: compiled by OECD/DAC.
+
+**13. Percentage of public research funding for primary care research.** Tier 2. National, subnational. Quantitative. Page 40.
+
+Definition: public research funding for primary care research as a share of total public research funding. Numerator: primary care research funding. Denominator: total public research funding.
+
+Source: metadata under development by WHO at publication; no instrument.
+
+Reading: lever 13 was the one lever with no coverage in any instrument when the HHFA and SPAR were mapped against the 14 levers. The framework itself has only a donor-flow proxy and an undeveloped indicator for it.
+
+## Lever 14. Monitoring and evaluation
+
+### What the lever covers
+
+Information systems that generate reliable data and support its use for decisions. In the framework the lever is measured by two national qualitative indicators on how evidence enters priority setting and planning. The data systems themselves (facility reporting, patient records, surveys, workforce information, civil registration, surveillance) are in the Health information domain, indicators 34 to 41, covered in the next sub-chapter.
+
+### Indicators
+
+**10. Priority setting is informed by data and evidence.** Tier 1. National, subnational, facility. Qualitative. Page 37.
+
+Definition: priority setting in the national health strategic plan is based on data and evidence, against nine criteria: review of past performance over five years; burden of disease analysis identifying populations at risk; subnational performance data; disaggregation by gender responsiveness; by populations in situations of vulnerability; by spatial inequities; systematic stakeholder engagement in priority setting; a central unit or function in the ministry that translates evidence into policy action; resource allocation based on the result.
+
+Source: key-informant interview and desk review. Tool: SCORE assessment instrument.
+
+**11. Existence of an M&E framework for the national health plan meeting criteria.** Tier 1. National, subnational. Qualitative. Page 38.
+
+Definition: the national health plan includes an M&E plan with a PHC focus, against ten criteria: PHC indicators with baselines and targets; a balanced core set covering the three PHC components (community engagement, multisectoral action, integrated services); baselines and targets for all indicators; disaggregations by age, sex, gender and other inequity dimensions; data collection methods and digital architecture; data quality assurance; analysis and review process with roles; use of data for policy and planning; dissemination by level of care; resource requirements.
+
+Source: key-informant interview and desk review. Tool: SCORE assessment instrument.
+
+Reading: indicator 11 is the framework checking whether a country has adopted a framework. The Measurement Framework itself is the reference for criteria 1 to 4.
+
+## Which instruments in the project reach these indicators
+
+From the crosswalk (F produced, P partial, A analogue only):
+
+| Lever | Indicators | Produced by a project instrument | Not produced |
+|---|---|---|---|
+| 5. Models of care | 45–59 | 52, 54, 55, 56 (HHFA Module 4); 49, 53 (EmONC) | 45, 46, 47, 48, 50, 51, 57, 58, 59 |
+| 6. PHC workforce | 27–29 | none | 27 (needs NHWA or a facility census with population), 28, 29 |
+| 7. Physical infrastructure | 22–26 | 23, 24, 25, 26 (HHFA Module 2) | 22 (needs master facility list) |
+| 8. Medicines and other health products | 30–33 | 31, 32, 33 (HHFA Module 2) | 30 |
+| 9. Private sector engagement | 9 | none | 9 |
+| 10. Purchasing and payment | 19–21 | none | 19, 20, 21 |
+| 11. Digital technologies | 42–44 | 44 (HHFA Module 4) | 42, 43 |
+| 12. Systems for quality | 60 | 60 (HHFA Module 4) | — |
+| 13. PHC-oriented research | 12, 13 | none | 12, 13 |
+| 14. Monitoring and evaluation | 10, 11 | none | 10, 11 |
+
+Fifteen of the 40 are produced by the HHFA or EmONC. The 25 not produced are, with two exceptions, national qualitative indicators. The exceptions are 22 and 27 (densities), which need a census and population denominators rather than a different instrument.
+
+Partial and analogue coverage sits mostly in Models of care and is where misreporting is most likely: the HHFA asks about catchment areas (not 47), external supervision visits (not the four attributes of 54), community linkages for three diseases (not the six attributes of 56), and a subset of outreach activities (not 58).
+
+## What would be needed to measure them
+
+| Group | Indicators | Data source | Instrument |
+|---|---|---|---|
+| Facility survey indicators | 23–26, 31–33, 44, 52–56, 58–60 | HHFA Modules 2 and 4, with country adaptation for the attributes the standard questionnaire does not carry (54, 56, 58, 59) | HHFA |
+| Densities | 22, 27 | Master facility list; NHWA; population projections | Census implementation of the HHFA availability module; workforce accounts |
+| Health financing rules | 19, 20, 21 | National documents; key informants | HFPM Stage 2 (the framework names its template) |
+| Other national qualitative indicators | 9, 10, 11, 28, 29, 30, 42, 45–51, 57 | National documents; key informants | SCORE (10, 11, 42); NHWA (28, 29); WHO regulatory review tool (30); WHO qualitative tool announced for 2022 (others) |
+| Population survey | 43 | Household survey module | none in the project |
+| Research funding | 12, 13 | OECD/DAC (12); no metadata (13) | none |
+
+## Source anomalies and naming
+
+- Indicator 28: sheet domain "Physical infrastructure"; Table 1 and section heading say Health workforce.
+- Indicator 59: Tier cell blank in Table 1.
+- Indicator 60: Level cell reads "Facility survey".
+- Indicator 52: numerator ("facilities with trained managers") does not match the definition (decision-making responsibility in ten areas).
+- Indicator 55: numerator uses only attribute 4 of the five in the definition.
+- Indicator 58: the Denominator cell reads "Facility survey" and the preferred data source reads "Qualitative assessment", although the definition is a facility percentage.
+- Indicator 33: named differently in the cross-cutting tables ("priority medical equipment and other medical devices").
+- The M&E domain field is written "Processes" on some sheets, "Process" on others, and "Process of care" on indicator 48. All three are one category.
+- The qualitative assessment tool referred to on indicators 9, 45, 46, 48, 50, 51 and 57 was "under development, forthcoming by end 2022" at publication.
+
+## Sources
+
+- Web Annex: technical specifications (2022), sheets for indicators 9 to 13, 19 to 33, 42 to 60. [WHO IRIS PDF](https://iris.who.int/bitstream/handle/10665/352201/9789240044234-eng.pdf)
+- Operational framework for primary health care (2020). [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/PHC%20references/operational%20framework%20for%20PHC.pdf?d=wb885ef5ebd77494a9e443b84644683fd&csf=1&web=1&e=6L3eFz)
+- Instrument crosswalk. [Chat](https://claude.ai/chat/d38ca85e-50d9-48f2-9e1b-d9a5e27ccf2c)
+- HHFA and SPAR mapped to the 14 levers. [Chat](https://claude.ai/chat/fd82b156-2b85-40ff-a9bb-1961f2363c01)

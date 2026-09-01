@@ -1,0 +1,120 @@
+# The Harmonized Health Facility Assessment (HHFA): overview
+
+## What it is
+
+The Harmonized Health Facility Assessment (HHFA) is a standardized health facility survey developed by the World Health Organization (WHO) under the Health Data Collaborative. It measures whether facilities offer services, whether they have the resources to deliver those services to a defined standard, and whether the management systems that keep services running are in place.
+
+The HHFA replaces and extends the WHO Service Availability and Readiness Assessment (SARA). It also draws on the Service Provision Assessment (SPA, USAID/DHS) and the Service Delivery Indicators (SDI, World Bank). The first version was published in 2021; the questionnaires were revised in June 2023.
+
+The HHFA is a facility survey. It does not measure population coverage, geographic or financial barriers to access, or user behaviour. Those require household surveys or other methods.
+
+## The four modules
+
+Each module is a set of questions about one topic area, each linked to defined indicators. Countries can implement one module or any combination.
+
+| Module | Question | What it collects | Method |
+|---|---|---|---|
+| 1. Service availability | Are basic infrastructure and services present? | Facility infrastructure, staff, beds, specific services offered, building structure | Facility audit |
+| 2. Service readiness | Are the prerequisites for quality services in place? | Guidelines, trained staff, equipment, diagnostics, medicines and commodities, per service | Facility audit |
+| 3. Quality of care | Did patients receive care according to standards? | Provider adherence to standards, as documented in individual patient records | Record review |
+| 4. Management and finance | Are management systems in place to sustain availability and quality? | Governance, financial practices, staff management, commodity management, health information systems, quality assurance systems | Facility audit |
+
+A facility audit means key informant interviews plus direct observation of items, documents and rooms. A record review means retrospective review of a sample of individual client records. Modules 1, 2 and 4 use the facility audit; Module 3 uses the record review.
+
+WHO's own description of the scope: the HHFA has a strong focus on primary health care (PHC), covers outpatient and inpatient services, and is not appropriate for assessing complex inpatient or tertiary services.
+
+## Questions and questionnaires
+
+### Core, Additional, Supplementary
+
+Every HHFA question is either core or additional. Core questions are the recommended minimum. Additional questions give more detail on selected topics. Countries normally adopt the core set with country adaptations (facility types, managing authorities, staffing categories, national guidelines, medicine lists) and add additional questions on their priorities.
+
+Questionnaires are named after what they contain:
+
+- Core: core questions only.
+- Core+Additional: core and additional questions. It includes everything in the Core questionnaire.
+- Supplementary: additional questions not present in the Core or Core+Additional questionnaires, often collected by a different method.
+
+Within a module, a country uses either the Core or the Core+Additional questionnaire, never both.
+
+### Stand-alone and combined formats
+
+Stand-alone questionnaires exist per module:
+
+| Module | Stand-alone questionnaires (June 2023) |
+|---|---|
+| 1. Service availability | Core; Core+Additional; Building structure (Additional/Supplementary) |
+| 2. Service readiness | Core |
+| 3. Quality of care | Record review (Additional/Supplementary) |
+| 4. Management and finance | Core; Core+Additional |
+
+The combined questionnaire merges the core questions of the three facility audit modules (availability, readiness, management and finance) and reorganizes them by service site or respondent, so that the data collector asks each question once at the place where the answer is found. It exists in Core and Core+Additional versions. When a country implements two or more facility audit modules, the combined questionnaire is the recommended instrument.
+
+### How a question is labelled
+
+The paper questionnaire has five columns: Mod/Ind, No., Question, Result, Skip.
+
+The Mod/Ind column carries two things. Before the slash, the module label: A_C (Availability Core), A_A (Availability Additional), A_AS (Availability Additional/Supplementary), R_C (Readiness Core), Q_A or Q_AS (Quality of care Additional/Supplementary), M_C (Management and finance Core), M_A (Management and finance Additional), and ALL for the cover page shared by every questionnaire. Some questions carry two labels, for example "A_C, R_C", meaning the same question serves two modules. This is why the combined questionnaire exists: those questions are asked once instead of twice.
+
+After the slash, the three-letter permanent IDs of every indicator that needs the question. The relation is many-to-many: one question can feed several indicators and one indicator can require several questions.
+
+Question numbers are global across the whole HHFA question bank, not local to a document. A stand-alone questionnaire therefore shows gaps in section and question numbering. The gaps belong to other modules and are not missing content.
+
+Text read aloud to the respondent is printed in sentence case. Instructions to the data collector are printed in capitals. Red text marked COUNTRY ADAPT flags items that must be reviewed before the instrument is finalized.
+
+### Unit of analysis
+
+In the PHC Measurement Framework the natural row is the indicator. In the HHFA the natural row is the question: module, section, subsection, label, response type, skip pattern, and linked indicator IDs. A second table linking question to indicator is needed because of the many-to-many relation. This is the structure used in the four module workbooks (tabs: README, Questions, Items, Indicator_map, Sections, Anomalies, Summary).
+
+## Indicators and the five service dimensions
+
+Indicators are catalogued in the online indicator inventory (https://indicator-inventory.hhfa.online/). Six indicator types are used: proportion, mean, count, median, ratio and index. Most are proportions. Indices summarize several indicators.
+
+Indicators are organized in five service dimensions:
+
+1. General service availability: facility density, workforce density, beds, and availability of general services. Density indicators need population denominators and can only be produced from a census of all facilities.
+2. General service readiness: overall capacity to deliver basic services. Five service areas, each with a readiness index (mean percentage of items available) and a "with all items" index (percentage of facilities with every item). The general service readiness index is the mean of the five:
+   - Basic amenities: power, water, consultation privacy, sanitation, communications, computer with internet, emergency transport.
+   - Basic equipment: adult, child and infant scales, measuring tape, height board, thermometer, stethoscope, blood pressure apparatus, examination light, otoscope, ophthalmoscope, pulse oximeter.
+   - Standard precautions for infection prevention.
+   - Basic diagnostic capacity: haemoglobin, blood glucose, urine dipstick, urine pregnancy test, malaria, HIV and syphilis rapid tests.
+   - Essential medicines: the PHC basket linked to Sustainable Development Goal (SDG) indicator 3.8.1.
+3. Service-specific availability and readiness: whether a specific service is offered, and, among facilities offering it, whether the tracer items are present. Tracer domains: staff and training, guidelines, equipment, diagnostics, medicines and commodities. Facilities that do not offer the service are excluded from its readiness denominator.
+4. Management and finance support systems.
+5. Clinical quality of care.
+
+Countries are advised to start from the indicator inventory, select the indicators they need, and only then choose questionnaires and questions.
+
+## Implementation
+
+**Master Facility List (MFL).** The sampling frame is the national list of all public and private facilities. Without a current MFL, a probability sample cannot be drawn.
+
+**Census or sample.** A census of all facilities updates the MFL and yields national and subnational availability data, including density indicators. A representative sample is sufficient for readiness, management and finance, and quality of care. WHO's suggested cycle: the availability core module as a census every five years; the other modules as sample surveys every one to three years, possibly alternating readiness with management and finance plus quality of care. Implementing all modules in all facilities is described as an enormous and costly undertaking and is not recommended.
+
+**Data collection.** The questionnaires are programmed in the HHFA Census and Survey Processing System (CSPro) application for Android tablets or phones. The application turns questions on and off according to the modules and questionnaires selected, allows several data collectors to work on the same facility at once, merges data at team leader level, and exports to the analysis platform. The paper questionnaire is the adaptation document; the executed instrument is the CSPro application, which may differ in skip logic and in which duplicated fields are suppressed.
+
+**Analysis.** The HHFA data analysis platform (https://analysis-platform.hhfa.online/) computes the indicators and produces standard tables, graphs, maps and a report outline. Scripts can be exported to R or Stata.
+
+**Data quality review.** Under SARA a data quality review of routine data was run in parallel. For the HHFA, WHO now recommends running it as a separate exercise with the Data Quality Assurance (DQA) toolkit, because the HHFA itself is long.
+
+## Sources
+
+WHO guides (copies in project knowledge):
+
+- HHFA Quick guide (2022). [WHO](https://www.who.int/publications/i/item/9789240060289) · [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/HHFA%20quick%20guide%202022.pdf?d=w10d06389bcaa41489e09969ecbbd3b97&csf=1&web=1&e=HeuUKV)
+- HHFA Comprehensive guide (2023). [WHO](https://www.who.int/publications/i/item/9789240060302) · [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/HHFA%20comprehensive%20guide%202022.pdf?d=w6cc35c56a673403d8e7db5b48b72daab&csf=1&web=1&e=fUzNqy)
+- HHFA Data manager guide (2024). [WHO](https://www.who.int/publications/i/item/9789240086043) · [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/HHFA%20data%20manager%20guide%202023.pdf?d=wc50d3adee4a541139ecf6d558c69cdef&csf=1&web=1&e=X5v2VF)
+
+WHO HHFA site:
+
+- Introduction and resource package: https://www.who.int/data/data-collection-tools/harmonized-health-facility-assessment/introduction
+- Questionnaires (combined and stand-alone): https://www.who.int/data/data-collection-tools/harmonized-health-facility-assessment/questionnaires
+- Stand-alone questionnaires: https://www.who.int/data/data-collection-tools/harmonized-health-facility-assessment/questionnaires/stand-alone-questionnaires/
+- Indicator inventory and data analysis platform: https://www.who.int/data/data-collection-tools/harmonized-health-facility-assessment/indicator-inventory-and-data-analysis-platform
+- CSPro tool releases: https://github.com/HHFA2023/HHFA_Public/releases
+- Global archive of survey reports: https://data-archive.hhfa.online/index.php/home
+
+SARA background (copies in project knowledge):
+
+- SARA Reference manual, version 2.2 (WHO/HIS/HSI/2014.5). [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/WHO%20SARA%20reference%20book%202015.pdf?d=w4dd0c726eef44145a5b35b9bc70d89c9&csf=1&web=1&e=yUjX9H)
+- SARA Implementation guide, version 2.2 (WHO/HIS/HSI/2015.5). [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/WHO%20SARA%20implementation%20guide%202015.pdf?d=wa9bdb128632a4862af9df4f7d8f21bc2&csf=1&web=1&e=Yedg60)

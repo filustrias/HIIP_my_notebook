@@ -1,0 +1,51 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "HIIP - Adelson's Notebook"
+  date: today
+  date-format: "D MMMM YYYY"
+  search: true
+  page-navigation: true
+  sidebar:
+    style: floating
+    collapse-level: 1
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - part: "HHFA"
+      chapters:
+        - hhfa-overview.qmd
+        - hhfa-modules.qmd
+        - hhfa-critical-analysis.qmd
+    - part: "PHC Measurement Framework"
+      chapters:
+        - phc-measurement-framework.qmd
+        - phcmfi-01-origins-and-levers.qmd
+        - phcmfi-02-core-strategic-levers.qmd
+        - phcmfi-03-operational-levers.qmd
+        - phcmfi-04-information-access-quality.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    number-sections: false
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    code-copy: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    theme:
+      light: [flatly, theme.scss]
+      dark: [darkly, theme.scss]
+    mainfont: "Inter"
+    monofont: "JetBrains Mono"
+    fontsize: 1.05em
+    linestretch: 1.6
+
+editor: visual

@@ -1,0 +1,112 @@
+# PHC MFI 1. Origins, purpose and the 14 levers
+
+## Where it comes from
+
+The framework answers a request from Member States. Resolution WHA72.2 (2019) on primary health care asked WHO for guidance to assess, track and monitor PHC performance, following the Declaration of Astana (2018) and the vision document of the same year. The Operational Framework for PHC (2020) then set out the 14 levers countries should act on, and stated that supplementary guidance with indicators for the three PHC components and the 14 levers was being developed. The Measurement Framework and Indicators, published jointly by WHO and UNICEF in March 2022, is that guidance.
+
+It was produced by the WHO PHC Monitoring and Evaluation Technical Steering Group, with the Special Programme on PHC and the Integrated Health Services department, and with substantial input from the Primary Health Care Performance Initiative (PHCPI: World Bank, UNICEF, Results for Development, Ariadne Labs, Bill & Melinda Gates Foundation). OECD reviewed the framework. Indicator selection went through a Delphi process with external experts. Country offices in Bangladesh, India, Nepal, Mozambique, Senegal, Sri Lanka and Timor-Leste contributed.
+
+The framework is designed to sit inside existing monitoring. Many of its outcome and impact indicators are taken from the SDG indicator framework and the WHO Thirteenth General Programme of Work (GPW13) impact framework. Novel indicators, mostly on models of care and quality, are flagged as needing further testing, and the technical specifications are meant to be revised as countries use them.
+
+## What it does
+
+The framework has two products.
+
+The main document (48 pages) presents the conceptual framework and the menu of indicators. The Web Annex (161 pages) gives technical specifications: two summary tables, one metadata sheet per indicator, and three cross-cutting tables.
+
+The conceptual framework is a results chain read from left to right (Figure 1 of the Web Annex):
+
+| Block | Content | Indicators in the Web Annex |
+|---|---|---|
+| Health system determinants: Structures | Governance; Adjustment to population health needs; Financing | 22 |
+| Health system determinants: Inputs | Physical infrastructure; Health workforce; Medicines and other health products; Health information; Digital technologies for health | 23 |
+| Service delivery: Processes | Models of care; Systems for improving quality of care; Resilient health facilities and services | 20 |
+| Service delivery: Outputs | Access and availability; Quality care | 31 |
+| Health system objectives: Outcomes | UHC service coverage; UHC financial protection; Health security | drawn from SDG and GPW13 monitoring |
+| Impact | Improved health status; healthy life expectancy; avoidable mortality; determinants of health and risk factors | drawn from SDG and GPW13 monitoring |
+
+The 96 indicator sheets cover the first four blocks only. Outcome and impact indicators appear in Figure 1 and in the main document, but they are not specified in the Web Annex because their definitions already exist elsewhere (SDG 3.8.1 service coverage index, SDG 3.8.2 catastrophic expenditure, SDG 3.d.1 IHR capacity, and so on). This is why the workbook shows 22 Structures, 23 Inputs, 20 Processes, 31 Outputs and no outcomes: the framework delegates outcomes to global monitoring and concentrates its own effort on the parts of the chain that are PHC-specific and had no agreed indicators before.
+
+It is a menu. Countries are expected to select, adapt and embed the indicators in the monitoring and review cycle of the national health strategy, not to report all 96.
+
+## Relationship to the 14 levers
+
+The Operational Framework has four core strategic levers and ten operational levers. In the Measurement Framework the levers appear as subdomains, mostly inside the Structures and Inputs blocks, and each subdomain carries a small number of indicators. Figure 1 marks the lever subdomains with an asterisk.
+
+### Core strategic levers
+
+| Lever | Domain and subdomain in the framework | Indicators |
+|---|---|---|
+| 1. Political commitment and leadership | Governance: Political commitment and leadership | 1, 2 |
+| 2. Governance and policy frameworks | Governance: Governance and policy frameworks | 3, 4, 5, 6 |
+| 3. Funding and allocation of resources | Financing: Funding and allocation of resources | 14, 15, 16, 17, 18 |
+| 4. Engagement of communities and other stakeholders | Governance: Engagement with communities and other stakeholders | 7, 8 |
+
+Thirteen indicators for the four strategic levers. All are national or subnational. Nine are qualitative and assessed against criteria (1 to 8 and 18); four are expenditure measures with a numerator and denominator (14 to 17).
+
+### Operational levers
+
+| Lever | Domain and subdomain in the framework | Indicators |
+|---|---|---|
+| 5. Models of care | Models of care (four subdomains: selection and planning of services; service design; organization and facility management; community linkages and engagement) | 45 to 59 |
+| 6. PHC workforce | Health workforce | 27, 28, 29 |
+| 7. Physical infrastructure | Physical infrastructure | 22 to 26 |
+| 8. Medicines and other health products | Medicines and other health products | 30 to 33 |
+| 9. Engagement with private sector providers | Governance: Engagement with private sector providers | 9 |
+| 10. Purchasing and payment systems | Financing: Purchasing and payment systems | 19, 20, 21 |
+| 11. Digital technologies for health | Digital technologies for health | 42, 43, 44 |
+| 12. Systems for improving the quality of care | Systems for improving quality of care | 60 |
+| 13. PHC-oriented research | Adjustment to population health needs: PHC-oriented research | 12, 13 |
+| 14. Monitoring and evaluation | Adjustment to population health needs: Monitoring and evaluation | 10, 11 |
+
+Forty indicators for the ten operational levers. Lever 5 alone carries fifteen; levers 9 and 12 carry one each.
+
+### Domains that are not levers
+
+Forty-three indicators sit in domains that Figure 1 does not mark as levers. They measure the data systems and the results that the levers are supposed to produce:
+
+| Domain | Indicators | Position in the chain |
+|---|---|---|
+| Health information | 34 to 41 | Input. The data systems lever 14 depends on: facility reporting, patient records, surveys, workforce information system, civil registration, surveillance. |
+| Resilient health facilities and services | 61 | Process |
+| Access and availability | 62 to 73 | Output. Accessibility, affordability and acceptability; service availability and readiness; utilization. |
+| Quality care | 74 to 87 | Output. Core primary care functions; effectiveness; safety; efficiency; timely access. |
+| Additional hospital-oriented | A to I | Bed density (input); institutional mortality (effectiveness); seven safety indicators. |
+
+Reading the two tables together: the levers are measured with 53 indicators that are almost all about whether policies, systems and inputs exist; the results are measured with 43 indicators that are mostly rates and percentages from facility surveys and routine data. The first group tells you whether the country has pulled the lever. The second tells you what happened at the facility.
+
+## How the indicators are specified
+
+### Tiers
+
+Tier 1 (39 indicators) is the recommended priority set. Tier 2 (48) is for countries with the data systems to support them. Thirteen Tier 1 indicators are also marked "Global" and form the core set for cross-country comparison: 1, 3, 4, 7, 15, 16, 22, 23, 27, 31, 45, 70 and 81. The nine hospital-oriented indicators have no tier.
+
+### Levels
+
+Each indicator states where it applies: national, subnational, facility, or a combination. 46 of the 96 carry the facility level. The other 50 are national or subnational by design: policy existence, legislation, health accounts, workforce accounts, civil registration, population surveys. This is the number that sets the ceiling for any facility survey, including the HHFA.
+
+### Measurement type
+
+33 indicators are qualitative: numerator and denominator are "Not applicable", and the sheet lists criteria to assess. They are concentrated in Governance (all 9), Models of care (9 of 15), Financing (4 of 8), Health information (4 of 8) and Adjustment to population health needs (2 of 4). The preferred data source for these is key-informant interview and document review; several name an existing tool (the SCORE assessment instrument, the Health Financing Progress Matrix, the PHCPI progression model). The other 63 indicators have a numerator and a denominator.
+
+### Preferred data sources
+
+The framework names its sources explicitly and expects countries to invest in them: routine health information systems (RHIS), health facility assessments (the HHFA, SARA and SPA are cited by name), population-based surveys, national health accounts, national health workforce accounts, civil registration and vital statistics, surveillance, and qualitative assessment.
+
+### Cross-cutting dimensions
+
+Section 3 of the Web Annex marks indicators that matter for three dimensions the framework wants monitored across the whole chain: quality (Table 3.1, 37 indicators), equity (Table 3.2, 19) and resilience (Table 3.3, 25). Each mark comes with a short consideration on how to read the indicator through that lens. No new indicators are created. 34 indicators are marked in none of the three tables.
+
+## What the framework is not
+
+- It is not an assessment tool. It defines what to measure; the HHFA, the HFPM, the SCORE instrument and the routine system are the tools.
+- It is not a scoring or ranking system. There is no composite index and no progress level. The HFPM's four levels and the SPAR's five levels have no equivalent here.
+- It is not complete on outcomes. It hands outcomes and impact to SDG and GPW13 monitoring.
+- It is not stable. The introduction says the technical specifications will be reviewed and refined as countries apply them. Names of indicators already differ between Table 1, the metadata sheets and the cross-cutting tables, and five sheets carry inconsistencies (see the parent chapter).
+
+## Sources
+
+- Primary health care measurement framework and indicators (2022), main document. [WHO](https://www.who.int/publications/i/item/9789240044210) · [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/PHC%20references/Primary%20health%20care%20measurement%20framework%20and%20indicators.pdf?d=wcadc55505f5f42c0bbf72f1db6ebbccd&csf=1&web=1&e=jraxni)
+- Web Annex: technical specifications (2022). [WHO IRIS PDF](https://iris.who.int/bitstream/handle/10665/352201/9789240044234-eng.pdf)
+- Operational framework for primary health care (2020). [SharePoint](https://worldhealthorg-my.sharepoint.com/:b:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/PHC%20references/operational%20framework%20for%20PHC.pdf?d=wb885ef5ebd77494a9e443b84644683fd&csf=1&web=1&e=6L3eFz)
+- WHO_UNICEF_PHC_Measurement_Framework_Indicators.xlsx. [SharePoint](https://worldhealthorg-my.sharepoint.com/:x:/r/personal/adelson_jantsch_who_int/Documents/Angola%20HIIP%202026/HHFA%20documents/Question%C3%A1rios%20em%20xlsx/WHO_UNICEF_PHC_Measurement_Framework_Indicators.xlsx?d=w5b8b7e664d044a1d9e6f4688a523d8cc&csf=1&web=1&e=ZTE5gS)

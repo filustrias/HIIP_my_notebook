@@ -1,0 +1,366 @@
+# PHC MFI 4. Indicators not attached to a lever: information, resilience, access and quality
+
+This sub-chapter covers the 43 indicators that Figure 1 of the Web Annex does not mark as a lever: Health information (34 to 41), Resilient health facilities and services (61), Access and availability (62 to 73), Quality care (74 to 87) and the nine additional hospital-oriented indicators (A to I). Same format as the previous two sub-chapters.
+
+These are the results side of the framework. With the exception of Health information, which is an input, they measure what the levers are meant to produce: whether people can reach services, whether facilities can deliver them, whether they are used, and whether the care is effective, safe, efficient and timely. Most are rates and percentages, and 28 of the 43 carry the facility level. They are also the part of the framework where a facility survey and a routine information system have the most to contribute, and where the HHFA's coverage is measured in the crosswalk.
+
+A point that applies throughout, and that the previous sub-chapter already showed: several entries in this set are not single indicators but measurement areas. Indicator 66 is a whole service package; 69 is the eight-component IPC assessment framework; 74 is an index over four domains of patient experience; 73 is a table of leading diagnoses. The framework presents them as one line each; measuring them means choosing what inside the area to count.
+
+## Health information (indicators 34 to 41)
+
+### What the domain covers
+
+The data systems that lever 14 (monitoring and evaluation) depends on: facility reporting, patient records, facility and patient surveys, the workforce information system, civil registration, population surveys and surveillance. Eight indicators; four qualitative, four quantitative; only one at facility level.
+
+### Indicators
+
+**34. Completeness of reporting by facilities.** Tier 2. National, subnational. Quantitative. Page 73.
+
+Definition: percentage of facilities that use information systems for patient and facility data and report according to district or national requirements within the deadline. Numerator: reports received. Denominator: facilities included in national reporting.
+
+Source: routine health information system (RHIS). Tool: country systems; compiled globally through SCORE.
+
+**35. Percentage of facilities using patient records.** Tier 2. National, subnational, facility. Quantitative. Page 74.
+
+Definition: percentage of facilities using single, comprehensive patient records giving a longitudinal history across time and conditions, with nine attributes: unique patient identification; family and social history; problem lists; care history and notes; medication lists and allergies; referrals and their results; laboratory, radiology and other results; always available; accessible to the patient. Numerator: facilities using comprehensive records. Denominator: facilities surveyed.
+
+Source: facility survey. Tool: WHO was revising its facility survey modules.
+
+Reading: HHFA Module 4 section 13.2 (Q3600–Q3624) is the only place in the project instruments that asks about individual patient records. The crosswalk scored 35 as produced by Module 4.
+
+**36. Regular system of facility and patient surveys.** Tier 2. National, subnational. Qualitative. Page 75.
+
+Definition: the country has a regular system of independent facility and patient surveys, or accreditation, with (1) assessments of availability, readiness and quality of care at least every two years and (2) assessments of patient satisfaction or experience at least every five years.
+
+Source: key-informant interview and desk review. Tool: SCORE.
+
+Reading: criterion 1 is the periodicity of the HHFA itself. WHO's own guidance suggests the availability census every five years and sample modules every one to three years, which meets the two-year criterion only if the modules alternate.
+
+**37. Functional national human resources information system and NHWA.** Tier 1. National, subnational. Qualitative. Page 76.
+
+Definition: a functional national human resources information system that can generate seven outputs: education and training institution outputs; entrants to the labour market; active stock; exits; geocoded facility locations; information for IHR reporting; information for reporting on the WHO Global Code of Practice on international recruitment.
+
+Source: NHWA.
+
+**38. Completeness of birth registration.** Tier 1. National, subnational. Quantitative. Page 77.
+
+Definition: two accepted definitions: (1) percentage of births registered, for countries with mature civil registration (CRVS); (2) proportion of children under five whose birth was registered with a civil authority, from household surveys, for countries without. Numerator and denominator follow the definition used.
+
+Source: CRVS; population survey (Multiple Indicator Cluster Survey).
+
+**39. Completeness of death registration.** Tier 1. National, subnational. Quantitative. Page 78.
+
+Definition: percentage of deaths registered, with age and sex, and with a valid cause of death. Numerator: deaths registered. Denominator: total deaths.
+
+Source: CRVS. Tool: SCORE compiles it.
+
+**40. Regular system of population-based health surveys.** Tier 2. National. Qualitative. Page 79.
+
+Definition: the country can generate regular, comprehensive, nationally representative statistics with equity dimensions on health status, behaviours and risk factors, access to interventions and out-of-pocket spending.
+
+Source: key-informant interview and desk review. Tool: SCORE.
+
+**41. Existence of effective surveillance system.** Tier 1. National. Qualitative, scored. Page 80. M&E domain printed as Structures (all other indicators in the domain are Inputs).
+
+Definition: the average of two SPAR indicators: C6.1 early warning function (indicator- and event-based surveillance) and C6.2 event verification and investigation, each on the SPAR five-level scale.
+
+Source: WHO database. Tool: electronic SPAR.
+
+Reading: this is the only indicator in the framework that is a direct arithmetic on another instrument's scores.
+
+## Resilient health facilities and services (indicator 61)
+
+### What the domain covers
+
+Whether facilities can keep priority services running during emergencies. One indicator, at facility level, sourced to the HHFA.
+
+### Indicator
+
+**61. Percentage of facilities meeting criteria for resilient health facilities and services.** Tier 2. National, subnational, facility. Quantitative. Page 112.
+
+Definition: percentage of facilities that can demonstrate eight things: (1) a facility emergency management plan including service continuity, with a budget line or access to one; (2) a designated team or focal person; (3) priority primary care services to be maintained in emergencies identified according to national protocols; (4) up-to-date case management protocols for priority emergencies; (5) staff trained in emergency and disaster risk management and service continuity; (6) an assessment of risks and of structural, non-structural and functional preparedness in the past five years; (7) simulation exercises; (8) post-emergency reviews with lessons applied. Numerator: facilities meeting the attributes. Denominator: facilities surveyed.
+
+Source: facility survey. Tool: HHFA (March 2021).
+
+Reading: the HHFA asks whether an emergency plan exists and whether drills were held; it does not carry all eight attributes, which is why the crosswalk scored it partial. Attribute 1 ties resilience to a budget line, a PFM question.
+
+## Access and availability (indicators 62 to 73)
+
+### What the domain covers
+
+Three subdomains. Accessibility, affordability and acceptability (62 to 66): whether people can reach and use services. Service availability and readiness (67 to 69): whether facilities can deliver them. Utilization (70 to 73): whether they are used. Twelve indicators; nine at facility level; all quantitative except 65.
+
+### Accessibility, affordability, acceptability
+
+**62. Geographical access to services.** Tier 2. National, subnational. Quantitative. Page 114.
+
+Definition: percentage of population living within 5 km, or one hour, of a comprehensive primary care provider, and within two hours of an emergency care unit. Numerator: people within 5 km. Denominator: total population. Disaggregation: urban or rural; subnational.
+
+Source: master facility list with geospatial modelling.
+
+**63. Perceived barriers to access.** Tier 1. National, subnational. Quantitative. Page 115.
+
+Definition: percentage of the target population who report problems accessing care when they had a need, by type of problem: getting permission, getting money, distance, not wanting to go alone, and others. Numerator: people reporting a problem. Denominator: people reporting a need. Disaggregation: wealth quintile, education, urban or rural, age, gender, subnational.
+
+Source: population-based survey. Tool: Demographic and Health Surveys.
+
+Reading: the only indicator in the domain that reaches people who never arrived at a facility. EmONC's exit interview is the one project instrument that touches it, and only for users.
+
+**64. Access to emergency surgery.** Tier 2. National, subnational. Quantitative. Page 116.
+
+Definition: percentage of the population able to reach, within two hours, a facility that can perform emergency caesarean section, laparotomy and open fracture fixation. Numerator: population within two hours. Denominator: total population.
+
+Source: master facility list, geospatial modelling, facility survey. Tool: country system; HHFA for the capability side.
+
+**65. Existence of a system for post-crash care.** Tier 2. Level blank in Table 1. Qualitative. Page 117.
+
+Definition: a post-crash care system, assessed by six attributes: national emergency care access number; trauma registry; formal certification pathway for prehospital providers; a national assessment of the emergency care system covering prehospital and facility care; a policy setting a maximum interval between a road crash with injury and first professional care; Good Samaritan laws protecting lay responders.
+
+Source: qualitative assessment or policy review. Tool: the WHO road safety status report assessment tool measures some attributes.
+
+Anomaly: Table 1 names this indicator "Proactive population outreach availability and readiness", repeating the name of indicator 58, and leaves the Level cell blank. The metadata sheet is the correct reference.
+
+**66. Percentage of facilities offering core services according to the national defined service package.** Tier 1. National, subnational, facility. Quantitative. Page 118.
+
+Definition: percentage of primary care facilities offering services according to the national package. The sheet gives an example list in twelve groups: communicable diseases (prevention, immunization, HIV testing, care and antiretrovirals, tuberculosis, malaria, and others); foundations of care; growth, development and ageing, including palliative care; noncommunicable diseases; mental, neurological and substance use disorders; reproductive and sexual health, including basic and comprehensive emergency obstetric care; violence and injury; rehabilitation; basic and comprehensive surgery; 24-hour availability; emergency units with acuity-based triage; nutrition. Numerator: facilities offering the total package, and facilities offering each service. Denominator: facilities examined.
+
+Source: facility survey, facility census or RHIS. Tool: SARA, HHFA, SPA.
+
+Reading: this is the HHFA service availability content in one line. The indicator is only computable once the country has defined its package (indicator 45); the HHFA then reports service by service and the analyst decides the "total package" cut.
+
+### Service availability and readiness
+
+**67. Provider availability (absence rate).** Tier 2. National, subnational, facility. Quantitative. Page 120.
+
+Definition: percentage of clinical staff expected at the facility who are not present during an unannounced visit. Numerator: staff not off duty who are absent. Denominator: ten randomly sampled workers due on duty on the day.
+
+Source: facility survey. Tool: World Bank Service Delivery Indicators.
+
+Reading: the HHFA visit is announced and does not sample staff for presence. This indicator needs the SDI method.
+
+**68. Percentage of facilities meeting minimum standards to deliver tracer services.** Tier 1. National, subnational, facility. Quantitative. Page 121.
+
+Definition: among facilities offering a tracer service, the percentage with the appropriate staff and guidelines, equipment, diagnostics, and medicines and commodities for it. Numerator: facilities with the recommended items for the tracer service. Denominator: facilities surveyed.
+
+Source: facility survey. Tool: SARA, HHFA, SPA.
+
+Reading: this is service-specific readiness, HHFA Module 2 in one line. The four criteria are the tracer domains of the readiness questionnaire.
+
+**69. Percentage of facilities compliant with IPC measures.** Tier 1. National, subnational, facility. Quantitative. Page 122.
+
+Definition: percentage of facilities meeting a standard (inadequate, basic, intermediate, advanced) on the eight core components of the Infection Prevention and Control Assessment Framework (IPCAF): IPC programme with a trained link person; facility-adapted guidelines with monitoring; education and training of clinical staff and cleaners; health care-associated infection surveillance; multimodal strategies for hand hygiene, safe injection and decontamination; monitoring, audit and feedback; workload, staffing and bed occupancy, including triage and patient flow; built environment, materials and equipment, including water on premises and two functional sanitation facilities. Numerator: facilities meeting the standard. Denominator: facilities surveyed.
+
+Source: facility survey. Tool: IPCAF (2018).
+
+Reading: the HHFA asks whether an IPCAF assessment was done and records the interpreted level; the crosswalk counted this as produced, with the caveat that the level is as reported by the facility.
+
+### Utilization of services
+
+**70. Outpatient visits.** Tier 1 + Global. National, subnational, facility. Quantitative. Page 124.
+
+Definition: outpatient facility visits per person per year. Numerator: total visits. Denominator: population. Disaggregation: subnational, age, gender.
+
+Source: population survey; RHIS if it covers all public and private facilities.
+
+**71. Emergency unit visits.** Tier 2. National, subnational, facility. Quantitative. Page 125.
+
+Definition: emergency department visits per 1,000 population. Source: RHIS if it covers all facilities with emergency units; otherwise population survey.
+
+**72. Hospital discharges.** Tier 1. National, subnational, facility. Quantitative. Page 126.
+
+Definition: patients admitted to or leaving hospital after at least one night, per 1,000 population; includes deaths after inpatient care, excludes same-day discharges. Source: RHIS if it covers all inpatient facilities; population survey.
+
+Reading: the crosswalk scored 72 as produced by HHFA Module 4 Section 16, where discharges are collected as reported by the facility. Population denominators are needed to turn the count into a rate.
+
+**73. Leading diagnoses.** Tier 1. National, subnational, facility. Quantitative. Page 127.
+
+Definition: number, rate per 1,000 population and percentage distribution of the main diagnostic categories, for outpatient visits and inpatient discharges. Source: RHIS.
+
+Reading: this is a table, not an indicator. It presupposes diagnosis coding, which HHFA Module 4 Section 15 (ICD implementation, 45 questions) measures the existence of.
+
+## Quality care (indicators 74 to 87)
+
+### What the domain covers
+
+Five subdomains: core primary care functions (74, 75), effectiveness (76 to 81), safety (82, 83), efficiency (84, 85), timely access (86, 87). Fourteen indicators; twelve at facility level; all quantitative. This is the domain where the framework asks for measures of what care did to patients, and where the data requirements are highest: prescription databases, coded inpatient records linked over 30 days, cancer registries, waiting-list systems.
+
+### Core primary care functions
+
+**74. Patient-reported experiences.** Tier 1. National, subnational, facility. Quantitative, index. Page 128.
+
+Definition: percentage of patients whose experience meets the key attributes across four domains: first-contact accessibility (ease of booking, waiting time); continuity (same provider, provider knows history); coordination (one provider coordinating care for patients with two or more conditions); people-centredness (clear explanations, respect, involvement in decisions). Numerator: attributes met, overall and by domain. Denominator: patients interviewed.
+
+Source: population survey or patient survey (exit interview during a facility survey, or follow-up). Tool: OECD Patient-Reported Indicator Survey (PaRIS).
+
+Reading: the only patient-voice indicator at facility level. In the project it is reached by the EmONC person-centred maternity care exit interview (30 items), for maternity clients only. The HHFA asks whether a client feedback system exists, which is indicator 60 criterion 8, not indicator 74.
+
+**75. People's perceptions of health system and services.** Tier 2. National, subnational. Quantitative. Page 130.
+
+Definition: percentage of people with a positive perception, scored across four domains: perception of the public system; of the overall system; expectations of quality; use and non-use of care. Numerator: people with positive perception. Denominator: people interviewed.
+
+Source: population survey. Tool: a WHO community assessment tool.
+
+### Effectiveness
+
+**76. Diagnostic accuracy (provider knowledge).** Tier 2. National, subnational, facility. Quantitative. Page 131.
+
+Definition: percentage of cases correctly diagnosed, observed through clinical vignettes on common conditions including multimorbidity. Numerator: correct diagnoses. Denominator: patients examined.
+
+Source: patient-provider observation or record review during a facility survey. Tool: World Bank SDI vignettes (five presentations).
+
+**77. Adherence to clinical standards for tracer services.** Tier 2. National, subnational, facility. Quantitative. Page 132.
+
+Definition: the number of relevant history and examination questions asked and documented by the provider, over the number that should have been asked, for tracer services (family planning, antenatal care, sick child, hypertension, diabetes), through vignettes, observation, exit interview or record review.
+
+Source: facility survey. Tool: partially collected by SARA and HHFA.
+
+Reading: HHFA Module 3, the record review, is the project's only source. It uses six tracers (antenatal care, malaria in children, PMTCT, HIV testing, ART, TB), not the five the sheet names, and measures documented care steps rather than questions asked. The crosswalk counted it as produced with that difference noted.
+
+**78. 30-day hospital case fatality rate (acute myocardial infarction or stroke).** Tier 2. National, subnational, facility. Quantitative. Page 133.
+
+Definition: percentage of inpatients with a primary diagnosis of acute myocardial infarction or stroke who died within 30 days of admission, in or out of hospital. Numerator: deaths within 30 days. Denominator: urgent admissions with the diagnosis.
+
+Source: RHIS; record review during a facility survey as an alternative.
+
+**79. Avoidable complications (lower limb amputation in diabetes).** Tier 2. National, subnational, facility. Quantitative. Page 134.
+
+Definition: admissions with a major lower extremity amputation procedure code and a diabetes diagnosis code, per 100,000 population aged 15 and over with diabetes. Source: RHIS; record review as alternative.
+
+**80. Hospital readmission rates for tracer conditions.** Tier 2. National, subnational, facility. Quantitative. Page 135.
+
+Definition: percentage of unplanned readmissions within 30 days of discharge for acute myocardial infarction, pneumonia, asthma, diabetes and surgical site infection. Numerator: unplanned readmissions within 30 days. Denominator: admissions for the tracer conditions. Source: RHIS; record review as alternative.
+
+**81. Admissions for ambulatory care sensitive conditions.** Tier 1 + Global. National, subnational, facility. Quantitative. Page 136.
+
+Definition: admissions with a principal diagnosis of asthma, chronic obstructive pulmonary disease, diabetes, congestive heart failure or hypertension, excluding maternal and neonatal, per 100,000 population and as a percentage of all admissions. Source: inpatient RHIS.
+
+Reading on 78 to 81: all four need coded inpatient diagnoses, a procedure code (79), a persistent patient identifier to link readmissions (80) and deaths after discharge (78). HHFA Module 4 Q3600–Q3604 records whether facilities have unique identifiers and coded records; Module 4 Section 16 asks whether the facility monitors case fatality and readmissions. None of the project instruments yields the rates. 81 is the single Tier 1 + Global indicator among them and the one the framework treats as the test of whether primary care prevents hospitalization.
+
+### Safety
+
+**82. Prescribing practices for antibiotics.** Tier 1. National, subnational, facility. Quantitative. Page 137.
+
+Definition: total volume of systemic antibiotics prescribed, as defined daily doses (ATC code J01) over the population covered by the prescription database. Source: prescription database.
+
+**83. Proportion of people 65 years and over prescribed antipsychotics.** Tier 2. National, subnational, facility. Quantitative. Page 138.
+
+Definition: people aged 65 and over on the first day of the reference year with at least one antipsychotic prescription (ATC N05A) in the year, over all people 65 and over in the prescription database. Source: prescription database.
+
+Reading: both safety indicators assume a national prescription database. Where none exists, the HHFA's question on prescribing-practice guidelines and pharmacovigilance is the nearest structural analogue and does not produce either indicator.
+
+### Efficiency
+
+**84. Provider caseload.** Tier 2. National, subnational, facility. Quantitative. M&E domain printed as Processes. Page 139.
+
+Definition: average number of outpatient service units provided by a health worker in a period (working day, year), with service units defined by the service model (consultations by physicians, antenatal consultations by midwives, immunization by nurses). Numerator: service units. Denominator: workers providing the service times available working days.
+
+Source: facility survey with record review. Tool: RHIS; HHFA and SDI partially.
+
+**85. Bed occupancy.** Tier 2. National, subnational, facility. Quantitative. M&E domain printed as Processes. Page 140.
+
+Definition: occupied bed-days over available bed-days in a period. Source: RHIS.
+
+Reading: HHFA Module 4 Section 16 collects bed occupancy as reported by the facility. The crosswalk scored it as produced.
+
+### Timely access
+
+**86. Cancer stage at diagnosis (by cancer).** Tier 2. National, subnational. Quantitative. Page 141.
+
+Definition: percentage of stageable cancers diagnosed at stage 1 or 2 in a year. Source: cancer registry.
+
+**87. Waiting time to elective surgery.** Tier 2. National, subnational, facility. Quantitative. M&E domain printed as Processes. Page 142.
+
+Definition: average days between placement on a waiting list and the procedure, for cataract, coronary angioplasty, hip and knee replacement, and skin biopsies. Source: RHIS with waiting-time management systems.
+
+## Additional hospital-oriented indicators (A to I)
+
+### What the block covers
+
+Nine indicators added in Table 2 for countries that want to monitor the hospital side of the network. They have no tier. Seven are safety indicators. All are rates from routine inpatient data; the framework notes for several that the HHFA asks whether the facility collects the information, which is not the same as the rate.
+
+### Indicators
+
+**A. Bed density (inpatient only).** Physical infrastructure, Inputs. National, subnational, facility. Page 143.
+
+Definition: hospital beds per 1,000 population, excluding labour and delivery beds, by facility type, ward and managing authority. Source: RHIS or facility census; SARA and HHFA as alternatives.
+
+Reading: EmONC produces bed density by obstetric, labour, delivery, postpartum and neonatal ward, which is the disaggregation the framework asks for and the HHFA does not carry at that level.
+
+**B. Institutional mortality.** Effectiveness, Outputs. National, subnational, facility. Page 144.
+
+Definition: inpatient deaths, all causes, per 100 discharges (discharges include deaths). Disaggregation by cause, age (at least 0–4 and 5+) and facility type. Source: RHIS, death surveillance and response.
+
+Reading: EmONC produces institutional mortality by cause for maternal and newborn deaths. HHFA Module 4 Section 16 asks whether the facility monitors it.
+
+**C. Caesarean section rate.** Safety, Outputs. National, subnational, facility. Page 145. Domain printed as "Quality" (anomaly).
+
+Definition: caesarean deliveries per 100 live births. Source: RHIS; population survey; record review.
+
+Reading: produced by EmONC.
+
+**D. Postoperative sepsis.** Safety, Outputs. Page 146. Percentage of abdominopelvic surgical discharges with a secondary diagnosis code for sepsis during the surgical admission.
+
+**E. Postoperative pulmonary embolism.** Safety, Outputs. Page 147. Percentage of hip and knee replacement discharges with a secondary diagnosis code for pulmonary embolism.
+
+**F. Postoperative deep vein thrombosis.** Safety, Outputs. Page 148. Same denominator as E, with a code for deep vein thrombosis.
+
+**G. Perioperative mortality rate.** Safety, Outputs. Page 149. All-cause deaths before discharge or within 30 days among patients with at least one operating-theatre procedure, over all procedures. Disaggregation: emergency versus elective; tracer condition.
+
+**H. Hospital-acquired infections.** Safety, Outputs. Page 150. Percentage of inpatient discharges with at least one health care-associated infection. Source: RHIS; tool references the European Centre for Disease Prevention and Control point-prevalence method.
+
+Reading on D to H: all need coded secondary diagnoses on discharge records. The Web Annex says on each sheet that the HHFA has questions asking whether a facility collects this information; those are Module 4 Section 16 gate questions, and they are not the indicator.
+
+**I. Coverage of timely emergency resuscitation at first-level hospitals.** Safety, Outputs. National, subnational. Page 151.
+
+Definition: proportion of adults and children admitted or transferred with shock from any cause who received oxygen or intravenous volume in the emergency unit before admission or transfer. Source: RHIS or special study.
+
+## Which instruments in the project reach these indicators
+
+From the crosswalk:
+
+| Domain | Indicators | Produced by a project instrument | Not produced |
+|---|---|---|---|
+| Health information | 34–41 | 35 (HHFA Module 4) | 34, 36, 37, 38, 39, 40, 41 |
+| Resilient facilities | 61 | partial (HHFA Module 4 asks for the plan and drills, not all eight attributes) | — |
+| Access and availability | 62–73 | 66, 68, 69 (HHFA Module 2); 72 (HHFA Module 4) | 62, 63 (EmONC partial, users only), 64, 65, 67, 70, 71, 73 |
+| Quality care | 74–87 | 74 (EmONC exit interview, maternity); 77 (HHFA Module 3); 85 (HHFA Module 4) | 75, 76, 78, 79, 80, 81, 82, 83, 84, 86, 87 |
+| Hospital-oriented | A–I | A (EmONC, obstetric wards), B (EmONC, maternal and newborn), C (EmONC) | D, E, F, G, H, I |
+
+Eleven of the 43 are produced. The picture differs by domain:
+
+- Access and availability is where the HHFA does most of its work: 66 and 68 are the availability and readiness modules restated as indicators, and 69 is the IPCAF level the HHFA records.
+- Quality care is where the gap is widest, 3 of 14, and it is the domain the user of a national report will look at first. The seven facility-level indicators that no project instrument reaches (78, 79, 80, 81, 83, 87, and 76) need coded records, a prescription database, waiting-list data or clinical vignettes.
+- Health information indicators are almost all national and belong to SCORE, NHWA and CRVS assessments, not to a facility survey.
+
+The main risks of misreporting in this set: presenting HHFA Section 16 self-reported rates (bed occupancy, case fatality, readmissions) as if they were RHIS-derived indicators 78, 80, 85 and B to H; presenting the existence of a client feedback system (indicator 60, criterion 8) as indicator 74; and presenting six-tracer record review results as indicator 77 without stating the tracer difference.
+
+## What would be needed to measure them
+
+| Group | Indicators | Data source | Instrument |
+|---|---|---|---|
+| Facility survey | 35, 61, 66, 68, 69, 77 | HHFA Modules 2, 3 and 4 | HHFA, with country adaptation for the attributes of 35 and 61 |
+| Facility survey with additional methods | 67, 74, 76, 84 | Unannounced visits and staff sampling (67); exit interviews (74); vignettes (76); record review of caseload (84) | SDI method (67, 76); EmONC exit interview for maternity (74); not in the HHFA standard package |
+| Routine information system | 34, 70, 71, 72, 73, 85, A, B | RHIS with all public and private facilities; population denominators | Routine system; HHFA Section 16 as a self-reported cross-check |
+| Coded inpatient records with patient identifier | 78, 79, 80, 81, C to H | Discharge records with ICD diagnosis and procedure codes; linkage across admissions | Routine system; HHFA Module 4 Sections 13.2 and 15 tell you whether the prerequisite exists |
+| Prescription database | 82, 83 | National prescription data with ATC codes | none in the project |
+| Registries and waiting-list systems | 86, 87 | Cancer registry; waiting-time management | none in the project |
+| Geospatial | 62, 64 | Master facility list with coordinates; travel-time model | Census implementation of the HHFA availability module for the capability side |
+| Population survey | 63, 70 (alternative), 75 | Household survey with access and perception modules | none in the project |
+| National assessments | 36, 37, 38, 39, 40, 41, 65 | SCORE, NHWA, CRVS, SPAR, road safety assessment | SPAR is in the project; the others are not |
+
+## Source anomalies and naming
+
+- Indicator 65: Table 1 names it "Proactive population outreach availability and readiness", duplicating indicator 58, and leaves Level blank; the metadata sheet is "Existence of a system for post-crash care". The parent chapter's note on indicator 65 should be read with this correction: the error is in Table 1, not on the sheet.
+- Indicator 41: M&E domain printed as Structures while the rest of the Health information domain is Inputs.
+- Indicators 84, 85 and 87: M&E domain printed as Processes although they sit in the Quality care domain, which is an Outputs domain.
+- Sheet C: domain printed as "Quality" instead of "Quality care".
+- Indicator H: the Table 2 row was partly overwritten by a page header in the text layer; its level was read from the neighbouring rows and should be confirmed against the printed page.
+- Indicator 77: the sheet's long name lists five tracer services (family planning, antenatal care, sick child, hypertension, diabetes); the HHFA record review uses six different ones.
+- Indicator 66: the service list on the sheet is an example, marked as depending on the national package.
+
+## Sources
+
+- Web Annex: technical specifications (2022), sheets for indicators 34 to 41, 61 to 87 and A to I. [WHO IRIS PDF](https://iris.who.int/bitstream/handle/10665/352201/9789240044234-eng.pdf)
+- Infection prevention and control assessment framework at the facility level (WHO, 2018).
+- Instrument crosswalk. [Chat](https://claude.ai/chat/d38ca85e-50d9-48f2-9e1b-d9a5e27ccf2c)
+- HHFA critical analysis chapter of this book, sections 1, 2 and 5.
