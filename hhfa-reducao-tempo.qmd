@@ -1,0 +1,144 @@
+---
+title: "Redução do tempo de aplicação do HHFA em Angola"
+---
+
+*Opções, ganhos e perdas. Nota técnica para decisão — HIIP, setembro de 2026.*
+
+## Ponto de partida
+
+| Medida | Valor |
+|:--|--:|
+| Itens do questionário combinado (disponibilidade, prontidão, gestão e finanças; core + additional) | 2 471 |
+| Tempo se todos os itens forem administrados | 18,4 horas-pessoa |
+| Tempo esperado numa unidade de CSP angolana, com as regras de salto | 10,4 horas-pessoa |
+| Permanência na unidade, com dois recolhedores | 5,2 horas |
+| Valor publicado pela OMS para o mesmo cenário (Comprehensive guide, p. 47) | 3 a 4 horas |
+| Indicadores calculáveis a partir deste questionário | 2 112 de 2 604 |
+
+::: {.callout-warning title="Estatuto dos números"}
+Os tempos são estimados a partir do texto do instrumento, não medidos em Angola. As probabilidades de salto por subsecção são juízo profissional. O piloto é a validação prevista.
+:::
+
+## Onde está o tempo
+
+| Componente | Minutos esperados | Peso |
+|:--|--:|--:|
+| Verificação de listas — equipamento, medicamentos, consumíveis, diagnósticos | 237 | 44% |
+| Perguntas de sim ou não | 121 | 23% |
+| Escolha única a partir de lista de opções | 88 | 16% |
+| Entrada de números — efetivos, camas, valores, quantidades | 38 | 7% |
+| Cabeçalhos de grelha e prelúdios lidos em voz alta | 50 | 9% |
+| **Subtotal de itens** | **534** |  |
+| Overhead entre subsecções — deslocação e mudança de respondente | 92 |  |
+| **Total por unidade** | **626** |  |
+
+Dois atravessamentos, contados dentro dos valores acima: 103 minutos exigem observar fisicamente um objeto ou local; 82 minutos exigem localizar e ler um documento ou registo. Os prelúdios (linhas iXXX, lidas em voz alta antes de cada bloco) valem 22 minutos.
+
+As secções mais pesadas: comodidades farmacêuticas 79 min, urgência 43 min, saúde materna e neonatal em ambulatório 42 min, parto e recém-nascido 32 min.
+
+## 1. O que se pode fazer sem perder um único indicador
+
+| Medida | Ganho | O que se perde |
+|:--|:--|:--|
+| Retirar as 182 perguntas que não alimentam indicador nenhum | −40 min | Nada. Verificado item a item contra o inventário de indicadores. |
+| Desativar no CSPro o conteúdo dos blocos sem oferta em Angola, mantendo a pergunta que abre a secção | Já refletido no modelo | Nada. A pergunta de abertura preserva o indicador de disponibilidade ("0% das unidades oferecem X" é um resultado). |
+| Reorganizar a atribuição de secções aos recolhedores, para que cada um percorra pontos de prestação contíguos | −50 min | Nada. Reduz o overhead de deslocação, que são 14% do tempo total. |
+| Pedir na confirmação da véspera que os documentos estejam preparados (orçamento, registos, atas, livros de manutenção) | −40 min (estimado) | Nada. 142 itens exigem consultar um documento. |
+| Passar de dois para três recolhedores nos centros de saúde | Permanência de 4,1 h para 2,8 h | Um per diem. Não se aplica a postos de saúde pequenos, onde não há respondentes suficientes para paralelizar. |
+
+::: {.callout-tip title="Resultado do pacote da secção 1"}
+8,3 horas-pessoa, 4,1 horas de permanência com dois recolhedores, 2,8 horas com três.
+:::
+
+### Exemplos das 182 perguntas sem indicador
+
+| Pergunta | Onde | Custo | Porque não alimenta nada |
+|:--|:--|:--|:--|
+| "Is the temperature of the refrigerator monitored at least once every 24 hours? IF YES, PLEASE ASK TO SEE THE LOG." | 28.3, p. 116 | 81 s | Exige observação e consulta a documento — das mais caras do questionário. Nenhum indicador do inventário a usa. |
+| "What kind of software is used for the individual electronic medical record system?" | 10.2 e 10.3, pp. 40–41 | 57 s cada | Os indicadores contam se existe registo eletrónico, não que marca de software é. |
+| Vancomicina injetável, pomada de Whitfield, permanganato de potássio, loperamida, senne, ranitidina injetável | 31.1, pp. 129–132 | 12 s cada | 45 itens da lista de medicamentos observados que não entram no cabaz de medicamentos essenciais nem em qualquer prontidão específica. |
+
+## 2. O que se pode fazer com perda declarada
+
+| Opção | Ganho | O que se perde |
+|:--|:--|:--|
+| Desenho por módulos, como a OMS recomenda: disponibilidade como censo de 5 em 5 anos; prontidão e gestão e finanças em amostra, alternadas entre anos (Comprehensive guide, p. 6) | Visita curta em cada unidade, sem tocar no conteúdo | Precisão por módulo, e a análise cruzada entre módulos. Nenhum indicador é perdido. |
+| Retirar a prontidão dos serviços que quase não existem na rede, mantendo a pergunta que abre a secção | −25 a −35 min | Nada de utilizável. Ver "denominadores pequenos" abaixo. |
+| Abandonar áreas inteiras da dimensão de gestão e finanças (ex.: sistemas de informação em saúde) | −32 min exclusivos | Tabelas inteiras do relatório final. Perda limpa: não distorce nenhum índice. |
+| Retirar perguntas Additional, seletivamente | até −81 min | Indicadores adicionais, que por desenho são detalhe opcional. Atenção às 31 exceções marcadas PHC e ao bloco de prestação de contas financeira. |
+| Retirar itens de dentro das listas traçadoras dos índices de prontidão | −16 min por cada área | Comparabilidade, ou o próprio índice. É a opção mais perigosa das quatro — ver abaixo. |
+
+### O que acontece à informação, caso a caso
+
+**Serviços com denominadores pequenos.** A prontidão de um serviço é sempre calculada entre as unidades que oferecem esse serviço. Numa amostra de 200 unidades de CSP angolanas, os cuidados de aborto dariam um denominador esperado de 6 unidades, a cirurgia major 10, a transfusão de sangue 16 a 20, o cancro 20, a imagiologia 24. Nenhum destes números sustenta uma estimativa. Manter estas secções custa tempo em todas as unidades para produzir percentagens que não se poderão publicar. Cortar o conteúdo e manter a pergunta de abertura preserva o que é publicável — a proporção de unidades que oferece o serviço — e elimina o que nunca o seria.
+
+**Áreas de gestão e finanças.** A perda é limpa e visível: desaparecem tabelas inteiras do relatório. Cortando os sistemas de informação em saúde, o relatório deixa de poder dizer que proporção das unidades transmite dados ao nível seguinte, com que periodicidade, e que proporção mantém registo eletrónico. Nada mais é afetado, porque a dimensão de gestão e finanças não alimenta nenhum índice composto. O leitor nota a ausência de um capítulo; não recebe um número errado.
+
+**Itens de dentro dos índices de prontidão.** Aqui a mecânica é outra e é preciso perceber-se antes de decidir. O índice de prontidão geral é a média de cinco domínios, e cada domínio é uma fração de denominador fixo: amenidades básicas n/7, equipamento básico n/12, precauções padrão n/12, capacidade diagnóstica n/9, medicamentos essenciais n/30 (Comprehensive guide, Tabela A1.1, pp. 79–81). Se retirarmos cinco dos trinta medicamentos essenciais, há duas saídas e ambas custam. Recalcular com denominador 25 redefine o índice: deixa de ser comparável com o SARA, com outros países e com futuros inquéritos angolanos. Manter o denominador 30 mantém a comparabilidade nominal e faz com que nenhuma unidade do país possa pontuar acima de 83%, o que é um enviesamento sistemático para baixo. A mesma lógica vale para as tabelas de prontidão específica de cada serviço, cujo índice é a média de todos os itens da tabela.
+
+**Desenho por módulos.** É a única opção da lista em que nenhum indicador se perde: o país continua a medir tudo, apenas não mede tudo na mesma unidade e no mesmo ano. Há duas perdas reais, e convém declará-las. A primeira é precisão: a amostra efetiva de cada módulo passa a ser a amostra desse módulo, com intervalos de confiança mais largos, salvo se o número de unidades aumentar. A segunda é menos óbvia e mais séria para o HIIP: deixa de ser possível cruzar módulos ao nível da unidade. Perguntas como "as unidades com comité de qualidade em funcionamento têm melhor prontidão?" ou "a autonomia orçamental associa-se a menos ruturas de medicamentos?" exigem que a mesma unidade tenha respondido aos dois módulos. Com módulos separados por unidade ou por ano, essas análises deixam de existir.
+
+### Lista de preços: quanto vale abandonar cada área de indicadores
+
+**As perguntas são partilhadas entre indicadores.** Abandonar uma área só liberta as perguntas que mais ninguém usa — a coluna da direita é a poupança real.
+
+| Área de indicadores | Indicadores | Perguntas | Só desta área | Poupança real |
+|:--|--:|--:|--:|--:|
+| Saúde reprodutiva, materna, neonatal, infantil e adolescente | 424 | 491 | 279 | 54 min |
+| Doenças transmissíveis | 373 | 357 | 241 | 60 min |
+| Doenças não transmissíveis | 224 | 212 | 154 | 24 min |
+| Urgência | 150 | 191 | 114 | 24 min |
+| Sistemas de informação em saúde | 107 | 102 | 101 | 32 min |
+| Medicamentos e comodidades essenciais | 107 | 194 | 56 | 16 min |
+| Finanças e contabilidade | 80 | 71 | 69 | 21 min |
+| Equipamento básico | 12 | 12 | 3 | 1 min |
+| Capacidade diagnóstica básica | 11 | 42 | 5 | 1 min |
+
+As duas últimas linhas são o ponto: 23 indicadores centrais custam menos de dois minutos, porque as perguntas de que precisam já lá estão por causa de outras áreas. Mantêm-se sem discussão. Em sentido contrário, a dimensão de gestão e finanças quase não partilha perguntas, o que a torna o corte tecnicamente mais eficiente — e é a frente que o HIIP menos pode dispensar.
+
+## 3. Como um indicador se compõe, e porque isto importa para o corte
+
+Indicador 2.3.1.1.8 — percentagem de unidades com capacidade de diagnóstico de malária no local. Entra no índice de prontidão geral (Comprehensive guide, Tabela A1.1, p. 80). Não existe nenhuma pergunta no questionário que faça esta pergunta. Existem dez, em três secções, e uma regra que as combina em dois ramos alternativos.
+
+| Ramo | Perguntas necessárias | Onde |
+|:--|:--|:--|
+| Teste rápido | Declaração de que se usa TDR, mais o TDR observado na urgência ou no laboratório | 14.1 p. 55; 26.5 p. 112; 29.3 p. 119 |
+| Microscopia | Declaração de que se usa microscopia, mais esfregaço disponível, microscópio presente e a funcionar, lâminas, lamelas, coloração de Giemsa presente e válida, e microscopista certificado | 14.1 p. 55; 29.4 pp. 122–123; 29.5 p. 124 |
+
+**Três consequências.** A declaração sozinha nunca satisfaz o código — tem de ser confirmada por observação. As grelhas têm colunas separadas para "disponível" e "funcional ou com prazo válido", e o indicador exige as duas. E as dez perguntas vivem em três pontos físicos diferentes da unidade, com respondentes diferentes: é por isto que o overhead de deslocação não é um detalhe.
+
+## 4. O que não se pode fazer
+
+| Prática | Porquê |
+|:--|:--|
+| Escolher perguntas a cortar pela leitura do texto | Testámos: sobrevivem 36% dos indicadores. Pior, produz viés. Exemplo: o indicador de capacidade diagnóstica de malária tem dois ramos, teste rápido e microscopia. Cortar o microscópio e a coloração de Giemsa não apaga o indicador — a unidade que só faz microscopia passa a contar como zero. O número continua a sair, errado, sem aviso. |
+| Cortar um ramo de qualquer indicador composto | Mesmo efeito. Um indicador perdido é honesto; um indicador enviesado entra no relatório como facto. |
+| Cortar as perguntas que abrem cada secção | Perde-se o indicador de disponibilidade e rebenta a lógica de salto do CSPro. |
+| Manter a pergunta de abertura e cortar todo o conteúdo por baixo | Tempo gasto sem medição nenhuma. Aconteceu em 6 subsecções do nosso primeiro rascunho. |
+| Cortar as opções de verificação ("observado" contra "referido, não visto") | São o conteúdo probatório inteiro desses indicadores. Sem elas mede-se o que a unidade diz de si própria. |
+| Encurtar a formação dos recolhedores (8 a 10 dias recomendados) | Recolhedor mal treinado é mais lento e produz pior dado. O corte pagar-se-ia duas vezes ao contrário. |
+| Reordenar as perguntas dentro do CSPro | Desaconselhado pelo Data manager guide: obriga a verificar todos os padrões de salto e é propenso a erro. A reorganização faz-se na atribuição de secções à equipa, não no instrumento. |
+
+### Dois exemplos concretos
+
+| Caso | O que acontece se se cortar |
+|:--|:--|
+| Secção 8.1, p. 33. Duas perguntas seguidas: "Does this facility follow a routine maintenance schedule for any vehicles?" e "Does this facility adhere to vehicle maintenance schedules?" | A primeira dá o indicador 4.1.2.3.1, a segunda dá o 4.1.2.3.2. A segunda tem a forma de pergunta de detalhe e é tentador cortá-la. Cortando-a, fica-se a saber quantas unidades têm calendário de manutenção e deixa-se de saber quantas o cumprem. A diferença entre os dois números é a medida direta de estruturas que existem no papel e não funcionam. |
+| Secção 9.4, p. 38. "Does this facility manage cash from any source?" abre o bloco; "Does this facility have a system for documenting cash received? IF YES, ASK: May I see the document?" é o conteúdo. | O nosso primeiro rascunho manteve a pergunta de abertura e cortou as duas de conteúdo. Resultado: pergunta-se se a unidade gere dinheiro e depois não se pergunta mais nada. Note-se também que o indicador exige a opção "YES, OBSERVED" — a resposta "referido, não visto" conta como zero. Cortar essa distinção para poupar os 40 segundos destrói o indicador sem o apagar. |
+
+## Recomendação
+
+Adotar integralmente o pacote da secção 1 e não cortar conteúdo nesta fase. Com três recolhedores nos centros de saúde, o instrumento cabe em duas unidades por dia sem perder um indicador.
+
+Se for preciso ir mais longe, a via é o desenho por módulos da secção 2, e não o corte de perguntas. A OMS é explícita: a seleção de conteúdo conduz-se pelos indicadores necessários, não pelas perguntas, e quanto maior o volume recolhido maior o risco para a qualidade dos dados (Comprehensive guide, 6.6, p. 41).
+
+Aplicado a Angola, o desenho por módulos significaria: o módulo de disponibilidade, só as questões core, como censo, para atualizar a lista mestra de unidades e produzir a oferta de serviços do país inteiro; prontidão e gestão e finanças em amostra, alternadas entre anos. Cada unidade recebe uma visita curta; o país continua a medir o mesmo conjunto de indicadores. O que muda é a precisão de cada módulo, que passa a depender da amostra desse módulo e não do total de unidades visitadas.
+
+## Por validar antes de fechar decisões
+
+| Questão | Como se resolve |
+|:--|:--|
+| Os tempos são estimados, não medidos | Registar hora de início e fim de cada secção durante o piloto. Converte o modelo inteiro em medição. |
+| O significado das colunas PHC e SARA do inventário de indicadores | Não está definido em nenhum dos guias. Perguntar a hhfa@who.int. |
+| O subconjunto traçador de medicamentos e diagnósticos | Confrontar com a lista nacional angolana de medicamentos essenciais. |
+| 357 indicadores de disponibilidade geral fora de alcance | Dependem da numeração da Secção 2, omitida na versão combinada. Provavelmente recuperáveis por mapeamento manual. |

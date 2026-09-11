@@ -28,6 +28,7 @@ book:
         - indicadores-hhfa-detalhe.qmd
         - hhfa-critical-analysis.qmd
         - hhfa-emonc-complementarity.qmd
+        - hhfa-reducao-tempo.qmd
     - part: "PHC Measurement Framework"
       chapters:
         - phc-measurement-framework.qmd
