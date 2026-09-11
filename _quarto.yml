@@ -24,6 +24,8 @@ book:
       chapters:
         - hhfa-overview.qmd
         - hhfa-modules.qmd
+        - indicadores-hhfa-organizacao.qmd
+        - indicadores-hhfa-detalhe.qmd
         - hhfa-critical-analysis.qmd
     - part: "PHC Measurement Framework"
       chapters:

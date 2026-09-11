@@ -1,0 +1,253 @@
+---
+title: "A organização dos indicadores do HHFA"
+---
+
+## O inventário de indicadores
+
+O *Harmonized Health Facility Assessment* (HHFA) não é um questionário com resultados
+associados. É um conjunto de indicadores definidos à partida, e um questionário construído
+para os alimentar. O guia de referência é explícito quanto à ordem: a seleção de conteúdo
+conduz-se pelas necessidades de informação, ou seja pelos indicadores, e as perguntas
+escolhem-se depois, em função dos indicadores necessários.
+
+O inventário completo vive numa plataforma em linha,
+[indicator-inventory.hhfa.online](https://indicator-inventory.hhfa.online/), e pode ser
+descarregado como ficheiro Excel. Contém 2.604 indicadores. Para cada um regista-se o
+identificador permanente de três letras, a posição na árvore de classificação, os módulos
+do questionário em que aparece, o denominador, a metodologia de cálculo, o método de
+recolha, e o código de cálculo escrito em referências às perguntas do questionário.
+
+Este capítulo descreve a organização do inventário. O capítulo seguinte trata dos
+indicadores em si — a sua anatomia, a forma como se compõem a partir de várias perguntas,
+e as consequências disso para quem tenha de encurtar o instrumento.
+
+## A árvore de cinco níveis
+
+Os indicadores organizam-se numa hierarquia, e o número de cada indicador é o caminho
+até ele na árvore:
+
+> **dimensão . área . subárea . tabela . indicador**
+
+O indicador `2.3.1.1.8.` lê-se: dimensão 2, prontidão geral dos serviços; área 3,
+capacidade diagnóstica básica; subárea 1; tabela 1; oitavo indicador dessa tabela. É a
+percentagem de unidades com capacidade de diagnóstico de malária no local.
+
+A **tabela** é o nível que mais interessa na prática: é a unidade de apresentação no
+relatório final. A plataforma de análise produz uma tabela por cada nó deste nível, com os
+seus indicadores em colunas e as variáveis de estratificação em linhas. São 287 tabelas.
+Decisões sobre o que incluir ou excluir tomam-se ao nível da tabela ou da subárea, quase
+nunca ao nível do indicador isolado.
+
+| Nº | Dimensão | Indicadores | Áreas | Subáreas | Tabelas | Calculáveis |
+|---|---|---|---|---|---|---|
+| 1 | Disponibilidade geral dos serviços | 428 | 4 | 11 | 72 | 71 |
+| 2 | Prontidão geral dos serviços | 225 | 8 | 13 | 19 | 205 |
+| 3 | Disponibilidade e prontidão específicas por serviço | 1484 | 7 | 37 | 119 | 1478 |
+| 4 | Sistemas de gestão e finanças | 358 | 5 | 12 | 55 | 358 |
+| 5 | Qualidade clínica dos cuidados | 109 | 4 | 6 | 22 | 0 |
+|  | **Total** | 2604 | 28 | 79 | 287 | 2112 |
+
+A coluna "calculáveis" refere-se ao questionário combinado de disponibilidade, prontidão e
+gestão e finanças, com questões core e additional. É a versão em uso quando se implementam
+os três módulos de auditoria da unidade. Os 492 indicadores que ficam de fora dependem de
+outros instrumentos: a revisão de registos individuais do módulo de qualidade dos cuidados,
+o questionário suplementar de estrutura do edifício, ou a numeração da Secção 2, que a
+versão combinada omite por integrar esse conteúdo no módulo de prontidão.
+
+## As cinco dimensões
+
+### Dimensão 1 — Disponibilidade geral dos serviços
+
+Mede o que existe: infraestrutura, camas, efetivos, e que serviços a unidade declara
+oferecer. É a dimensão que sustenta a atualização da lista mestra de unidades sanitárias
+(*master facility list*).
+
+| Nº | Área | Indicadores | Subáreas | Tabelas | Calculáveis |
+|---|---|---|---|---|---|
+| 1.1 | Infraestrutura de saúde | 247 | 4 | 41 | 17 |
+| 1.2 | Força de trabalho | 72 | 3 | 14 | 44 |
+| 1.3 | Serviços disponíveis | 106 | 3 | 16 | 8 |
+| 1.4 | Pontuações de índice | 3 | 1 | 1 | 2 |
+
+Duas subáreas exigem denominador populacional externo — as densidades de unidades e de
+força de trabalho — e por isso só se calculam quando o inquérito é feito como censo.
+Uma parte substancial da dimensão (a subárea de estrutura e segurança do edifício, com
+196 indicadores) pertence ao questionário suplementar e não ao combinado.
+
+As subáreas 1.3.2 e 1.3.3, de disponibilidade declarada de serviços e de tecnologias,
+trazem uma ressalva no próprio inventário: destinam-se aos casos em que o módulo de
+prontidão não é implementado. Quando ele é implementado, duplicam a dimensão 3.
+
+### Dimensão 2 — Prontidão geral dos serviços
+
+Mede a capacidade transversal da unidade, independentemente do serviço: se há água e
+energia, se há termómetro e balança, se há como fazer uma hemoglobina, se há medicamentos
+essenciais, se há como prevenir uma infeção.
+
+| Nº | Área | Indicadores | Subáreas | Tabelas | Calculáveis |
+|---|---|---|---|---|---|
+| 2.1 | Amenidades básicas | 30 | 2 | 4 | 28 |
+| 2.2 | Equipamento básico | 14 | 1 | 1 | 12 |
+| 2.3 | Capacidade diagnóstica básica | 13 | 1 | 1 | 11 |
+| 2.4 | Medicamentos e comodidades essenciais | 117 | 5 | 7 | 107 |
+| 2.5 | Precauções padrão para prevenção e controlo de infeção | 25 | 1 | 2 | 21 |
+| 2.6 | Índice de prontidão geral | 1 | 1 | 1 | 1 |
+| 2.7 | Sistemas de referência | 6 | 1 | 1 | 6 |
+| 2.8 | Preparação e resiliência para emergências | 19 | 1 | 2 | 19 |
+
+É a dimensão mais compacta e a mais densamente utilizada. As suas cinco primeiras áreas
+são os domínios do índice de prontidão geral, descrito adiante. Um exemplo de indicador:
+*percentagem de unidades com um oxímetro de pulso funcional na área principal de prestação*
+(área 2.2, equipamento básico).
+
+### Dimensão 3 — Disponibilidade e prontidão específicas por serviço
+
+É a maior das cinco, com 57% dos indicadores. Para cada serviço pergunta-se duas coisas
+em sequência: a unidade oferece o serviço, e, oferecendo, tem condições para o prestar.
+
+| Nº | Área | Indicadores | Subáreas | Tabelas | Calculáveis |
+|---|---|---|---|---|---|
+| 3.1 | Saúde reprodutiva, materna, neonatal, infantil e adolescente | 426 | 9 | 29 | 424 |
+| 3.2 | Doenças transmissíveis | 374 | 10 | 30 | 373 |
+| 3.3 | Doenças não transmissíveis | 224 | 6 | 22 | 224 |
+| 3.4 | Serviços cirúrgicos | 146 | 3 | 10 | 146 |
+| 3.5 | Serviços de urgência | 151 | 2 | 12 | 150 |
+| 3.6 | Serviços para necessidades especiais | 73 | 3 | 9 | 71 |
+| 3.7 | Diagnóstico e tratamento especializado | 90 | 4 | 7 | 90 |
+
+A estrutura repete-se serviço a serviço. Na tuberculose, por exemplo: disponibilidade do
+serviço, disponibilidade por grupo etário, prontidão, prontidão para tuberculose
+resistente, e indicadores auxiliares sobre medicamentos. Na diabetes: disponibilidade,
+prontidão, e auxiliares.
+
+Duas subáreas merecem nota pela dimensão. Parto e cuidados obstétricos e neonatais de
+emergência básicos (3.1.3) tem 111 indicadores e inclui as funções-sinal, que são o núcleo
+da avaliação obstétrica. Cirurgia major (3.4.2) tem 116 indicadores repartidos por cirurgia
+geral, cirurgia obstétrica e ginecológica, anestesia e controlo de infeção no bloco — e é
+conteúdo de nível hospitalar.
+
+### Dimensão 4 — Sistemas de gestão e finanças
+
+Mede se existem estruturas e práticas de gestão que sustentem a prestação continuada.
+
+| Nº | Área | Indicadores | Subáreas | Tabelas | Calculáveis |
+|---|---|---|---|---|---|
+| 4.1 | Governação e gestão | 67 | 2 | 11 | 67 |
+| 4.2 | Finanças e contabilidade | 80 | 3 | 13 | 80 |
+| 4.3 | Sistemas de apoio ao pessoal | 22 | 1 | 4 | 22 |
+| 4.4 | Qualidade e segurança | 82 | 3 | 13 | 82 |
+| 4.5 | Sistemas de informação em saúde | 107 | 3 | 14 | 107 |
+
+Esta dimensão distingue-se das restantes numa propriedade que tem consequências práticas:
+as suas perguntas quase não são partilhadas com outras áreas. Em prontidão, a mesma
+pergunta sobre o microscópio alimenta a capacidade diagnóstica geral, a prontidão da
+malária e a prontidão do laboratório. Em gestão e finanças, uma pergunta sobre a auditoria
+das contas alimenta apenas a subárea de prestação de contas financeira.
+
+Um exemplo de par de indicadores desta dimensão, que se trata em detalhe no capítulo
+seguinte: *percentagem de unidades com calendário de manutenção rotineira das viaturas* e
+*percentagem de unidades que cumpre rotineiramente esse calendário*. A distância entre os
+dois números é a medida de estruturas que existem no papel e não funcionam na prática.
+
+### Dimensão 5 — Qualidade clínica dos cuidados
+
+Mede se o doente recebeu o cuidado conforme a norma, conforme documentado no seu processo
+individual.
+
+| Nº | Área | Indicadores | Subáreas | Tabelas | Calculáveis |
+|---|---|---|---|---|---|
+| 5.1 | Consulta pré-natal | 19 | 1 | 2 | 0 |
+| 5.3 | VIH | 50 | 3 | 11 | 0 |
+| 5.4 | Tuberculose | 22 | 1 | 5 | 0 |
+| 5.5 | Malária | 18 | 1 | 4 | 0 |
+
+Toda esta dimensão depende do módulo 3, de revisão de registos, com metodologia própria e
+amostragem de processos. Nenhum dos seus 109 indicadores é calculável a partir do
+questionário combinado. O guia desaconselha implementar os três módulos de auditoria da
+unidade em conjunto com o de qualidade, por a carga de formação e de recolha ficar
+excessiva.
+
+## Os domínios de prontidão
+
+Dentro das tabelas de prontidão existe uma segunda classificação, transversal às dimensões
+2 e 3, registada na coluna `Domain` do inventário. Marca 643 indicadores e decompõe a
+prontidão em quatro componentes que se repetem em cada serviço:
+
+| Domínio de prontidão | Indicadores |
+|---|---|
+| Medicamentos e comodidades | 229 |
+| Pessoal e guias | 159 |
+| Equipamento | 142 |
+| Diagnóstico | 68 |
+| Outras marcações residuais | 45 |
+
+Para a diabetes, por exemplo: pessoal formado e guias de tratamento; equipamento, incluindo
+balança e esfigmomanómetro; diagnóstico, incluindo glicemia; medicamentos, incluindo
+metformina e insulina. A mesma decomposição aplica-se ao pré-natal, ao VIH, à tuberculose
+e aos restantes serviços.
+
+## Como os indicadores agregam
+
+Há dois níveis de composição, e comportam-se de maneira diferente.
+
+O **índice de prontidão geral dos serviços** é a média não ponderada de cinco pontuações de
+domínio. Cada pontuação é uma fração de denominador fixo: amenidades básicas sobre 7 itens,
+equipamento básico sobre 12, precauções padrão sobre 12, capacidade diagnóstica sobre 9,
+medicamentos essenciais sobre 30. Os 70 itens traçadores estão listados nominalmente no
+Anexo 1 do guia de referência.
+
+Os **índices de prontidão específica** de cada serviço seguem a mesma lógica dentro de cada
+tabela: média dos itens dos quatro domínios de prontidão desse serviço.
+
+O denominador fixo é a razão pela qual retirar itens de dentro destas listas não é uma
+decisão neutra. Recalcular com denominador menor redefine o índice e quebra a
+comparabilidade; manter o denominador original faz com que nenhuma unidade possa atingir a
+pontuação máxima. O capítulo seguinte desenvolve este ponto.
+
+## Indicadores core e additional
+
+A distinção acompanha a das perguntas. Os indicadores core derivam de perguntas core e
+representam o conjunto mínimo recomendado; os additional derivam de perguntas additional e
+acrescentam detalhe. Dos 2.604 indicadores, 2.089 aparecem em pelo menos um questionário
+core.
+
+A implicação prática é que a opção "implementar apenas as questões core" é a redução de
+âmbito mais simples e mais defensável que existe — mas não é gratuita. Há 175 indicadores
+que dependem exclusivamente de perguntas additional, entre eles o bloco de prestação de
+contas financeira.
+
+## As marcações SARA e PHC
+
+O inventário traz duas colunas de marcação cujo estatuto convém esclarecer.
+
+A coluna `SARA` identifica os indicadores herdados do *Service Availability and Readiness
+Assessment* (SARA), o instrumento anterior que o HHFA absorveu e expandiu. Serve
+comparabilidade histórica: um indicador marcado SARA pode ser confrontado com inquéritos
+anteriores do mesmo país e com inquéritos de outros países que usaram o SARA. Tem três
+valores: 562 marcados `Yes`, 84 marcados `Yes (partial)` e 1.958 marcados `No`.
+
+A coluna `PHC` marca 974 indicadores e **não está definida em nenhum dos guias do HHFA nem
+nas páginas públicas do instrumento**. Empiricamente, a marcação acompanha a prontidão e
+não o nível de cuidados: 79% dos indicadores de tabelas de prontidão estão marcados, contra
+16% dos de tabelas de disponibilidade. Conteúdo claramente hospitalar aparece marcado — a
+transfusão de sangue está marcada nos seus 14 indicadores, os cuidados obstétricos de
+emergência abrangentes em 25 de 29 — o que exclui a leitura de que identifique indicadores
+pertinentes ao nível dos cuidados de saúde primários. Enquanto o significado não for
+confirmado junto da equipa de coordenação do HHFA, esta coluna não deve ser usada como
+critério de seleção.
+
+## Implicações para a seleção de conteúdo
+
+Três observações fecham o capítulo.
+
+A dimensão 3 concentra 57% dos indicadores. Qualquer redução significativa do âmbito passa
+por decidir de que serviços é necessário conhecer a prontidão. Se a resposta for "de
+todos", o esforço de redução tem de vir de outro lado que não o conteúdo.
+
+As perguntas são partilhadas entre indicadores. Abandonar uma subárea liberta apenas as
+perguntas que mais nenhuma subárea usa, e essa fração varia muito: em medicamentos
+essenciais quase nada se liberta, em sistemas de gestão de dados liberta-se tudo.
+
+E os índices são frágeis a cortes parciais. Excluir uma tabela inteira é uma perda limpa e
+declarável; retirar itens de dentro de um índice produz um número que continua a sair e
+deixa de significar o que diz significar.

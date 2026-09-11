@@ -1,0 +1,335 @@
+---
+title: "Os indicadores do HHFA em detalhe"
+---
+
+## A anatomia de um registo de indicador
+
+Cada indicador do inventário traz os seguintes campos.
+
+| Campo | Conteúdo |
+|---|---|
+| Identificador permanente | Código de três letras, estável entre versões do inventário. Serve para pesquisa na plataforma. |
+| Número | Posição na árvore: dimensão, área, subárea, tabela, indicador. |
+| Indicador | O enunciado, quase sempre na forma "percentagem de unidades que…". |
+| Dimensão, área, subárea, tabela | A classificação. |
+| Domínio | Para indicadores de prontidão: pessoal e guias, equipamento, diagnóstico, ou medicamentos e comodidades. |
+| Módulos | Em que questionários a pergunta de origem aparece, e se é core ou additional. |
+| Exige censo | Se o indicador só se calcula num censo de unidades. |
+| SARA, PHC | Marcações de pertença a conjuntos. |
+| Denominador | A população de unidades sobre a qual se calcula. |
+| Metodologia de cálculo | Como se obtém o valor. |
+| Código do numerador, do filtro, do denominador | A lógica de cálculo escrita em referências às perguntas. |
+| Notas de definição e de recolha | Precisões sobre o que conta e como se observa. |
+
+O campo decisivo é o código de cálculo. É ele que liga o indicador às perguntas, e é a
+partir dele que se pode determinar o que se perde ao retirar uma pergunta do questionário.
+
+## Como se lê um código de cálculo
+
+Os códigos referem as perguntas pelo seu número, precedido de `Q`. Uma pergunta com
+subitens numa grelha identifica-se pelo número principal, um travessão baixo e o número do
+subitem: `Q3103_7` é o sétimo item da lista de medicamentos anti-infecciosos da pergunta
+3103.
+
+Quando a grelha tem várias colunas de resposta, uma letra final identifica a coluna.
+Nas grelhas de equipamento, `A` corresponde tipicamente a "disponível" e `B` a "funcional"
+ou "com prazo de validade válido". Assim, `Q2917_1A` é o microscópio observado como
+presente e `Q2917_1B` o mesmo microscópio observado a funcionar.
+
+Os operadores são os habituais: `==1` para uma opção de resposta específica, `AND` e `OR`
+para a combinação, e um campo de filtro separado que restringe o denominador.
+
+## Exemplo 1 — um indicador composto com dois caminhos
+
+**Indicador 2.3.1.1.8** — percentagem de unidades com capacidade de diagnóstico de malária
+no local. Identificador permanente ARJ. Módulo de prontidão, questões core. É um dos nove
+itens traçadores do domínio de capacidade diagnóstica do índice de prontidão geral.
+
+```
+(Q1404_2==1 AND (Q2660_6==1 OR Q2908_1A==1))
+OR
+(Q1404_3==1 AND Q2915_43==1 AND Q2917_1A==1 AND Q2917_1B==1
+ AND Q2917_2A==1 AND Q2917_3A==1
+ AND Q2917_43A==1 AND Q2917_43B==1 AND Q2918==1)
+```
+
+Dois ramos alternativos. O primeiro é o diagnóstico por teste rápido: a unidade declara
+usar teste rápido de diagnóstico, e um teste rápido de malária é observado no serviço de
+urgência ou no laboratório. O segundo é o diagnóstico por microscopia: a unidade declara
+usar microscopia, tem esfregaço de malária disponível, microscópio presente e a funcionar,
+lâminas, lamelas, coloração de Giemsa presente e dentro da validade, e microscopista
+certificado.
+
+Três lições deste exemplo.
+
+**O indicador não é uma pergunta.** Não existe no questionário nenhuma pergunta que
+pergunte se a unidade tem capacidade de diagnóstico de malária. Existem dez perguntas e uma
+regra que as combina. Escolher perguntas a cortar pela leitura do seu texto ignora esta
+camada.
+
+**A declaração não basta.** A pergunta 1404 é declarativa: o respondente diz que métodos
+usa. Sozinha nunca satisfaz o código. Tem de ser confirmada por um item observado. E a
+observação é ela própria desdobrada: o microscópio conta na coluna de disponibilidade e na
+de funcionalidade, e o indicador exige as duas. A coloração de Giemsa presente mas com
+prazo expirado não conta.
+
+**Um indicador atravessa pontos de prestação.** A pergunta 1404 responde-a quem trata da
+malária; a 2660 está na grelha da urgência; as 2915, 2917 e 2918 estão no laboratório e
+serão respondidas pelo técnico de laboratório, possivelmente a outro recolhedor. Este único
+indicador precisa de três locais e provavelmente três respondentes.
+
+A consequência para o corte é menos óbvia do que parece. Retirar o microscópio e a coloração
+do questionário não apaga o indicador — o ramo do teste rápido continua a funcionar. O que
+acontece é que uma unidade que só faça microscopia passa a contar como zero. O número
+continua a sair, enviesado para baixo, sem qualquer sinal de que algo mudou.
+
+## Exemplo 2 — existência e funcionamento, e o papel do filtro
+
+Duas perguntas seguidas da subárea de sistemas de manutenção geram dois indicadores.
+
+```
+4.1.2.3.1   numerador: Q800==1              filtro: Q800==1 OR Q800==2
+4.1.2.3.2   numerador: Q800==1 AND Q801==1  filtro: Q800==1 OR Q800==2
+```
+
+A pergunta 800 pergunta se a unidade segue um calendário de manutenção rotineira das
+viaturas, com três respostas possíveis: sim, não, e "a unidade não tem viaturas". A
+pergunta 801 pergunta se a unidade cumpre esse calendário, e só é feita a quem respondeu
+sim à anterior.
+
+O primeiro indicador conta as unidades que têm calendário. O segundo conta as que o
+cumprem rotineiramente. A diferença entre os dois é a medida direta de estruturas que
+existem formalmente e não operam.
+
+O campo de denominador destes indicadores diz "entre todas as unidades", o que isolado
+seria incorreto. É o filtro que define o denominador real: `Q800==1 OR Q800==2` exclui as
+unidades sem viaturas. Uma unidade sem viatura não tem má manutenção; a pergunta não se lhe
+aplica.
+
+Fica a regra de leitura: sempre que uma pergunta tiver uma opção do tipo "não aplicável",
+existe quase de certeza um filtro a retirá-la do denominador. Interpretar o inventário
+apenas pela coluna do denominador produz o número errado.
+
+## Exemplo 3 — quando uma opção de resposta carrega o indicador
+
+```
+4.2.3.2.2   numerador: Q938==1 AND Q937==1     filtro: Q937==1
+```
+
+A pergunta 937 — a unidade gere dinheiro de alguma fonte — abre o bloco e define o
+denominador. A pergunta 938 pergunta se existe sistema de documentação do dinheiro
+recebido, com a instrução ao recolhedor de pedir para ver o documento. As respostas
+possíveis incluem "sim, observado" e "sim, referido, não visto".
+
+O numerador exige `Q938==1`, ou seja, apenas a opção observada. O nome do indicador diz
+"observed system" e o código cumpre-o. A resposta declarada mas não verificada conta como
+ausência.
+
+Numa estimativa de tempo de aplicação, esta é uma das perguntas mais caras do questionário,
+porque obriga a localizar e ler um documento. Esse custo é exatamente aquilo que o
+indicador está a comprar. Um recolhedor com pressa que aceite a resposta declarada faz a
+unidade cair fora do numerador.
+
+## Exemplo 4 — um índice
+
+O índice de prontidão geral dos serviços não tem numerador próprio. É a média não ponderada
+de cinco pontuações de domínio, cada uma delas uma fração de itens presentes sobre itens
+possíveis:
+
+| Domínio | Itens | Exemplos |
+|---|---|---|
+| Amenidades básicas | 7 | Energia, água melhorada, saneamento, sala com privacidade auditiva e visual, sistema de comunicação |
+| Equipamento básico | 12 | Termómetro, estetoscópio, esfigmomanómetro, oxímetro de pulso, balanças de adulto, criança e lactente, craveira |
+| Precauções padrão | 12 | Higiene das mãos, luvas, seringas descartáveis, esterilização, armazenamento e destino final de corto-perfurantes |
+| Capacidade diagnóstica | 9 | Hemoglobina, glicemia, tiras de urina, teste de gravidez, malária, VIH, sífilis |
+| Medicamentos essenciais | 30 | Cabaz alinhado com o indicador 3.8.1 dos Objetivos de Desenvolvimento Sustentável |
+
+Uma unidade que tenha 5 das 7 amenidades, 9 dos 12 equipamentos, 10 das 12 precauções, 6
+dos 9 diagnósticos e 21 dos 30 medicamentos pontua 71%, 75%, 83%, 67% e 70%, com índice de
+73%.
+
+Os denominadores são fixos por definição. Se o questionário deixar de perguntar por cinco
+dos trinta medicamentos, há duas saídas e ambas custam. Recalcular sobre 25 redefine o
+índice: deixa de ser comparável com o SARA, com outros países e com futuros inquéritos do
+mesmo país. Manter o denominador em 30 preserva a comparabilidade nominal e faz com que
+nenhuma unidade do país possa pontuar acima de 83% nesse domínio — um enviesamento
+sistemático para baixo, que se propaga ao índice.
+
+Retirar uma tabela inteira, pelo contrário, é uma perda limpa: desaparece do relatório e
+nada mais fica afetado.
+
+## As subáreas, com as suas dimensões
+
+O quadro seguinte lista as 79 posições de subárea da árvore. Três nomes repetem-se em
+posições diferentes — pré-natal, tuberculose e malária aparecem na dimensão 3, como
+prontidão, e na dimensão 5, como qualidade clínica — e são coisas distintas.
+
+As colunas de perguntas referem-se ao questionário combinado. "Exclusivas" conta as
+perguntas que nenhuma outra subárea utiliza, e o tempo exclusivo é o que efetivamente se
+liberta ao abandonar a subárea, estimado para uma unidade de cuidados de saúde primários.
+
+| Nº | Subárea | Ind. | Tab. | Calc. | Perguntas | Exclusivas | Tempo excl. (min) |
+|---|---|---|---|---|---|---|---|
+| 1.1.1 | Densidade de infraestrutura de saúde | 4 | 1 | 3 | 3 | 1 | 0.4 |
+| 1.1.2 | Camas | 12 | 2 | 12 | 13 | 10 | 2.4 |
+| 1.1.3 | Acessibilidade do edifício para pessoas com limitação de mobilidade | 35 | 7 | 2 | 1 | 0 | 0.0 |
+| 1.1.4 | Estrutura e segurança do edifício | 196 | 31 | 0 | 0 | 0 | 0.0 |
+| 1.2.1 | Efetivos da força de trabalho | 31 | 5 | 18 | 17 | 8 | 3.2 |
+| 1.2.2 | Densidades da força de trabalho | 20 | 4 | 9 | 8 | 0 | 0.0 |
+| 1.2.3 | Outros indicadores de força de trabalho | 21 | 5 | 17 | 11 | 9 | 1.8 |
+| 1.3.1 | Disponibilidade de serviços de ambulatório e internamento | 8 | 3 | 8 | 4 | 2 | 0.8 |
+| 1.3.2 | Disponibilidade de serviços específicos | 62 | 10 | 0 | 2 | 0 | 0.0 |
+| 1.3.3 | Disponibilidade de tecnologias e procedimentos | 36 | 3 | 0 | 0 | 0 | 0.0 |
+| 1.4.1 | Pontuações de índice | 3 | 1 | 2 | 2 | 1 | 0.4 |
+| 2.1.1 | Amenidades básicas na área principal de prestação | 25 | 3 | 23 | 26 | 21 | 7.7 |
+| 2.1.2 | Água, saneamento, higiene e resíduos de cuidados de saúde | 5 | 1 | 5 | 21 | 6 | 2.7 |
+| 2.2.1 | Equipamento básico na área principal de prestação | 14 | 1 | 12 | 12 | 3 | 0.8 |
+| 2.3.1 | Capacidade diagnóstica básica | 13 | 1 | 11 | 42 | 5 | 0.9 |
+| 2.4.1 | Medicamentos essenciais | 37 | 1 | 35 | 76 | 2 | 0.5 |
+| 2.4.2 | Consumíveis básicos | 22 | 1 | 20 | 54 | 16 | 4.3 |
+| 2.4.3 | Comodidades que salvam vidas em saúde reprodutiva, materna, neonatal e infantil | 21 | 1 | 15 | 38 | 3 | 0.4 |
+| 2.4.4 | Oxigénio no ambulatório | 7 | 2 | 7 | 11 | 0 | 0.0 |
+| 2.4.5 | Armazenamento de produtos farmacêuticos | 30 | 2 | 30 | 34 | 34 | 10.7 |
+| 2.5.1 | Precauções padrão para prevenção de infeção | 25 | 2 | 21 | 133 | 26 | 7.4 |
+| 2.6.1 | Índice de prontidão geral dos serviços | 1 | 1 | 1 | 1 | 0 | 0.0 |
+| 2.7.1 | Sistemas de referência | 6 | 1 | 6 | 8 | 6 | 2.2 |
+| 2.8.1 | Sistemas de preparação para emergências | 19 | 2 | 19 | 19 | 19 | 4.5 |
+| 3.1.1 | Planeamento familiar | 37 | 3 | 35 | 29 | 19 | 6.1 |
+| 3.1.2 | Consulta pré-natal | 46 | 2 | 46 | 63 | 27 | 7.9 |
+| 3.1.3 | Parto e cuidados obstétricos e neonatais de emergência básicos | 111 | 9 | 111 | 140 | 66 | 11.6 |
+| 3.1.4 | Cuidados obstétricos e neonatais de emergência abrangentes | 29 | 2 | 29 | 78 | 8 | 0.8 |
+| 3.1.5 | Cuidados de aborto | 52 | 4 | 52 | 66 | 44 | 1.0 |
+| 3.1.6 | Cuidados pós-parto à mãe e ao recém-nascido | 36 | 2 | 36 | 57 | 41 | 10.6 |
+| 3.1.7 | Cuidados ao recém-nascido pequeno ou doente | 30 | 2 | 30 | 42 | 25 | 2.4 |
+| 3.1.8 | Cuidados preventivos e curativos à criança | 62 | 3 | 62 | 72 | 23 | 8.2 |
+| 3.1.9 | Saúde do adolescente | 23 | 2 | 23 | 25 | 8 | 2.7 |
+| 3.2.1 | Vacinação | 73 | 4 | 73 | 63 | 56 | 18.0 |
+| 3.2.2 | Malária | 32 | 3 | 32 | 37 | 13 | 4.1 |
+| 3.2.3 | Tuberculose | 77 | 6 | 77 | 73 | 50 | 9.8 |
+| 3.2.4 | VIH — testagem e aconselhamento | 20 | 3 | 19 | 18 | 7 | 2.8 |
+| 3.2.5 | VIH — terapia antirretroviral | 27 | 3 | 27 | 36 | 16 | 2.7 |
+| 3.2.6 | VIH — cuidados e apoio | 44 | 2 | 44 | 71 | 38 | 8.3 |
+| 3.2.7 | VIH — serviços pediátricos | 15 | 2 | 15 | 12 | 2 | 0.5 |
+| 3.2.8 | VIH — prevenção da transmissão vertical | 30 | 2 | 30 | 33 | 22 | 6.1 |
+| 3.2.9 | Infeções sexualmente transmissíveis | 21 | 2 | 21 | 28 | 8 | 2.2 |
+| 3.2.10 | Doenças tropicais negligenciadas | 35 | 3 | 35 | 36 | 20 | 3.4 |
+| 3.3.1 | Doença cardiovascular | 46 | 3 | 46 | 47 | 21 | 5.1 |
+| 3.3.2 | Diabetes | 26 | 3 | 26 | 27 | 13 | 3.3 |
+| 3.3.3 | Doença respiratória crónica | 26 | 2 | 26 | 25 | 9 | 2.4 |
+| 3.3.4 | Cancro do colo do útero, mama, próstata e colorretal | 82 | 10 | 82 | 85 | 71 | 4.0 |
+| 3.3.5 | Equipamento e sistemas de apoio para doenças não transmissíveis | 6 | 1 | 6 | 7 | 6 | 2.8 |
+| 3.3.6 | Saúde mental e serviços neurológicos | 38 | 3 | 38 | 38 | 32 | 6.3 |
+| 3.4.1 | Pequena cirurgia | 24 | 2 | 24 | 30 | 16 | 2.5 |
+| 3.4.2 | Cirurgia major | 116 | 6 | 116 | 167 | 98 | 1.5 |
+| 3.4.3 | Circuncisão masculina médica voluntária | 6 | 2 | 6 | 5 | 4 | 0.6 |
+| 3.5.1 | Serviços de urgência em geral | 78 | 4 | 78 | 112 | 57 | 13.3 |
+| 3.5.2 | Intervenções-sinal de urgência | 73 | 8 | 72 | 111 | 42 | 8.2 |
+| 3.6.1 | Cuidados paliativos | 17 | 2 | 17 | 24 | 8 | 0.4 |
+| 3.6.2 | Reabilitação | 21 | 3 | 19 | 16 | 14 | 0.9 |
+| 3.6.3 | Sobreviventes de violência sexual e crianças vítimas de maus-tratos | 35 | 4 | 35 | 34 | 22 | 4.6 |
+| 3.7.1 | Serviços laboratoriais | 58 | 3 | 58 | 70 | 40 | 4.6 |
+| 3.7.2 | Radiologia, imagiologia e outros diagnósticos | 16 | 1 | 16 | 9 | 7 | 0.3 |
+| 3.7.3 | Transfusão de sangue | 14 | 2 | 14 | 29 | 9 | 0.4 |
+| 3.7.4 | Tratamento especializado selecionado | 2 | 1 | 2 | 2 | 0 | 0.0 |
+| 4.1.1 | Sistemas de governação e gestão | 34 | 6 | 34 | 38 | 30 | 9.5 |
+| 4.1.2 | Sistemas de manutenção | 33 | 5 | 33 | 35 | 35 | 9.1 |
+| 4.2.1 | Afetação e gestão do orçamento | 39 | 5 | 39 | 29 | 28 | 8.6 |
+| 4.2.2 | Fontes de financiamento | 35 | 6 | 35 | 36 | 35 | 10.1 |
+| 4.2.3 | Prestação de contas financeira | 6 | 2 | 6 | 6 | 6 | 2.4 |
+| 4.3.1 | Gestão e benefícios do pessoal | 22 | 4 | 22 | 21 | 21 | 7.8 |
+| 4.4.1 | Sistemas de prevenção e controlo de infeção | 28 | 4 | 28 | 24 | 22 | 6.2 |
+| 4.4.2 | Sistemas de garantia da qualidade | 29 | 5 | 29 | 35 | 32 | 7.1 |
+| 4.4.3 | Sistemas de monitorização da qualidade do cuidado | 25 | 4 | 25 | 30 | 29 | 2.9 |
+| 4.5.1 | Identificadores únicos e processos individuais | 31 | 4 | 31 | 31 | 30 | 11.5 |
+| 4.5.2 | Sistemas de gestão de dados | 55 | 6 | 55 | 53 | 53 | 16.2 |
+| 4.5.3 | Registo e reporte de mortalidade e morbilidade | 21 | 4 | 21 | 19 | 18 | 4.5 |
+| 5.1.1 | Qualidade da consulta pré-natal | 19 | 2 | 0 | 0 | 0 | 0.0 |
+| 5.3.1 | Qualidade da testagem de VIH | 7 | 2 | 0 | 0 | 0 | 0.0 |
+| 5.3.2 | Qualidade da terapia antirretroviral | 23 | 4 | 0 | 0 | 0 | 0.0 |
+| 5.3.3 | Qualidade da prevenção da transmissão vertical | 20 | 5 | 0 | 0 | 0 | 0.0 |
+| 5.4.1 | Qualidade dos serviços de tuberculose | 22 | 5 | 0 | 0 | 0 | 0.0 |
+| 5.5.1 | Qualidade do tratamento da malária não complicada | 18 | 4 | 0 | 0 | 0 | 0.0 |
+
+## O que cada subárea mede
+
+| Nº | Subárea | O que mede |
+|---|---|---|
+| 1.1.1 | Densidade de infraestrutura de saúde | Densidade de unidades sanitárias por população. Exige denominador populacional externo e censo de unidades. |
+| 1.1.2 | Camas | Número de camas de internamento, no total e por disciplina, e camas de maternidade. |
+| 1.1.3 | Acessibilidade do edifício para pessoas com limitação de mobilidade | Acessibilidade do edifício para pessoas com limitação de mobilidade: rampas, portas, corredores, casas de banho adaptadas. |
+| 1.1.4 | Estrutura e segurança do edifício | Estrutura e segurança do edifício, interior e exterior. Vem do questionário suplementar de estrutura, não do combinado. |
+| 1.2.1 | Efetivos da força de trabalho | Contagem de efetivos por categoria profissional: médicos, enfermagem e parteria, outros profissionais, técnicos associados. Inclui existência de plano de pessoal. |
+| 1.2.2 | Densidades da força de trabalho | Densidades da força de trabalho por população. Exige denominador populacional externo. |
+| 1.2.3 | Outros indicadores de força de trabalho | Outros indicadores de pessoal: proporção de mulheres, unidades com médico no quadro, especialistas visitantes, qualificação do gestor, voluntários graduados. |
+| 1.3.1 | Disponibilidade de serviços de ambulatório e internamento | Se a unidade oferece serviços de ambulatório e de internamento, e os horários e dias de funcionamento do ambulatório. |
+| 1.3.2 | Disponibilidade de serviços específicos | Oferta declarada de serviços específicos. Usar apenas quando o módulo de prontidão não é implementado — caso contrário duplica a dimensão 3. |
+| 1.3.3 | Disponibilidade de tecnologias e procedimentos | Oferta declarada de tecnologias e procedimentos: imagiologia, equipamento médico, testes laboratoriais. Mesma ressalva de duplicação. |
+| 1.4.1 | Pontuações de índice | Pontuações de densidade: unidades, camas de internamento, camas de maternidade. |
+| 2.1.1 | Amenidades básicas na área principal de prestação | Amenidades básicas na área principal de prestação: energia, água melhorada, saneamento, sala com privacidade, comunicação, computador com internet, transporte de emergência. Sete itens traçadores do índice de prontidão geral. |
+| 2.1.2 | Água, saneamento, higiene e resíduos de cuidados de saúde | Indicadores de água, saneamento, higiene e gestão de resíduos de cuidados de saúde, alinhados com o quadro WASH. |
+| 2.2.1 | Equipamento básico na área principal de prestação | Equipamento básico na área principal: termómetro, estetoscópio, esfigmomanómetro, oxímetro, luz de exame, otoscópio, oftalmoscópio, balanças de adulto, criança e lactente, fita métrica, craveira. Doze itens traçadores. |
+| 2.3.1 | Capacidade diagnóstica básica | Capacidade diagnóstica básica: hemoglobina, glicemia, tiras de urina para glicose, proteína e cetonas, teste de gravidez, malária, VIH, sífilis. Nove itens traçadores. |
+| 2.4.1 | Medicamentos essenciais | Medicamentos essenciais: disponibilidade observada dos trinta medicamentos traçadores do cabaz dos CSP, alinhado com o indicador 3.8.1 dos ODS. |
+| 2.4.2 | Consumíveis básicos | Consumíveis básicos: seringas, luvas, compressas, material de penso e afins. |
+| 2.4.3 | Comodidades que salvam vidas em saúde reprodutiva, materna, neonatal e infantil | Comodidades que salvam vidas em saúde reprodutiva, materna, neonatal e infantil: ocitocina, sulfato de magnésio, misoprostol, clorexidina, sais de reidratação oral, zinco. |
+| 2.4.4 | Oxigénio no ambulatório | Oxigénio no ambulatório: disponibilidade do serviço e condições para o prestar. |
+| 2.4.5 | Armazenamento de produtos farmacêuticos | Condições de armazenamento de produtos farmacêuticos, na farmácia principal e no armazém a granel: temperatura, organização, controlo de validades. |
+| 2.5.1 | Precauções padrão para prevenção de infeção | Precauções padrão para prevenção e controlo de infeção, incluindo equipamento de proteção individual. Doze itens traçadores do índice de prontidão geral. |
+| 2.6.1 | Índice de prontidão geral dos serviços | O índice de prontidão geral dos serviços: média não ponderada das cinco pontuações de domínio. |
+| 2.7.1 | Sistemas de referência | Sistemas de referência: protocolos, meio de transporte, comunicação com a unidade de destino, contra-referência. |
+| 2.8.1 | Sistemas de preparação para emergências | Preparação para emergências e catástrofes: estruturas de gestão, planos, formação e simulacros. |
+| 3.1.1 | Planeamento familiar | Planeamento familiar: métodos oferecidos, e prontidão em pessoal formado, guias, equipamento e contracetivos. |
+| 3.1.2 | Consulta pré-natal | Consulta pré-natal: oferta e prontidão. Uma das áreas de maior densidade de indicadores marcados SARA. |
+| 3.1.3 | Parto e cuidados obstétricos e neonatais de emergência básicos | Parto e cuidados obstétricos e neonatais de emergência básicos. Inclui as funções-sinal BEmONC, que são o núcleo da avaliação obstétrica. |
+| 3.1.4 | Cuidados obstétricos e neonatais de emergência abrangentes | Cuidados obstétricos e neonatais de emergência abrangentes: cesariana e transfusão. Nível hospitalar. |
+| 3.1.5 | Cuidados de aborto | Cuidados de aborto: manejo do aborto incompleto e aborto induzido, oferta e prontidão. |
+| 3.1.6 | Cuidados pós-parto à mãe e ao recém-nascido | Cuidados pós-parto para a mãe e o recém-nascido: oferta e prontidão. |
+| 3.1.7 | Cuidados ao recém-nascido pequeno ou doente | Cuidados ao recém-nascido pequeno ou doente: oferta e prontidão. Exige capacidade que os CSP normalmente não têm. |
+| 3.1.8 | Cuidados preventivos e curativos à criança | Cuidados preventivos e curativos à criança: oferta, prontidão e medicamentos prioritários pediátricos. |
+| 3.1.9 | Saúde do adolescente | Serviços dirigidos a adolescentes: oferta diferenciada e prontidão. |
+| 3.2.1 | Vacinação | Vacinação: oferta, prontidão, pessoal formado e armazenamento de vacinas. Inclui cadeia de frio. |
+| 3.2.2 | Malária | Malária: oferta de diagnóstico e tratamento, prontidão, e indicadores auxiliares. |
+| 3.2.3 | Tuberculose | Tuberculose: oferta por grupo etário, prontidão, tuberculose resistente e medicamentos antituberculosos. |
+| 3.2.4 | VIH — testagem e aconselhamento | VIH — testagem e aconselhamento: oferta e prontidão. |
+| 3.2.5 | VIH — terapia antirretroviral | VIH — terapia antirretroviral: oferta, prontidão e medicamentos. |
+| 3.2.6 | VIH — cuidados e apoio | VIH — cuidados e apoio: oferta e prontidão dos serviços de acompanhamento. |
+| 3.2.7 | VIH — serviços pediátricos | VIH pediátrico: oferta e prontidão. |
+| 3.2.8 | VIH — prevenção da transmissão vertical | VIH — prevenção da transmissão vertical: oferta e prontidão. |
+| 3.2.9 | Infeções sexualmente transmissíveis | Infeções sexualmente transmissíveis que não o VIH: oferta e prontidão. |
+| 3.2.10 | Doenças tropicais negligenciadas | Doenças tropicais negligenciadas: oferta na unidade, medicamentos, e oferta ao nível comunitário. |
+| 3.3.1 | Doença cardiovascular | Doença cardiovascular: oferta, prontidão e indicadores auxiliares. |
+| 3.3.2 | Diabetes | Diabetes: oferta, prontidão e indicadores auxiliares. É o exemplo trabalhado da estrutura de prontidão específica no Anexo 1 do Comprehensive guide. |
+| 3.3.3 | Doença respiratória crónica | Doença respiratória crónica: oferta e prontidão. |
+| 3.3.4 | Cancro do colo do útero, mama, próstata e colorretal | Cancro do colo do útero, mama, próstata e colorretal: rastreio, oferta e prontidão. Subárea grande e quase inexistente ao nível dos CSP. |
+| 3.3.5 | Equipamento e sistemas de apoio para doenças não transmissíveis | Sistemas de apoio aos serviços de doenças não transmissíveis: equipamento e organização. |
+| 3.3.6 | Saúde mental e serviços neurológicos | Saúde mental e serviços neurológicos: oferta por condição e prontidão. |
+| 3.4.1 | Pequena cirurgia | Pequena cirurgia: procedimentos oferecidos e prontidão. Suturas e procedimentos menores são frequentes nos CSP. |
+| 3.4.2 | Cirurgia major | Cirurgia major: cirurgia geral, obstétrica e ginecológica, anestesia, e prevenção de infeção no bloco. Nível hospitalar. |
+| 3.4.3 | Circuncisão masculina médica voluntária | Circuncisão masculina médica voluntária: oferta e prontidão. |
+| 3.5.1 | Serviços de urgência em geral | Serviços de urgência em geral: oferta, prontidão, prevenção de infeção e indicadores auxiliares. |
+| 3.5.2 | Intervenções-sinal de urgência | Intervenções-sinal de urgência: sinais vitais, via aérea, ventilação, circulação, intervenção cardíaca e outras. Estrutura por função, não por doença. |
+| 3.6.1 | Cuidados paliativos | Cuidados paliativos: oferta e prontidão, incluindo disponibilidade de morfina. |
+| 3.6.2 | Reabilitação | Reabilitação: oferta, prontidão e indicadores auxiliares. |
+| 3.6.3 | Sobreviventes de violência sexual e crianças vítimas de maus-tratos | Atendimento a sobreviventes de violação e violência sexual ou por parceiro íntimo, e a crianças vítimas de maus-tratos. |
+| 3.7.1 | Serviços laboratoriais | Serviços laboratoriais: oferta, prontidão e prevenção de infeção no laboratório. |
+| 3.7.2 | Radiologia, imagiologia e outros diagnósticos | Radiologia, imagiologia e outros procedimentos diagnósticos. |
+| 3.7.3 | Transfusão de sangue | Transfusão de sangue: oferta, suficiência e segurança do sangue, cadeia de frio. |
+| 3.7.4 | Tratamento especializado selecionado | Equipamento de tratamento especializado selecionado. Subárea residual, dois indicadores. |
+| 4.1.1 | Sistemas de governação e gestão | Governação e gestão da unidade: órgão de gestão, planos, serviços de apoio ao funcionamento, aprovisionamento, ligação a agentes comunitários. |
+| 4.1.2 | Sistemas de manutenção | Sistemas de manutenção: infraestrutura, equipamento médico e viaturas. Distingue a existência de calendário do seu cumprimento efetivo. |
+| 4.2.1 | Afetação e gestão do orçamento | Orçamento: autonomia de gestão, rubricas, orçamento do ano corrente e do último ano fechado, repartição média da despesa. |
+| 4.2.2 | Fontes de financiamento | Fontes de financiamento, cobertura por seguro e taxas cobradas ao utente, no ambulatório e no internamento. |
+| 4.2.3 | Prestação de contas financeira | Prestação de contas financeira: auditoria e sistema de documentação de dinheiro recebido. |
+| 4.3.1 | Gestão e benefícios do pessoal | Gestão do pessoal: estruturas e sistemas, benefícios, formação em serviço e supervisão externa. |
+| 4.4.1 | Sistemas de prevenção e controlo de infeção | Sistemas de prevenção e controlo de infeção: estruturas de gestão, monitorização, formação em higiene das mãos. |
+| 4.4.2 | Sistemas de garantia da qualidade | Sistemas de garantia da qualidade: avaliação externa contra normas, qualidade laboratorial, sistemas internos, monitorização de prescrição e reações adversas. |
+| 4.4.3 | Sistemas de monitorização da qualidade do cuidado | Monitorização da qualidade do cuidado: revisão de casos, eventos adversos e infeções nosocomiais, qualidade cirúrgica, indicadores de resultado. |
+| 4.5.1 | Identificadores únicos e processos individuais | Identificadores únicos e processos individuais do doente, no ambulatório e no internamento, incluindo o seu armazenamento. |
+| 4.5.2 | Sistemas de gestão de dados | Gestão de dados: estruturas, sistemas informatizados, revisão da qualidade dos dados, envio e arquivo de relatórios. |
+| 4.5.3 | Registo e reporte de mortalidade e morbilidade | Registo e reporte de mortalidade e morbilidade, e uso de sistemas internacionais de codificação. |
+| 5.1.1 | Qualidade da consulta pré-natal | Qualidade da consulta pré-natal, avaliada por revisão de registos individuais. Fora de alcance com o questionário combinado. |
+| 5.3.1 | Qualidade da testagem de VIH | Qualidade da testagem de VIH, por revisão de registos. Fora de alcance com o questionário combinado. |
+| 5.3.2 | Qualidade da terapia antirretroviral | Qualidade da terapia antirretroviral, por revisão de registos. Fora de alcance com o questionário combinado. |
+| 5.3.3 | Qualidade da prevenção da transmissão vertical | Qualidade da prevenção da transmissão vertical, por revisão de registos. Fora de alcance com o questionário combinado. |
+| 5.4.1 | Qualidade dos serviços de tuberculose | Qualidade dos serviços de tuberculose, por revisão de registos. Fora de alcance com o questionário combinado. |
+| 5.5.1 | Qualidade do tratamento da malária não complicada | Qualidade do tratamento da malária não complicada, por revisão de registos. Fora de alcance com o questionário combinado. |
