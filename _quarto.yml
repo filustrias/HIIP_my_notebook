@@ -3,7 +3,7 @@ project:
   output-dir: _book
 
 book:
-  title: "HIIP - Adelson's Notebook"
+  title: "HIIP Angola"
   date: today
   date-format: "D MMMM YYYY"
   site-url: https://filustrias.github.io/HIIP_my_notebook/
@@ -17,7 +17,7 @@ book:
     collapse-level: 1
   chapters:
     - index.qmd
-    - intro.qmd
+    - hiip-proposal-for-action.qmd
     - planejamento-e-roadmap.qmd
     - summary.qmd
     - part: "HHFA"
@@ -35,6 +35,10 @@ book:
         - phcmfi-03-operational-levers.qmd
         - phcmfi-04-information-access-quality.qmd
     - references.qmd
+
+# Rótulo do bloco de título: "Published" -> "Last update"
+language:
+  title-block-published: "Last update"
 
 bibliography: references.bib
 

@@ -1,6 +1,0 @@
-# Introduction
-
-
-This is a notebook created to organize the planning, excecution, follow-up and learning process of the HIIP project in Angola.
-
-![*hyphaene coriacea*](cover.jpeg){#fig-rotulo width="70%" fig-align="center"}
