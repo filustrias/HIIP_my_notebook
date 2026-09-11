@@ -1,0 +1,82 @@
+---
+title: "HHFA and EmONC: complementarity along the maternal continuum of care"
+---
+
+The Emergency Obstetric and Newborn Care (EmONC) assessment measures the capacity to
+respond to complications. The Harmonized Health Facility Assessment (HHFA) measures the
+services that reduce the number of complications and detect them in time: family planning,
+antenatal care (ANC) and postnatal care.
+
+## Justification
+
+**Scale of the problem.** About 15% of pregnant women develop a potentially
+life-threatening complication [1]. In Angola, with 36.6 million inhabitants and a crude
+birth rate of 33.7 per 1,000, this means about 185,000 complications a year [2, 3].
+
+**Contraception.** It prevents the emergency by preventing the pregnancy. Unmet need for
+family planning is 37% among women in union and 48% among unmarried women [3].
+Contraception averted 44% of maternal deaths worldwide [4].
+
+**Antenatal care.** It identifies women at risk and allows timely management:
+
+- pre-eclampsia, detected through blood pressure and proteinuria checks;
+- aspirin for high-risk women;
+- anaemia, malaria and syphilis;
+- a birth plan in a facility able to respond.
+
+In Angola, only 51% of pregnant women have four or more visits [3].
+
+**Postnatal period.** Obstetric emergencies also occur after discharge, such as late
+postpartum haemorrhage, puerperal sepsis and postpartum pre-eclampsia. They are identified
+in the community and at postnatal visits. Most maternal and neonatal deaths occur within
+48 hours after birth, yet only 15% of women receive a postnatal check in that period [3].
+HHFA measures outpatient postnatal care; EmONC does not.
+
+**Limit of prevention.** Many complications only arise during labour and cannot be
+predicted. Emergency response remains essential.
+
+## Coverage by stage
+
+| Stage | HHFA | EmONC |
+|:---|:---|:---|
+| Family planning | [Strong]{.cov-strong} | [Strong]{.cov-strong} (delivery facilities only) |
+| ANC, prevention of mother-to-child transmission (PMTCT) and syphilis | [Strong]{.cov-strong} | [Weak]{.cov-weak} |
+| Emergency referral and transport | [Weak]{.cov-weak} | [Strong]{.cov-strong} |
+| Childbirth and signal functions | [Partial]{.cov-partial} | [Strong]{.cov-strong} |
+| Newborn | [Strong]{.cov-strong} | [Strong]{.cov-strong} |
+| Inpatient postnatal care | [Strong]{.cov-strong} | [Partial]{.cov-partial} |
+| Outpatient postnatal care | [Strong]{.cov-strong} | [Absent]{.cov-absent} |
+| Women's experience and costs | [Absent]{.cov-absent} | [Strong]{.cov-strong} |
+
+## Gaps shared by both
+
+Neither instrument measures:
+
+- preconception care;
+- provision of postpartum contraception;
+- community identification of pregnant women;
+- clinical record review of labour care.
+
+## Differences to consider
+
+**Universe.** EmONC excludes facilities without deliveries (question M1 101).
+
+**Place of verification.** EmONC checks resources in the maternity ward; HHFA checks them
+where each service is delivered.
+
+**Reference period.** Signal functions are asked over 3 months in EmONC and over 12 months
+in HHFA.
+
+## Conclusion
+
+The instruments are complementary. Applied without the HHFA family planning, ANC and
+postnatal care modules, EmONC leaves the maternal continuum of care incomplete.
+
+## References
+
+1. WHO, *Managing complications in pregnancy and childbirth*, 2017.
+2. INE, 2024 Census.
+3. INE/MINSA/ICF, *Angola IIMS 2023–2024*, pp. ix, 17–18, 22–23.
+4. Ahmed S et al. *Lancet* 2012;380:111–25.
+
+Complications estimate: IIMS crude birth rate × Census population × 15%.

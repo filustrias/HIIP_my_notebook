@@ -64,6 +64,10 @@ font-weight: 600;
 .st-block,
 .st-todo,
 .st-backlog,
+.cov-strong,
+.cov-partial,
+.cov-weak,
+.cov-absent,
 .st-none {
   display: inline-block;
   font-family: $headings-font-family;
@@ -128,4 +132,37 @@ font-weight: 600;
 
 .callout div:has(> .table) {
   overflow-x: auto;
+}
+/* Escala ordinal de cobertura (capítulo HHFA/EmONC): Strong > Partial >
+   Weak > Absent. Reutiliza a forma dos badges de estado para o livro ter
+   uma linguagem visual só. */
+.cov-strong {
+  color: #1a7f4b;
+  background: rgba(26, 160, 92, 0.14);
+  border-color: rgba(26, 160, 92, 0.35);
+}
+
+.cov-partial {
+  color: #b06a00;
+  background: rgba(217, 138, 10, 0.16);
+  border-color: rgba(217, 138, 10, 0.38);
+}
+
+.cov-weak {
+  color: #b3261e;
+  background: rgba(200, 45, 40, 0.14);
+  border-color: rgba(200, 45, 40, 0.35);
+}
+
+.cov-absent {
+  color: #6b7280;
+  background: rgba(128, 137, 150, 0.12);
+  border-color: rgba(128, 137, 150, 0.28);
+}
+
+.quarto-dark {
+  .cov-strong  { color: #5fd99a; }
+  .cov-partial { color: #f0b350; }
+  .cov-weak    { color: #f2837c; }
+  .cov-absent  { color: #9aa4b2; }
 }

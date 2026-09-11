@@ -27,6 +27,7 @@ book:
         - indicadores-hhfa-organizacao.qmd
         - indicadores-hhfa-detalhe.qmd
         - hhfa-critical-analysis.qmd
+        - hhfa-emonc-complementarity.qmd
     - part: "PHC Measurement Framework"
       chapters:
         - phc-measurement-framework.qmd
