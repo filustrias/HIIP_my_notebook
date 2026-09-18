@@ -2,64 +2,276 @@
 title: "FinHealth 2.0"
 ---
 
-O FinHealth é o instrumento da Organização Mundial da Saúde (OMS) e do Banco Mundial
-para diagnosticar de que forma as regras de gestão das finanças públicas — daqui em
-diante **PFM**, na sigla inglesa de *public financial management* — prejudicam a
-prestação de serviços de saúde. Esta parte do caderno trabalha a versão 2.0, de julho
-de 2026.
+O FinHealth é o instrumento conjunto do Banco Mundial e da Organização Mundial da
+Saúde (OMS) para diagnosticar de que forma as regras de gestão das finanças públicas —
+daqui em diante **PFM**, na sigla inglesa de *public financial management* —
+prejudicam a prestação de serviços de saúde.
 
 Interessa ao HIIP de forma direta: a frente de PFM do plano prevê uma avaliação do
 setor da saúde em Angola, e o FinHealth é a metodologia que a estrutura.
 
-## Problemas de serviço como ponto de partida
+## Origem, paradigma e método
 
-O que distingue o FinHealth de outros instrumentos de avaliação de finanças públicas
-não é a lista de temas que cobre — é **por onde começa**.
+Este subcapítulo apresenta o instrumento. Descreve de onde veio, que problema a sua
+segunda versão veio resolver, que forma de raciocínio adota, como está organizado e
+onde estão as suas fronteiras. O subcapítulo seguinte trabalha em detalhe a peça
+central de uso corrente, a tabela que liga problemas de serviço a gargalos de gestão
+financeira.
 
-Um diagnóstico convencional de PFM parte do próprio sistema financeiro. Percorre os
-domínios do ciclo orçamental — preparação, execução, relato, auditoria — e classifica
-o desempenho de cada um. É o que faz o PEFA, com os seus indicadores pontuados. O
-produto é um retrato da qualidade da gestão financeira, e a pergunta implícita é "este
-sistema de finanças públicas está conforme as boas práticas?".
+### Identificação do documento
 
-O FinHealth inverte a ordem. Parte de um **problema observável na prestação de
-serviços** — as unidades ficam sem medicamentos, os doentes esperam meses, o
-equipamento existe mas não funciona — e só depois pergunta que regras financeiras
-contribuem para o produzir. A pergunta passa a ser "porque é que isto está a
-acontecer nesta unidade sanitária, e o que na gestão financeira o causa?".
+O documento chama-se *FinHealth Toolkit 2.0: Public Financial Management (PFM) in the
+Health Diagnostic Toolkit*. A folha de rosto data-o de junho de 2026. A versão que
+circula é não diagramada, ou seja, texto final sem tratamento editorial.
 
-A diferença não é de ênfase, é de consequência. Um diagnóstico que parte dos domínios
-produz uma lista de fraquezas técnicas, todas verdadeiras e nenhuma hierarquizada: a
-classificação orçamental não é funcional, o relato é tardio, os controlos são fracos.
-Um diagnóstico que parte do problema produz uma cadeia causal com um destinatário
-claro — e, sobretudo, um critério para decidir o que **não** vale a pena corrigir
-agora. Uma fraqueza de PFM que não esteja a estrangular nenhum serviço pode esperar.
+É um produto conjunto do Banco Mundial e da Organização Mundial da Saúde (OMS). O
+desenvolvimento foi liderado por Moritz Piatti-Fünfkirchen, economista sénior da área
+de Saúde, Nutrição e População do Banco Mundial, e por Rachel Ort, especialista sénior
+de governação do mesmo banco, sob orientação de Arturo Herrera Gutierrez e Monique
+Vledder. A produção contou com apoio do Global Financing Facility (GFF), o mecanismo
+de financiamento para a saúde de mulheres, crianças e adolescentes.
 
-::: {.callout-note title="Definição de gargalo no FinHealth"}
-Um gargalo de PFM é *uma regra ou prática de gestão financeira que é causa
-subjacente significativa do problema de serviço de saúde selecionado*. A qualificação
-importa: não basta que a regra seja tecnicamente má, tem de estar ligada ao problema
-que se escolheu resolver.
-:::
+A autoria conjunta é o dado institucional mais relevante. A primeira versão, de 2019,
+era exclusivamente do Banco Mundial. Com a segunda, a OMS passa a coassinar, o que
+retira do instrumento a marca de pertença a uma única agência.
 
-O documento é explícito sobre os limites desta abordagem. A lista de problemas e
-gargalos não pretende ser exaustiva, e a análise causal reconhece que existem
-obstáculos não financeiros — mas não os investiga em profundidade. O FinHealth não se
-propõe explicar tudo o que corre mal num sistema de saúde; propõe-se explicar a parte
-que a gestão das finanças públicas causa.
+### Da primeira para a segunda versão
 
-### O mapa entre os dois mundos
+A primeira versão foi lançada em dezembro de 2019 e ligou, pela primeira vez de forma
+sistemática, três campos que costumavam ser tratados em separado: gestão das finanças
+públicas, financiamento da saúde e prestação de serviços.
 
-A Tabela 2.2 é a peça que torna essa inversão operacional. Sem ela, "partir do
-problema" seria uma boa intenção metodológica: a equipa identificaria uma rutura de
-stock e ficaria sem saber onde procurar. A tabela dá o ponto de entrada — para cada
-problema de serviço reconhecível no terreno, que gargalos de PFM interrogar.
+Foi aplicada em mais de dez países — Arménia, Geórgia, Guiné-Bissau, Índia,
+Quirguistão, Laos, Myanmar, Timor-Leste, Togo e Tajiquistão constam da lista do
+documento. A aplicação revelou um problema de desenho, que a introdução da segunda
+versão descreve sem rodeios (índice, p. 1): a revisão exaustiva de 24 funções de gestão
+financeira produzia recomendações de reforma de alto nível, sem ligação direta ao seu
+efeito sobre os serviços de saúde.
+
+O diagnóstico ficava tecnicamente correto e operacionalmente inútil. Um ministério
+recebia uma lista de fraquezas do sistema orçamental sem saber qual delas estava a
+causar as ruturas de stock nas suas unidades sanitárias, nem por onde começar.
+
+A segunda versão troca a exaustividade pela orientação ao problema. A mudança é de
+fundo, não de forma: o capítulo 3 instrui explicitamente a equipa a não fazer uma
+investigação gargalo a gargalo, e a ir apenas àqueles para os quais existe razão
+inicial para suspeitar de ligação ao problema escolhido (índice, p. 17).
+
+### O paradigma
+
+O FinHealth não avalia o sistema de gestão das finanças públicas. Traça cadeias causais
+a partir de falhas observáveis na prestação de serviços.
+
+A frase que fixa esta posição está na secção 2.3 (índice, p. 8): nem todo o
+afastamento das boas práticas de gestão financeira constitui um gargalo na análise
+FinHealth. Um gargalo é definido como uma regra ou prática de gestão financeira que
+seja causa subjacente significativa do problema de serviço selecionado. A qualificação
+é o que separa este instrumento do Public Expenditure and Financial Accountability
+(PEFA), que classifica o sistema inteiro contra um padrão fixo.
+
+Três distinções sustentam o método. O documento dedica caixas próprias a cada uma
+porque as equipas da primeira versão as confundiam com frequência.
+
+**Problema de serviço, gargalo e desfecho.** O problema descreve o que não está a
+funcionar na prestação. O gargalo explica porque acontece. O desfecho é o efeito sobre
+a saúde e o bem-estar. Exemplo do próprio documento: as unidades não conseguem
+contratar nem reter pessoal qualificado é um problema; recrutamento centralizado e
+regras salariais rígidas é um gargalo; mortalidade materna é um desfecho. O teste
+prático: descreve o que não funciona, é problema; explica porque ocorre, é gargalo.
+
+**Gargalo e causa raiz.** O gargalo é a regra ou prática. A causa raiz é a razão pela
+qual essa regra existe e persiste.
+
+**Objetivo de política e instrumento operacional.** Melhorar o fluxo de fundos é um
+objetivo; emitir uma circular que permita às unidades reter as receitas de taxas
+moderadoras é um instrumento. O documento pede que as recomendações separem os dois,
+para que não sejam nem palavras de ordem nem minudências sem finalidade.
+
+Há uma consequência prática que convém sublinhar. O documento avisa que, quando um
+interlocutor descreve um gargalo — "as aquisições são lentas" —, a equipa deve insistir
+até chegar ao problema de serviço correspondente — "os medicamentos essenciais chegam
+tarde às unidades". Sem essa insistência, a análise volta a centrar-se no sistema
+financeiro e reproduz o defeito da primeira versão.
+
+### O método: quatro passos
+
+O capítulo 2 conduz a equipa por quatro passos, apresentados como lineares mas
+descritos como iterativos na prática.
+
+| Passo | Objetivo | Produto |
+|:--|:--|:--|
+| 2.1 Identificação dos problemas de serviço (p. 3) | Escolher entre 1 e 5 problemas, definidos pelo que não funciona, porque importa e onde ocorre | A cabeça do diagrama causal |
+| 2.2 Mapeamento (p. 6) | Identificar organizações, traçar fluxos de fundos, documentar as regras financeiras que os governam | Matriz de organizações e mapa de fluxos |
+| 2.3 Análise causal (p. 8) | Identificar os gargalos e as suas causas raiz | As espinhas do diagrama |
+| 2.4 Formulação de recomendações (p. 13) | Priorizar ações por impacto e exequibilidade | Matriz de ações sequenciadas |
+
+A representação recomendada é o diagrama de espinha de peixe (*fishbone diagram*), com
+o problema de serviço na cabeça, os gargalos e as causas raiz nas espinhas. O documento
+admite expressamente que a equipa use outro tipo de diagrama, desde que use algum.
+
+Sobre o primeiro passo, vale registar o que o documento dá e o que não dá. Dá um limite
+de quantidade, entre um e cinco problemas. Dá critérios de seleção, formulados como
+possibilidades e não como obrigações: os problemas mais prementes do ponto de vista dos
+desfechos de saúde, aqueles para os quais existe janela de oportunidade de reforma, e
+aqueles em que os constrangimentos financeiros tenham contribuição provável. Dá uma
+exigência de legitimação: as prioridades devem ser acordadas com as contrapartes,
+incluindo o Ministério da Saúde e o Ministério das Finanças. E dá um teste de qualidade
+do enunciado, com dois exemplos.
+
+Não dá um procedimento reprodutível. Duas equipas competentes, com a mesma evidência,
+podem chegar a conjuntos diferentes de problemas, e o documento não trata isso como
+defeito. É coerente com um instrumento orientado à ação, em que a escolha precisa de
+ser apropriável pelas contrapartes que a vão executar. Para quem aplica o instrumento,
+é o ponto onde há mais liberdade de desenho e mais consequência: se os problemas
+estiverem mal escolhidos, todo o trabalho seguinte é rigoroso e sem utilidade.
+
+### O capítulo 3 como manual de consulta
+
+O capítulo 3 tem função diferente do capítulo 2. Não se lê de fio a pavio, consulta-se.
+
+Organiza 21 gargalos pelas fases do ciclo orçamental: sete na preparação e aprovação do
+orçamento, sete na execução, dois no relato, auditoria e avaliação posteriores, e cinco
+numa categoria residual. Cada gargalo traz quatro elementos: definição curta, ligação
+aos problemas de serviço, discussão do que o pode estar a causar, e perguntas
+diagnósticas com indicação dos dados necessários.
+
+Vários gargalos remetem para indicadores PEFA específicos, o que permite aproveitar
+qualquer avaliação PEFA já existente no país em vez de repetir o trabalho.
+
+Os cinco gargalos da categoria residual são os que mais interessam a quem trabalha
+cuidados de saúde primários: gestão de ativos, requisitos financeiros múltiplos
+associados a diferentes fontes de financiamento, mecanismos financeiros incompatíveis
+com a compra estratégica, não aplicação de modelos de financiamento por fórmula entre
+níveis de governo, e transferências orçamentais disfuncionais para entidades
+compradoras.
+
+A ligação entre os dois capítulos faz-se pela Tabela 2.2, que funciona como índice
+invertido: entra-se pelo problema de serviço e ela devolve os gargalos candidatos, com
+ligação à secção correspondente. O Anexo 3 (p. 75) explica a via causal de cada par.
+O Anexo 2 (p. 62) reúne os problemas efetivamente encontrados nas avaliações da
+primeira versão. O Anexo 4 (p. 90) dá bibliografia por gargalo.
+
+### As recomendações
+
+O quarto passo pede uma matriz priorizada por dois eixos.
+
+**Impacto**: a recomendação liga-se diretamente a um constrangimento identificado como
+tendo efeito sobre os problemas escolhidos? Qual a gravidade desse efeito? Se
+implementada, qual a probabilidade de resolver o gargalo?
+
+**Exequibilidade**: em que medida a implementação é limitada pelos recursos e
+competências existentes, pela complexidade técnica, pelo grau de coordenação entre
+ministérios e níveis de governo, pelo alinhamento com programas de reforma em curso, e
+pelos interesses e incentivos dos atores?
+
+O sequenciamento usa três horizontes, calibrados pelo ritmo real da mudança
+institucional: curto prazo até dois anos, para alterações dentro do quadro legal
+existente, como circulares administrativas ou revisão de procedimentos internos; médio
+prazo de três a cinco anos, para alterações legislativas ou regulamentares, novas
+configurações de sistemas e reforço substancial de capacidade; longo prazo acima de
+cinco anos, para mudanças estruturais que não podem ser aceleradas sem risco de
+reversão.
+
+O documento é insistente num ponto de processo: a coordenação entre o Ministério das
+Finanças e o Ministério da Saúde é frequentemente o fator decisivo entre uma reforma
+que avança e uma que estagna, porque as alavancas financeiras que afetam a prestação
+estão sob autoridade das Finanças enquanto a procura de mudança nasce na Saúde. Pede,
+por isso, que a equipa classifique cada recomendação segundo quem tem de agir —
+Finanças, Saúde, ou decisão conjunta — e que identifique o mecanismo de coordenação
+através do qual a implementação será conduzida.
+
+### As fronteiras do instrumento
+
+Compreender o que o FinHealth recusa fazer é metade de compreender o que faz.
+
+**Não investiga em profundidade obstáculos não financeiros.** Podem ser documentados
+como contexto, para sinalizar que são necessárias medidas complementares, mas não são
+analisados nem geram recomendações.
+
+**Não recomenda mais financiamento.** A secção 2.4 é explícita: o nível de
+financiamento é uma escolha de política e não um gargalo de gestão financeira. Onde o
+subfinanciamento seja fator contribuinte evidente, regista-se como obstáculo não
+financeiro. Esta fronteira é o que torna o instrumento genuinamente complementar da
+Matriz de Progresso do Financiamento da Saúde (*Health Financing Progress Matrix*) da
+OMS, que avalia precisamente a mobilização de receita, o agrupamento de fundos e a
+compra.
+
+**Não faz avaliação aprofundada de economia política.** Usa apenas o que a equipa
+aprendeu durante o trabalho, para identificar ações inviáveis à partida e explorar
+alternativas mais compatíveis com os incentivos existentes.
+
+**Não avalia os serviços.** Esta é a fronteira com mais consequência e a que passa mais
+despercebida. O documento declara-se agnóstico quanto ao quadro de análise da prestação
+e limita-se a listar quatro possibilidades na Caixa 2.3 — análise de gargalos de oferta
+e procura, o quadro Disponibilidade, Acessibilidade, Aceitabilidade e Qualidade
+derivado de Tanahashi, a Avaliação de Disponibilidade e Prontidão dos Serviços
+(*Service Availability and Readiness Assessment*, SARA), e revisões de programas de
+saúde. E instrui as equipas a usar análise e informação já existentes em vez de recolher
+dados novos.
+
+Há ainda um corte adicional, mais subtil. O problema de serviço é definido ao nível do
+produto (*output*), não do desfecho (*outcome*). Disponibilidade de redes mosquiteiras
+tratadas é um produto; taxa de infeção e mortalidade por malária é um desfecho, e o
+documento afirma que desfechos são demasiado elevados para servirem de enunciado de
+problema. Ora, a efetividade é uma propriedade do desfecho. Ao ancorar-se no produto, o
+FinHealth deixa a efetividade dos serviços fora do seu campo de visão por construção do
+método, não por omissão.
+
+Daqui decorre um limite que qualquer equipa deve ter presente: a qualidade de uma
+avaliação FinHealth está limitada, no seu topo, pela qualidade da avaliação de serviços
+que a alimenta. O instrumento não a produz, não a valida e não a critica.
+
+### Relação com os outros instrumentos
+
+A Matriz de Progresso do Financiamento da Saúde, da OMS, é mencionada uma única vez em
+todo o documento. Está na secção 2.2 (p. 6), entre as fontes de evidência já existentes
+a aproveitar no mapeamento, ao lado das Ferramentas de Avaliação do Financiamento e das
+Revisões da Despesa Pública (*Public Expenditure Review*) do Banco Mundial.
+
+O estatuto que lhe é dado é, portanto, o de entrada de informação para um passo
+intermédio. Não há tabela de correspondência entre os dois instrumentos, nem orientação
+sobre sequenciamento. Quem quiser articulá-los numa avaliação nacional terá de construir
+essa articulação.
+
+A divisão de trabalho que decorre das respetivas definições é, ainda assim, nítida. A
+Matriz de Progresso avalia o sistema de financiamento contra atributos desejáveis, de
+cima para baixo, e produz uma classificação comparável no tempo. O FinHealth parte de
+falhas concretas de prestação, de baixo para cima, e produz um diagrama causal e uma
+matriz de ações. Um responde onde está o sistema de financiamento; o outro responde
+porque é que o dinheiro existente não chega à unidade sanitária a tempo e na forma
+certa.
+
+A segunda versão absorveu a literatura da OMS sobre gestão financeira e saúde sem
+absorver a Matriz. Entre as referências constam o trabalho de Cashin de 2017 sobre
+alinhamento entre gestão das finanças públicas e financiamento da saúde, o documento de
+trabalho de Barroy e colegas de 2019 sobre gargalos financeiros em África, o documento
+conjunto OMS e Banco Mundial de 2025 sobre execução orçamental na saúde, a nota da OMS
+de 2025 sobre orçamentação por programas no financiamento dos cuidados primários, e a
+nota da OMS de 2022 sobre financiamento direto das unidades sanitárias.
+
+Há um último elemento de posicionamento. A segunda versão declara-se alinhada com a
+Outcome-Led PFM Initiative, iniciativa do Banco Mundial para gestão das finanças
+públicas orientada a resultados. O FinHealth deixa assim de ser um instrumento
+sectorial isolado e passa a ser a aplicação à saúde de uma metodologia transversal do
+banco, o que tem a vantagem prática de fazer com que as recomendações produzidas falem
+a linguagem que os ministérios das finanças e o próprio banco já usam noutros sectores.
+
+## Problemas de serviço: a Tabela 2.2
+
+O subcapítulo anterior estabeleceu o paradigma: o FinHealth parte de uma falha
+observável na prestação e só depois pergunta que regras financeiras a produzem. A
+Tabela 2.2 é a peça que torna essa inversão operacional.
+
+Sem ela, "partir do problema" seria uma boa intenção metodológica: a equipa
+identificaria uma rutura de stock e ficaria sem saber onde procurar. A tabela dá o
+ponto de entrada — para cada problema de serviço reconhecível no terreno, que gargalos
+de PFM interrogar.
 
 É também o índice do documento inteiro. Cada gargalo aparece com o seu código de
-secção, e essas secções são o capítulo 3, onde cada gargalo traz definição, causas
-raiz e perguntas diagnósticas. Quem usa o FinHealth em campo entra por esta tabela.
+secção, e essas secções são o capítulo 3, onde cada um traz definição, causas raiz e
+perguntas diagnósticas. Quem usa o FinHealth em campo entra por esta tabela.
 
-#### Os 21 gargalos, por fase do ciclo
+### Os 21 gargalos, por fase do ciclo
 
 Os códigos usados na tabela seguinte remetem para estas secções. A cor indica a fase
 do ciclo orçamental, o que permite ver de relance se um problema é sobretudo de
@@ -72,7 +284,7 @@ planeamento, de execução ou de prestação de contas.
 | [3.3]{.pfm-3} **Relato, auditoria e avaliação *ex-post*** | **3.3.1** Relato financeiro *ex-post* inadequado e pouco fiável · **3.3.2** Monitorização e avaliação de resultados ausentes ou fracas |
 | [3.4]{.pfm-4} **Outros** | **3.4.1** Gestão de ativos fraca · **3.4.2** Múltiplos requisitos de PFM associados a diferentes fontes de financiamento · **3.4.3** Mecanismos de PFM incompatíveis com as necessidades de compra estratégica · **3.4.4** Não aplicação de modelos de financiamento baseados em fórmula entre níveis de governo · **3.4.5** Transferências orçamentais disfuncionais para as entidades compradoras |
 
-#### Tabela 2.2 — Problemas de serviço de saúde e gargalos de PFM a explorar
+### A tabela
 
 Passe o cursor sobre um código para ver o nome do gargalo.
 
@@ -115,7 +327,7 @@ matriz de 25 × 21, isso é uma densidade de 28%. Três leituras saem daí.
 para 5,9 gargalos — de um mínimo de 3 a um máximo de 10. Não existe o diagnóstico
 "a rutura de stock deve-se ao gargalo X". A tabela não é um dicionário de tradução; é
 uma lista de suspeitos a interrogar. O trabalho de decidir quais estão efetivamente a
-operar em Angola é a análise causal do passo 3, e nenhuma tabela o dispensa.
+operar em Angola é a análise causal do passo 2.3, e nenhuma tabela o dispensa.
 
 **Dois gargalos atravessam quase tudo.** A falta de credibilidade orçamental
 ([3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"}) aparece em 14 dos 25
@@ -129,11 +341,12 @@ avaliação com tempo limitado, são o sítio por onde começar.
 ([3.1.3]{.pfm-1 title="Classificação orçamental não facilita a afetação às prioridades"})
 aparece em apenas 2 dos 25 problemas, e as transferências para entidades compradoras
 ([3.4.5]{.pfm-4 title="Transferências orçamentais disfuncionais para as entidades compradoras"})
-em nenhum. São gargalos reais, com secção própria no capítulo 3, mas que a tabela não
-associa a sintomas de serviço comuns. Num diagnóstico convencional por domínios, uma
-classificação orçamental deficiente apareceria como fraqueza a corrigir. Aqui, aparece
-como algo que pode esperar — a menos que o problema escolhido seja precisamente um
-dos dois que a envolvem.
+em nenhum — é o único dos 21 gargalos que a tabela não associa a nenhum problema. São
+gargalos reais, com secção própria no capítulo 3, mas que a tabela não liga a sintomas
+de serviço comuns. Num diagnóstico convencional por domínios, uma classificação
+orçamental deficiente apareceria como fraqueza a corrigir. Aqui, aparece como algo que
+pode esperar — a menos que o problema escolhido seja precisamente um dos dois que a
+envolvem.
 
 ::: {.callout-important title="Consequência para a frente de PFM em Angola"}
 A ordem de trabalho que esta tabela impõe é clara: **primeiro escolher e priorizar o
@@ -142,3 +355,18 @@ a avaliação angolana começar por inventariar fraquezas do sistema de finança
 públicas, produz-se um relatório tecnicamente correto e sem ordem de prioridade — que
 é exatamente o que o FinHealth 2.0 foi desenhado para evitar.
 :::
+
+## Fonte
+
+*FinHealth Toolkit 2.0: Public Financial Management (PFM) in the Health Diagnostic
+Toolkit.* Banco Mundial e Organização Mundial da Saúde, junho de 2026. Versão não
+diagramada. As páginas citadas neste capítulo remetem para o índice do próprio
+documento.
+
+Publicações referidas:
+
+- *Programme-based budgeting for primary care financing: insights for practitioners.*
+  OMS, 18 de março de 2025. <https://www.who.int/publications/i/item/B09324>
+- *FinHealth: PFM in Health Toolkit* (primeira versão). Banco Mundial, dezembro de
+  2019.
+  <https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099191502152313348>
