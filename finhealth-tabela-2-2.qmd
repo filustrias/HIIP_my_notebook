@@ -28,6 +28,8 @@ planeamento, de execução ou de prestação de contas.
 | [3.3]{.pfm-3} **Relato, auditoria e avaliação *ex-post*** | **3.3.1** Relato financeiro *ex-post* inadequado e pouco fiável · **3.3.2** Monitorização e avaliação de resultados ausentes ou fracas |
 | [3.4]{.pfm-4} **Outros** | **3.4.1** Gestão de ativos fraca · **3.4.2** Múltiplos requisitos de PFM associados a diferentes fontes de financiamento · **3.4.3** Mecanismos de PFM incompatíveis com as necessidades de compra estratégica · **3.4.4** Não aplicação de modelos de financiamento baseados em fórmula entre níveis de governo · **3.4.5** Transferências orçamentais disfuncionais para as entidades compradoras |
 
+: {tbl-colwidths="[22,78]"}
+
 ## A tabela
 
 Passe o cursor sobre um código para ver o nome do gargalo.
