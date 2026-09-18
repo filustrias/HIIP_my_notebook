@@ -68,6 +68,10 @@ font-weight: 600;
 .cov-partial,
 .cov-weak,
 .cov-absent,
+.pfm-1,
+.pfm-2,
+.pfm-3,
+.pfm-4,
 .st-none {
   display: inline-block;
   font-family: $headings-font-family;
@@ -165,4 +169,49 @@ font-weight: 600;
   .cov-partial { color: #f0b350; }
   .cov-weak    { color: #f2837c; }
   .cov-absent  { color: #9aa4b2; }
+}
+
+/* Códigos de gargalo do FinHealth, coloridos pela fase do ciclo orçamental
+   (3.1 preparação, 3.2 execução, 3.3 relato, 3.4 outros). Escala nominal:
+   as quatro cores distinguem-se sem sugerir ordem. */
+.pfm-1,
+.pfm-2,
+.pfm-3,
+.pfm-4 {
+  font-family: $font-family-monospace;
+  font-size: 0.74em;
+  letter-spacing: 0;
+  margin: 0.1em 0.12em 0.1em 0;
+  cursor: help;
+}
+
+.pfm-1 {
+  color: #1c62c4;
+  background: rgba(35, 110, 210, 0.13);
+  border-color: rgba(35, 110, 210, 0.32);
+}
+
+.pfm-2 {
+  color: #0f7a6c;
+  background: rgba(17, 148, 130, 0.14);
+  border-color: rgba(17, 148, 130, 0.34);
+}
+
+.pfm-3 {
+  color: #7a4bb8;
+  background: rgba(130, 85, 200, 0.14);
+  border-color: rgba(130, 85, 200, 0.34);
+}
+
+.pfm-4 {
+  color: #8a6212;
+  background: rgba(180, 130, 30, 0.15);
+  border-color: rgba(180, 130, 30, 0.34);
+}
+
+.quarto-dark {
+  .pfm-1 { color: #79aef5; }
+  .pfm-2 { color: #4fc9b5; }
+  .pfm-3 { color: #b89af0; }
+  .pfm-4 { color: #e0b65c; }
 }

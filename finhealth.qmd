@@ -1,0 +1,144 @@
+---
+title: "FinHealth 2.0"
+---
+
+O FinHealth é o instrumento da Organização Mundial da Saúde (OMS) e do Banco Mundial
+para diagnosticar de que forma as regras de gestão das finanças públicas — daqui em
+diante **PFM**, na sigla inglesa de *public financial management* — prejudicam a
+prestação de serviços de saúde. Esta parte do caderno trabalha a versão 2.0, de julho
+de 2026.
+
+Interessa ao HIIP de forma direta: a frente de PFM do plano prevê uma avaliação do
+setor da saúde em Angola, e o FinHealth é a metodologia que a estrutura.
+
+## Problemas de serviço como ponto de partida
+
+O que distingue o FinHealth de outros instrumentos de avaliação de finanças públicas
+não é a lista de temas que cobre — é **por onde começa**.
+
+Um diagnóstico convencional de PFM parte do próprio sistema financeiro. Percorre os
+domínios do ciclo orçamental — preparação, execução, relato, auditoria — e classifica
+o desempenho de cada um. É o que faz o PEFA, com os seus indicadores pontuados. O
+produto é um retrato da qualidade da gestão financeira, e a pergunta implícita é "este
+sistema de finanças públicas está conforme as boas práticas?".
+
+O FinHealth inverte a ordem. Parte de um **problema observável na prestação de
+serviços** — as unidades ficam sem medicamentos, os doentes esperam meses, o
+equipamento existe mas não funciona — e só depois pergunta que regras financeiras
+contribuem para o produzir. A pergunta passa a ser "porque é que isto está a
+acontecer nesta unidade sanitária, e o que na gestão financeira o causa?".
+
+A diferença não é de ênfase, é de consequência. Um diagnóstico que parte dos domínios
+produz uma lista de fraquezas técnicas, todas verdadeiras e nenhuma hierarquizada: a
+classificação orçamental não é funcional, o relato é tardio, os controlos são fracos.
+Um diagnóstico que parte do problema produz uma cadeia causal com um destinatário
+claro — e, sobretudo, um critério para decidir o que **não** vale a pena corrigir
+agora. Uma fraqueza de PFM que não esteja a estrangular nenhum serviço pode esperar.
+
+::: {.callout-note title="Definição de gargalo no FinHealth"}
+Um gargalo de PFM é *uma regra ou prática de gestão financeira que é causa
+subjacente significativa do problema de serviço de saúde selecionado*. A qualificação
+importa: não basta que a regra seja tecnicamente má, tem de estar ligada ao problema
+que se escolheu resolver.
+:::
+
+O documento é explícito sobre os limites desta abordagem. A lista de problemas e
+gargalos não pretende ser exaustiva, e a análise causal reconhece que existem
+obstáculos não financeiros — mas não os investiga em profundidade. O FinHealth não se
+propõe explicar tudo o que corre mal num sistema de saúde; propõe-se explicar a parte
+que a gestão das finanças públicas causa.
+
+### O mapa entre os dois mundos
+
+A Tabela 2.2 é a peça que torna essa inversão operacional. Sem ela, "partir do
+problema" seria uma boa intenção metodológica: a equipa identificaria uma rutura de
+stock e ficaria sem saber onde procurar. A tabela dá o ponto de entrada — para cada
+problema de serviço reconhecível no terreno, que gargalos de PFM interrogar.
+
+É também o índice do documento inteiro. Cada gargalo aparece com o seu código de
+secção, e essas secções são o capítulo 3, onde cada gargalo traz definição, causas
+raiz e perguntas diagnósticas. Quem usa o FinHealth em campo entra por esta tabela.
+
+#### Os 21 gargalos, por fase do ciclo
+
+Os códigos usados na tabela seguinte remetem para estas secções. A cor indica a fase
+do ciclo orçamental, o que permite ver de relance se um problema é sobretudo de
+planeamento, de execução ou de prestação de contas.
+
+| Fase | Gargalos |
+|:--|:--|
+| [3.1]{.pfm-1} **Preparação e aprovação do orçamento** | **3.1.1** Integração inadequada entre planeamento e orçamentação · **3.1.2** Escrutínio inadequado da despesa · **3.1.3** A classificação orçamental não facilita a afetação às prioridades do governo · **3.1.4** As implicações de custo plurianuais não são devidamente consideradas nas decisões orçamentais · **3.1.5** Falta de credibilidade orçamental · **3.1.6** Rigidez excessiva nas dotações orçamentais · **3.1.7** Planeamento e orçamentação inadequados do emprego e da remuneração no setor público |
+| [3.2]{.pfm-2} **Execução orçamental** | **3.2.1** Dificuldades no fluxo de fundos · **3.2.2** Controlos de execução orçamental fracos · **3.2.3** Processos de contratação pública fracos · **3.2.4** Gestão de existências inadequada · **3.2.5** Reforços orçamentais difíceis de obter · **3.2.6** Gestão contratual de projetos de investimento fraca · **3.2.7** Execução orçamental do emprego público fraca |
+| [3.3]{.pfm-3} **Relato, auditoria e avaliação *ex-post*** | **3.3.1** Relato financeiro *ex-post* inadequado e pouco fiável · **3.3.2** Monitorização e avaliação de resultados ausentes ou fracas |
+| [3.4]{.pfm-4} **Outros** | **3.4.1** Gestão de ativos fraca · **3.4.2** Múltiplos requisitos de PFM associados a diferentes fontes de financiamento · **3.4.3** Mecanismos de PFM incompatíveis com as necessidades de compra estratégica · **3.4.4** Não aplicação de modelos de financiamento baseados em fórmula entre níveis de governo · **3.4.5** Transferências orçamentais disfuncionais para as entidades compradoras |
+
+#### Tabela 2.2 — Problemas de serviço de saúde e gargalos de PFM a explorar
+
+Passe o cursor sobre um código para ver o nome do gargalo.
+
+| # | Problema de serviço de saúde | Gargalos a explorar |
+|--:|:---|:---|
+| 1 | **Não há pessoal suficiente nas unidades sanitárias.** As unidades podem não conseguir contratar ou reter pessoal com as competências adequadas, o que prejudica tanto o acesso como a qualidade dos serviços. | [3.1.7]{.pfm-1 title="Planeamento e orçamentação inadequados do emprego e da remuneração no setor público"} [3.2.7]{.pfm-2 title="Execução orçamental do emprego público fraca"} [3.4.4]{.pfm-4 title="Não aplicação de modelos de financiamento baseados em fórmula entre níveis de governo"} |
+| 2 | **A produtividade do pessoal é baixa.** O pessoal pode estar insuficientemente incentivado, faltar com frequência ou acumular trabalho no setor privado. Afeta a eficiência e a qualidade dos serviços. | [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.1.7]{.pfm-1 title="Planeamento e orçamentação inadequados do emprego público"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.7]{.pfm-2 title="Execução orçamental do emprego público fraca"} [3.3.2]{.pfm-3 title="Monitorização e avaliação de resultados ausentes ou fracas"} |
+| 3 | **Há remuneração injustificada, com perdas de eficiência.** Pagamentos a funcionários fantasma ou incentivos indevidos podem passar sem controlo. | [3.1.2]{.pfm-1 title="Escrutínio inadequado da despesa"} [3.1.7]{.pfm-1 title="Planeamento e orçamentação inadequados do emprego público"} [3.2.2]{.pfm-2 title="Controlos de execução orçamental fracos"} [3.2.7]{.pfm-2 title="Execução orçamental do emprego público fraca"} |
+| 4 | **Falta equipamento médico.** A indisponibilidade de equipamento ou consumíveis adequados afeta a qualidade e o acesso aos serviços. | [3.1.1]{.pfm-1 title="Integração inadequada entre planeamento e orçamentação"} [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.3]{.pfm-2 title="Processos de contratação pública fracos"} [3.2.4]{.pfm-2 title="Gestão de existências inadequada"} [3.4.1]{.pfm-4 title="Gestão de ativos fraca"} |
+| 5 | **O equipamento médico não serve o propósito.** O equipamento existe, mas pode ser de qualidade inferior, estar avariado ou não ser o mais adequado às exigências da prestação. | [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.3]{.pfm-2 title="Processos de contratação pública fracos"} [3.2.4]{.pfm-2 title="Gestão de existências inadequada"} [3.3.2]{.pfm-3 title="Monitorização e avaliação de resultados ausentes ou fracas"} [3.4.1]{.pfm-4 title="Gestão de ativos fraca"} |
+| 6 | **A infraestrutura sanitária não corresponde às necessidades.** Pode haver ineficiência considerável por excesso de unidades, ou problemas de acesso por escassez delas. | [3.1.1]{.pfm-1 title="Integração inadequada entre planeamento e orçamentação"} [3.1.4]{.pfm-1 title="Implicações de custo plurianuais não consideradas"} [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.2.6]{.pfm-2 title="Gestão contratual de projetos de investimento fraca"} [3.4.1]{.pfm-4 title="Gestão de ativos fraca"} [3.4.4]{.pfm-4 title="Não aplicação de modelos de financiamento baseados em fórmula"} |
+| 7 | **A infraestrutura das unidades está mal conservada.** Infraestrutura crítica para a prestação pode estar a deteriorar-se por falta de manutenção adequada. | [3.1.4]{.pfm-1 title="Implicações de custo plurianuais não consideradas"} [3.1.6]{.pfm-1 title="Rigidez excessiva nas dotações orçamentais"} [3.2.2]{.pfm-2 title="Controlos de execução orçamental fracos"} [3.4.1]{.pfm-4 title="Gestão de ativos fraca"} |
+| 8 | **A construção de infraestruturas demora mais do que devia.** Atrasos significativos na conclusão de obras afetam invariavelmente a eficiência e o acesso aos cuidados. | [3.1.1]{.pfm-1 title="Integração inadequada entre planeamento e orçamentação"} [3.1.2]{.pfm-1 title="Escrutínio inadequado da despesa"} [3.1.4]{.pfm-1 title="Implicações de custo plurianuais não consideradas"} [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.1.6]{.pfm-1 title="Rigidez excessiva nas dotações orçamentais"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.3]{.pfm-2 title="Processos de contratação pública fracos"} [3.2.6]{.pfm-2 title="Gestão contratual de projetos de investimento fraca"} [3.4.4]{.pfm-4 title="Não aplicação de modelos de financiamento baseados em fórmula"} |
+| 9 | **A infraestrutura custa mais do que devia.** Derrapagens de custo em projetos de investimento afetam a eficiência e a disponibilidade de recursos no setor. | [3.1.1]{.pfm-1 title="Integração inadequada entre planeamento e orçamentação"} [3.1.2]{.pfm-1 title="Escrutínio inadequado da despesa"} [3.1.4]{.pfm-1 title="Implicações de custo plurianuais não consideradas"} [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.3]{.pfm-2 title="Processos de contratação pública fracos"} [3.2.6]{.pfm-2 title="Gestão contratual de projetos de investimento fraca"} |
+| 10 | **As unidades estão subutilizadas.** Taxas de utilização baixas afetam a eficiência da prestação de serviços. | [3.1.1]{.pfm-1 title="Integração inadequada entre planeamento e orçamentação"} [3.1.2]{.pfm-1 title="Escrutínio inadequado da despesa"} [3.3.2]{.pfm-3 title="Monitorização e avaliação de resultados ausentes ou fracas"} [3.4.3]{.pfm-4 title="Mecanismos de PFM incompatíveis com a compra estratégica"} [3.4.4]{.pfm-4 title="Não aplicação de modelos de financiamento baseados em fórmula"} |
+| 11 | **Há ruturas de stock de consumíveis médicos.** As unidades ficam sem medicamentos, combustível ou outros consumíveis necessários à prestação. | [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.2]{.pfm-2 title="Controlos de execução orçamental fracos"} [3.2.3]{.pfm-2 title="Processos de contratação pública fracos"} [3.2.4]{.pfm-2 title="Gestão de existências inadequada"} [3.2.5]{.pfm-2 title="Reforços orçamentais difíceis de obter"} [3.4.2]{.pfm-4 title="Múltiplos requisitos de PFM associados a diferentes fontes de financiamento"} |
+| 12 | **Há desperdício de consumíveis médicos.** Por exemplo, medicamentos que expiram antes de poderem ser usados. | [3.2.3]{.pfm-2 title="Processos de contratação pública fracos"} [3.2.4]{.pfm-2 title="Gestão de existências inadequada"} [3.3.2]{.pfm-3 title="Monitorização e avaliação de resultados ausentes ou fracas"} |
+| 13 | **Os consumíveis médicos não servem o propósito.** Consumíveis de má qualidade, contrafeitos ou do tipo errado afetam a qualidade e a eficiência da prestação. | [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.3]{.pfm-2 title="Processos de contratação pública fracos"} [3.3.2]{.pfm-3 title="Monitorização e avaliação de resultados ausentes ou fracas"} |
+| 14 | **Os consumíveis médicos custam demasiado.** Custos inflacionados reduzem o volume e a qualidade dos serviços que as unidades conseguem prestar, e, quando repercutidos no doente, desincentivam a procura, sobretudo entre os mais pobres. | [3.1.2]{.pfm-1 title="Escrutínio inadequado da despesa"} [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.2]{.pfm-2 title="Controlos de execução orçamental fracos"} [3.2.3]{.pfm-2 title="Processos de contratação pública fracos"} [3.2.4]{.pfm-2 title="Gestão de existências inadequada"} [3.4.2]{.pfm-4 title="Múltiplos requisitos de PFM associados a diferentes fontes"} [3.4.3]{.pfm-4 title="Mecanismos de PFM incompatíveis com a compra estratégica"} |
+| 15 | **Os custos de estrutura são demasiado elevados.** Administração, formação e deslocações absorvem uma fatia desproporcionada do orçamento, deixando menos recursos para a linha da frente. Estruturas administrativas duplicadas e o esforço de conformidade com múltiplas fontes agravam o problema. | [3.1.2]{.pfm-1 title="Escrutínio inadequado da despesa"} [3.1.7]{.pfm-1 title="Planeamento e orçamentação inadequados do emprego público"} [3.2.2]{.pfm-2 title="Controlos de execução orçamental fracos"} [3.2.7]{.pfm-2 title="Execução orçamental do emprego público fraca"} [3.3.1]{.pfm-3 title="Relato financeiro ex-post inadequado e pouco fiável"} [3.4.2]{.pfm-4 title="Múltiplos requisitos de PFM associados a diferentes fontes"} [3.4.3]{.pfm-4 title="Mecanismos de PFM incompatíveis com a compra estratégica"} |
+| 16 | **Os custos de tratamento sobem por uma combinação ineficiente de fatores.** Por exemplo, um especialista hospitalar a executar uma tarefa de rotina — uma vacinação, uma medição de tensão — que um enfermeiro de cuidados primários faria a um custo salarial muito inferior. | [3.1.1]{.pfm-1 title="Integração inadequada entre planeamento e orçamentação"} [3.1.2]{.pfm-1 title="Escrutínio inadequado da despesa"} [3.1.7]{.pfm-1 title="Planeamento e orçamentação inadequados do emprego público"} [3.2.7]{.pfm-2 title="Execução orçamental do emprego público fraca"} [3.3.2]{.pfm-3 title="Monitorização e avaliação de resultados ausentes ou fracas"} [3.4.3]{.pfm-4 title="Mecanismos de PFM incompatíveis com a compra estratégica"} |
+| 17 | **Os preços que o governo paga aos prestadores são demasiado altos.** Os pagamentos não estão ligados a produtos ou serviços e são elevados face ao custo do que é prestado. | [3.1.2]{.pfm-1 title="Escrutínio inadequado da despesa"} [3.2.2]{.pfm-2 title="Controlos de execução orçamental fracos"} [3.3.1]{.pfm-3 title="Relato financeiro ex-post inadequado e pouco fiável"} [3.3.2]{.pfm-3 title="Monitorização e avaliação de resultados ausentes ou fracas"} [3.4.3]{.pfm-4 title="Mecanismos de PFM incompatíveis com a compra estratégica"} |
+| 18 | **Os doentes ficam sem tratamento ou esperam demasiado tempo.** Sem fundos para manter pessoal e equipamento ou comprar consumíveis, a capacidade de tratar fica limitada. As barreiras de acesso recaem desproporcionadamente sobre os mais pobres e, com o tempo, corroem a confiança no sistema público. | [3.1.1]{.pfm-1 title="Integração inadequada entre planeamento e orçamentação"} [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.1.6]{.pfm-1 title="Rigidez excessiva nas dotações orçamentais"} [3.1.7]{.pfm-1 title="Planeamento e orçamentação inadequados do emprego público"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.5]{.pfm-2 title="Reforços orçamentais difíceis de obter"} [3.2.7]{.pfm-2 title="Execução orçamental do emprego público fraca"} [3.4.4]{.pfm-4 title="Não aplicação de modelos de financiamento baseados em fórmula"} |
+| 19 | **Há tratamento desnecessário, de má qualidade ou diagnósticos errados.** Por exemplo, pedir uma ressonância magnética cara a um doente com lombalgia mecânica simples, em vez de começar por fisioterapia: expõe a radiação desnecessária, desperdiça dinheiro e atrasa a recuperação. | [3.1.2]{.pfm-1 title="Escrutínio inadequado da despesa"} [3.1.7]{.pfm-1 title="Planeamento e orçamentação inadequados do emprego público"} [3.2.7]{.pfm-2 title="Execução orçamental do emprego público fraca"} [3.3.1]{.pfm-3 title="Relato financeiro ex-post inadequado e pouco fiável"} [3.3.2]{.pfm-3 title="Monitorização e avaliação de resultados ausentes ou fracas"} [3.4.3]{.pfm-4 title="Mecanismos de PFM incompatíveis com a compra estratégica"} |
+| 20 | **Há desigualdades demográficas e regionais na prestação.** O acesso varia entre grupos populacionais: os agregados urbanos podem estar melhor ligados aos prestadores do que os residentes em zonas rurais remotas, com longos tempos de deslocação. | [3.1.1]{.pfm-1 title="Integração inadequada entre planeamento e orçamentação"} [3.1.3]{.pfm-1 title="Classificação orçamental não facilita a afetação às prioridades"} [3.1.4]{.pfm-1 title="Implicações de custo plurianuais não consideradas"} [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.1.7]{.pfm-1 title="Planeamento e orçamentação inadequados do emprego público"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.7]{.pfm-2 title="Execução orçamental do emprego público fraca"} [3.3.2]{.pfm-3 title="Monitorização e avaliação de resultados ausentes ou fracas"} [3.4.2]{.pfm-4 title="Múltiplos requisitos de PFM associados a diferentes fontes"} [3.4.4]{.pfm-4 title="Não aplicação de modelos de financiamento baseados em fórmula"} |
+| 21 | **Há cobranças indevidas aos doentes.** As unidades podem impor pagamentos diretos discricionários, inconsistentes com a política do governo. Cria problemas de acesso e sobrecarrega financeiramente o doente. | [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.1.7]{.pfm-1 title="Planeamento e orçamentação inadequados do emprego público"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.2]{.pfm-2 title="Controlos de execução orçamental fracos"} [3.2.7]{.pfm-2 title="Execução orçamental do emprego público fraca"} [3.4.4]{.pfm-4 title="Não aplicação de modelos de financiamento baseados em fórmula"} |
+| 22 | **O sistema responde mal a emergências de saúde pública.** Falta agilidade para alterar o tipo e o volume de serviços na sequência de uma emergência. | [3.1.6]{.pfm-1 title="Rigidez excessiva nas dotações orçamentais"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.2.3]{.pfm-2 title="Processos de contratação pública fracos"} [3.2.5]{.pfm-2 title="Reforços orçamentais difíceis de obter"} |
+| 23 | **Alguns serviços recebem uma fatia demasiado pequena da despesa pública em saúde**, por exemplo os cuidados primários. A repartição do financiamento entre tipos de serviço não reflete as prioridades nem os benefícios que esses serviços geram. | [3.1.1]{.pfm-1 title="Integração inadequada entre planeamento e orçamentação"} [3.1.2]{.pfm-1 title="Escrutínio inadequado da despesa"} [3.1.3]{.pfm-1 title="Classificação orçamental não facilita a afetação às prioridades"} [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.3.2]{.pfm-3 title="Monitorização e avaliação de resultados ausentes ou fracas"} [3.4.3]{.pfm-4 title="Mecanismos de PFM incompatíveis com a compra estratégica"} [3.4.4]{.pfm-4 title="Não aplicação de modelos de financiamento baseados em fórmula"} |
+| 24 | **Mandatos de serviço subfinanciados geram ineficiências.** Pede-se a unidades ou a governos subnacionais que prestem serviços novos ou alargados, sem lhes dar os fundos adicionais para o fazer. | [3.1.1]{.pfm-1 title="Integração inadequada entre planeamento e orçamentação"} [3.1.4]{.pfm-1 title="Implicações de custo plurianuais não consideradas"} [3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"} [3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"} [3.4.4]{.pfm-4 title="Não aplicação de modelos de financiamento baseados em fórmula"} |
+| 25 | **Há indícios de fraude ou uso indevido de fundos.** Recursos que deviam tornar-se serviços, consumíveis ou pessoal são desviados do cuidado ao doente. Mesmo quando não é generalizada, a fraude sinaliza fraquezas sistémicas de supervisão que deixam persistir outras ineficiências. | [3.1.2]{.pfm-1 title="Escrutínio inadequado da despesa"} [3.2.2]{.pfm-2 title="Controlos de execução orçamental fracos"} [3.2.3]{.pfm-2 title="Processos de contratação pública fracos"} [3.3.1]{.pfm-3 title="Relato financeiro ex-post inadequado e pouco fiável"} [3.3.2]{.pfm-3 title="Monitorização e avaliação de resultados ausentes ou fracas"} [3.4.2]{.pfm-4 title="Múltiplos requisitos de PFM associados a diferentes fontes"} |
+
+: Adaptado de FinHealth 2.0, Tabela 2.2. {tbl-colwidths="[4,48,48]"}
+
+### O que a estrutura do mapa revela
+
+Contadas as ligações, a tabela liga 25 problemas a 20 gargalos por **147 setas**. Numa
+matriz de 25 × 21, isso é uma densidade de 28%. Três leituras saem daí.
+
+**A relação é de muitos para muitos, e isso é o ponto.** Cada problema aponta em média
+para 5,9 gargalos — de um mínimo de 3 a um máximo de 10. Não existe o diagnóstico
+"a rutura de stock deve-se ao gargalo X". A tabela não é um dicionário de tradução; é
+uma lista de suspeitos a interrogar. O trabalho de decidir quais estão efetivamente a
+operar em Angola é a análise causal do passo 3, e nenhuma tabela o dispensa.
+
+**Dois gargalos atravessam quase tudo.** A falta de credibilidade orçamental
+([3.1.5]{.pfm-1 title="Falta de credibilidade orçamental"}) aparece em 14 dos 25
+problemas e as dificuldades no fluxo de fundos
+([3.2.1]{.pfm-2 title="Dificuldades no fluxo de fundos"}) em 13. Traduzido: se o
+orçamento aprovado não é o orçamento executado, e se o dinheiro não chega a horas a
+quem presta, quase todos os sintomas de terreno ficam explicados em parte. Para uma
+avaliação com tempo limitado, são o sítio por onde começar.
+
+**O oposto também informa.** A classificação orçamental
+([3.1.3]{.pfm-1 title="Classificação orçamental não facilita a afetação às prioridades"})
+aparece em apenas 2 dos 25 problemas, e as transferências para entidades compradoras
+([3.4.5]{.pfm-4 title="Transferências orçamentais disfuncionais para as entidades compradoras"})
+em nenhum. São gargalos reais, com secção própria no capítulo 3, mas que a tabela não
+associa a sintomas de serviço comuns. Num diagnóstico convencional por domínios, uma
+classificação orçamental deficiente apareceria como fraqueza a corrigir. Aqui, aparece
+como algo que pode esperar — a menos que o problema escolhido seja precisamente um
+dos dois que a envolvem.
+
+::: {.callout-important title="Consequência para a frente de PFM em Angola"}
+A ordem de trabalho que esta tabela impõe é clara: **primeiro escolher e priorizar o
+problema de serviço**, depois deixar que a tabela indique os gargalos a investigar. Se
+a avaliação angolana começar por inventariar fraquezas do sistema de finanças
+públicas, produz-se um relatório tecnicamente correto e sem ordem de prioridade — que
+é exatamente o que o FinHealth 2.0 foi desenhado para evitar.
+:::
