@@ -36,7 +36,10 @@ book:
         - phcmfi-02-core-strategic-levers.qmd
         - phcmfi-03-operational-levers.qmd
         - phcmfi-04-information-access-quality.qmd
-    - finhealth.qmd
+    - part: "FinHealth 2.0"
+      chapters:
+        - finhealth-apresentacao.qmd
+        - finhealth-tabela-2-2.qmd
     - references.qmd
 
 # Rótulo do bloco de título: "Published" -> "Last update"
