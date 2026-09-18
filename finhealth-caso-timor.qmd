@@ -1,0 +1,334 @@
+---
+title: "Identificação do problema e análise causal: o caso de Timor-Leste"
+---
+
+Este capítulo percorre um caso concreto para mostrar como o FinHealth 2.0 sai do
+enunciado de um problema de serviço e chega a um diagrama causal. Usa o caso de
+Timor-Leste sobre medicamentos, documentado no Anexo 2 do próprio instrumento.
+
+Uma advertência de método antes de começar. O Anexo 2 sintetiza avaliações feitas entre
+2019 e 2023, sob a primeira versão do instrumento, e documenta o passo 1 (o problema) e
+o passo 3 (os gargalos e as causas raiz). Não documenta o passo 2 (o mapeamento) nem o
+passo 4 (as recomendações). O caso serve, por isso, para observar como o problema é
+enunciado e como a cadeia causal é construída, e serve igualmente para observar o que
+falta quando um passo é saltado.
+
+## O caso, tal como está documentado
+
+Problema de serviço: rutura e desperdício de consumíveis médicos (Anexo 2, p. 67).
+Tradução dos três achados, na íntegra.
+
+> **Libertações orçamentais atrasadas e dotações iniciais não credíveis fragmentam o
+> ciclo de aquisição e atrasam o acesso a medicamentos.** O Instituto Nacional de
+> Farmácia e Produtos Medicinais não pode iniciar as aquisições enquanto o orçamento
+> aprovado não for carregado no sistema integrado de informação de gestão financeira e
+> os orçamentos não forem libertados. As aquisições podem começar já três meses dentro
+> do ano financeiro. A dotação inicial do Instituto é significativamente inferior às
+> necessidades reais, o que força rondas de aquisição múltiplas e fragmentadas, por via
+> de alterações orçamentais e de financiamento de contingência.
+
+> **Fraca fiabilidade dos dados de stock.** Os farmacêuticos não atualizam de forma
+> consistente o mSupply, plataforma informática de gestão do fornecimento de
+> medicamentos; o Instituto e a Direção Nacional de Farmácia e Medicamentos apoiam-se em
+> folhas de cálculo e documentos de texto paralelos, que não estão refletidos na base de
+> dados do mSupply.
+
+> **Ineficiências de aquisição e de inventário.** Encomenda em excesso,
+> sobre-armazenamento, aplicação fraca da regra do primeiro a expirar é o primeiro a
+> sair, entregas atrasadas e más condições de armazenamento contribuem para expirações
+> de medicamentos.
+
+O mesmo país aparece noutros três problemas do Anexo 2, o que ajuda a ver como um
+constrangimento financeiro se propaga. Em "doentes ficam sem tratamento ou esperam
+demasiado" (p. 63), regista-se que os atrasos na preparação, aprovação e promulgação do
+orçamento, associados a ciclos eleitorais e transições políticas e refletidos num
+indicador PEFA PI-17.1 classificado como D, reduzem a previsibilidade da alocação ao
+longo do ano e afetam o calendário dos adiantamentos de tesouraria às unidades
+sanitárias e aos serviços municipais. Em "falta equipamento médico" (p. 70), as unidades
+reportam ter menos de 50 por cento do equipamento exigido pelo pacote essencial, e a
+transferência da manutenção para as autoridades municipais não foi acompanhada de
+financiamento nem de capacidade técnica.
+
+## Passo 1: identificar e enunciar o problema
+
+A secção 2.1 do instrumento (índice, p. 3) pede que o enunciado responda a três
+perguntas: o que não está a funcionar, por que é que isso importa, e onde ocorre. E
+oferece dois testes para manter o enunciado no nível certo.
+
+O primeiro teste separa problema de gargalo. Se a frase descreve o que não funciona na
+prestação, é problema; se explica por que ocorre, é gargalo. O documento avisa que,
+quando um interlocutor diz "as aquisições são lentas", a equipa deve insistir até chegar
+a "os medicamentos essenciais chegam tarde às unidades".
+
+O segundo teste separa problema de desfecho. O problema situa-se ao nível do produto, ou
+seja, do que o sistema entrega. Mortalidade materna, prevalência de malária e esperança
+de vida são desfechos, e o documento considera-os demasiado elevados para servirem de
+enunciado.
+
+### O enunciado do caso não cumpre o padrão do próprio instrumento
+
+"Rutura e desperdício de consumíveis médicos" diz o que não funciona. Diz fracamente por
+que importa, e não diz onde ocorre. Compare-se com os dois enunciados que a secção 2.1
+oferece como exemplares, ambos com local e consequência explícitos: os medicamentos
+essenciais não chegam a tempo às unidades de cuidados primários apesar de estarem
+orçamentados, o que leva a interrupções de tratamento; durante crises, os serviços de
+rotina são interrompidos e as respostas de emergência atrasam-se, resultando em mortes
+evitáveis e surtos prolongados.
+
+Um reenunciado do caso timorense no padrão exigido ficaria próximo disto: os
+medicamentos essenciais chegam tarde e em quantidades irregulares aos centros de saúde
+comunitários e postos de saúde, ao mesmo tempo que uma parte do stock expira em armazém,
+o que provoca interrupções de tratamento e desloca o custo para o bolso do doente.
+
+A diferença não é estilística. O primeiro enunciado permite qualquer recomendação sobre
+medicamentos. O segundo delimita onde procurar e contra o que medir depois.
+
+## "Não há recursos suficientes" e o que fazer com essa frase
+
+Esta é a primeira resposta que se obtém em qualquer sala onde se pergunte por que razão
+os serviços não funcionam. E é exatamente a resposta que a secção 2.4 do instrumento
+exclui, ao afirmar que o nível de financiamento é uma escolha de política e não um
+gargalo de gestão financeira, e que não cabe ao FinHealth recomendar mais financiamento.
+
+Aplicada sem cuidado, a regra invalida logo à partida aquilo que os profissionais
+consideram a causa principal, e lê-se como desvalorização da experiência de quem está no
+terreno. Aplicada com cuidado, a regra obriga a uma decomposição que é analiticamente
+útil, porque a frase "não há dinheiro suficiente" comporta pelo menos três situações
+distintas.
+
+**A dotação é baixa por decisão.** O custo é conhecido e o governo decidiu alocar menos.
+É escolha de política. Regista-se como obstáculo não financeiro e nomeia-se no relatório,
+sem gerar recomendação do FinHealth.
+
+**A dotação é baixa porque a necessidade nunca foi apurada.** Não existem normas de
+dotação de pessoal com custo calculado, nem estimativa plurianual dos custos de
+funcionamento do que se está a construir. O valor inscrito no orçamento não tem base.
+Isto é gargalo de gestão financeira, coberto pela secção 3.1.4, sobre implicações de
+custo plurianuais não consideradas nas decisões orçamentais, e pela secção 3.1.7, sobre
+planeamento e orçamentação do emprego público.
+
+**A dotação existe e não chega.** O montante é razoável, mas liberta-se tarde, liberta-se
+em parte, ou chega com regras que impedem gastá-lo no que é necessário. É a secção 3.1.5,
+credibilidade orçamental, e a secção 3.2.1, fluxo de fundos.
+
+Daqui sai uma pergunta de triagem simples, para usar em entrevista: quando alguém disser
+que falta dinheiro, perguntar se alguma vez se calculou quanto seria preciso. Se a
+resposta for não, mudou-se de categoria e o problema passou a ser de gestão financeira.
+
+O caso timorense mostra as categorias misturadas numa só frase. No achado sobre
+equipamento, as dotações são descritas como "insuficientes e imprevisíveis". A
+imprevisibilidade é claramente da terceira categoria. A insuficiência pode ser de
+qualquer uma das três, e o texto não distingue. Enquanto não se distinguir, o achado não
+gera recomendação utilizável.
+
+Há um risco no sentido inverso que convém registar. A regra pode servir para arrumar
+para fora uma constatação legítima. Um setor cronicamente subfinanciado que receba um
+relatório dizendo que o nível de financiamento está fora de âmbito tem motivo para
+desconfiar do instrumento. A integridade do método depende de o obstáculo não financeiro
+ser efetivamente nomeado, e não apenas mencionado de passagem.
+
+::: {.callout-note title="Uma nota de vocabulário"}
+Custeio tem dois sentidos que se confundem. No uso orçamental brasileiro designa a
+despesa corrente, por oposição a investimento; em Angola e Portugal diz-se despesa
+corrente (*recurrent expenditure*). No sentido de calcular quanto custa alguma coisa, a
+palavra inglesa é *costing*, e em português é mais seguro dizer apuramento ou estimativa
+de custos. Neste capítulo, "a necessidade nunca foi apurada" está no segundo sentido.
+:::
+
+## Um problema ou dois?
+
+A Tabela 2.2 do instrumento trata rutura de consumíveis (problema 11) e desperdício de
+consumíveis (problema 12) como problemas separados, com conjuntos de gargalos
+diferentes. O caso timorense mostra os dois a emergirem do mesmo encadeamento: o arranque
+tardio força rondas fragmentadas, as rondas fragmentadas combinadas com dados de stock
+maus produzem encomenda em excesso, e a encomenda em excesso com rotação fraca produz
+expirações. Falta e desperdício ao mesmo tempo, pela mesma raiz.
+
+Não há aqui uma resposta certa. Separar os dois problemas permite tratar situações em
+que só um deles ocorre — há países com rutura sem desperdício, e o inverso. Juntá-los
+reconhece que, quando ambos aparecem, tratá-los separadamente leva a recomendações que
+se anulam: reforçar a encomenda para evitar rutura agrava a expiração. É uma zona
+cinzenta do instrumento, e a equipa que o aplica tem de decidir caso a caso se o
+catálogo está a ajudar ou a fragmentar o que no terreno é um só fenómeno.
+
+## Passo 2: o mapeamento que o caso não mostra
+
+O Anexo 1 do instrumento (p. 55) especifica o que o mapeamento deve produzir. Vale a
+pena enumerá-lo, porque é assim que se torna visível o que falta no caso.
+
+**Identificar as organizações** envolvidas na prestação financiada com fundos públicos:
+órgãos de política, detentores de fundos, prestadores, e entidades de apoio e
+fiscalização.
+
+**Classificar cada organização** em três atributos: estatuto orçamental (dentro do
+orçamento ou entidade extraorçamental), nível de governo (nacional ou subnacional), e
+fonte de financiamento (dotação orçamental, seguro social de saúde, fundos de doadores,
+taxas dos utentes). A justificação que o documento dá é direta: instituições com funções
+semelhantes podem estar sujeitas a regras financeiras muito diferentes.
+
+**Traçar os fluxos de fundos** entre detentores, intermediários e utilizadores finais.
+
+**Mapear o regime de regras** de cada via de financiamento, respondendo a seis perguntas:
+como são alocados os fundos, quem os controla e autoriza a libertação, como são
+transferidos entre níveis de governo, como os prestadores recebem e gastam, que regras e
+mecanismos de supervisão governam os fluxos, e como se presta contas.
+
+Aplicado ao caso, o resultado é revelador. O achado central afirma que o Instituto
+Nacional de Farmácia e Produtos Medicinais não pode contratar enquanto o orçamento não
+estiver carregado no sistema de gestão financeira. Para julgar este achado seria preciso
+saber se o Instituto é entidade orçamental ou extraorçamental e de que fontes se
+financia. Se fosse extraorçamental, com receita própria, o constrangimento seria outro,
+ou poderia não existir. O texto não o diz.
+
+Há uma segunda ausência com mais consequência. A secção 2.2 insiste que o mapeamento
+capte os fluxos externos, com a observação de que em muitos países de baixo rendimento a
+ajuda continua a circular fora dos sistemas financeiros regulares, seguindo calendários,
+regras e exigências de relato próprios, o que fragmenta o panorama de financiamento. O
+caso timorense não menciona uma única fonte externa no abastecimento de medicamentos
+essenciais. Se uma parte relevante entrar por canal paralelo, o diagnóstico de que o
+problema está no carregamento tardio do orçamento nacional descreve, quando muito, parte
+do fenómeno.
+
+A lição a reter é que o passo 2 não é uma formalidade descritiva. É o que permite a
+quem lê o relatório julgar se o gargalo está onde o relatório diz que está.
+
+## Passo 3: construir o diagrama causal
+
+O diagrama tem três níveis: a cabeça com o problema, as espinhas com os gargalos, e um
+terceiro nível com as causas raiz de cada gargalo.
+
+A entrada faz-se pela Tabela 2.2, que funciona como índice invertido. Para o problema de
+rutura de consumíveis, a tabela devolve sete gargalos candidatos: credibilidade
+orçamental (3.1.5), fluxo de fundos (3.2.1), controlos de execução (3.2.2), processos de
+aquisição (3.2.3), gestão de existências (3.2.4), reforços orçamentais difíceis de obter
+(3.2.5), e requisitos financeiros múltiplos por fonte de financiamento (3.4.2). A tabela
+não afirma que todos operam; devolve suspeitos a interrogar.
+
+### O terceiro nível não tem método
+
+Sobre as causas raiz, a secção 2.3 diz o seguinte, e apenas o seguinte: o analista deve
+explorar as causas raiz dos gargalos, ou seja, as razões específicas pelas quais existem
+e persistem. Não há indicação de profundidade, nem de quando parar, nem de como
+distinguir uma causa raiz de uma causa intermédia, nem de como testar se a relação é
+causal ou apenas concomitante.
+
+O que ocupa o lugar do método é o capítulo 3. Cada gargalo traz um conjunto de narrativas
+sobre o que o pode estar a causar. Para dificuldades no fluxo de fundos (secção 3.2.1),
+esse conjunto é: cadeias de controlo da despesa demasiado complexas, planeamento de
+tesouraria deficiente pelas unidades, racionamento de caixa pelo Ministério das Finanças
+em função da receita do período, controlos de execução excessivamente centralizados e
+detalhados, ausência de digitalização das autorizações de compromisso e de pagamento,
+aprovação legislativa tardia do orçamento, e projetos financiados por doadores com
+rigidezes análogas às do orçamento nacional.
+
+Isto tem uma implicação que merece ser pensada sem pressa de resolver. A equipa não
+descobre as causas raiz do país; seleciona-as de uma lista pré-existente. O ganho é
+comparabilidade entre avaliações e economia de tempo. A perda é a capacidade de ver a
+causa que não consta do menu. Duas equipas, em dois países diferentes, perante o mesmo
+gargalo, tenderão a produzir diagramas semelhantes, porque estão a escolher do mesmo
+catálogo.
+
+### A forma do diagrama: espinha de peixe ou cadeia
+
+O instrumento recomenda a espinha de peixe e admite expressamente que a equipa use outro
+tipo de diagrama, desde que use algum. A escolha não é indiferente.
+
+A espinha de peixe foi concebida para representar categorias paralelas e independentes
+que convergem sobre um mesmo efeito. Aplicada ao caso, produz isto:
+
+| Nível | Conteúdo |
+|:--|:--|
+| Problema | Medicamentos essenciais chegam tarde e em quantidades irregulares, e parte do stock expira em armazém |
+| Gargalo: credibilidade orçamental (3.1.5) | Dotação inicial significativamente abaixo da necessidade; recurso a alterações orçamentais e fundos de contingência |
+| Gargalo: fluxo de fundos (3.2.1) | Aquisição impedida até ao carregamento do orçamento no sistema e à libertação dos fundos; arranque até três meses dentro do ano |
+| Gargalo: gestão de existências (3.2.4) | Dados do mSupply desatualizados e registos paralelos; encomenda em excesso, sobre-armazenamento, rotação fraca, más condições de armazenamento |
+| Causas raiz | Atrasos na preparação e promulgação do orçamento associados a ciclos eleitorais; ausência de apuramento da necessidade real; autorizações não digitalizadas; ausência de disciplina de registo e de responsabilização pelo dado |
+
+O que este formato perde é a sequência. No caso timorense os elos não são paralelos, são
+encadeados: cada um é condição do seguinte. Representado como cadeia, o mesmo conteúdo
+mostra onde intervir primeiro.
+
+```{mermaid}
+flowchart LR
+  A[Orçamento aprovado tarde<br/>e carregado tarde no sistema] --> B[Aquisição só arranca<br/>até 3 meses dentro do ano]
+  C[Dotação inicial abaixo<br/>da necessidade real] --> D[Rondas de aquisição<br/>fragmentadas]
+  B --> D
+  E[Dados de stock<br/>não fiáveis] --> F[Encomenda por<br/>estimativa grosseira]
+  D --> F
+  F --> G[Sobre-armazenamento]
+  H[Rotação fraca e más<br/>condições de armazenamento] --> I[Expiração]
+  G --> I
+  D --> J[Rutura nas unidades]
+  B --> J
+```
+
+A leitura muda. Na espinha de peixe, os três gargalos apresentam-se como três frentes de
+trabalho equivalentes. Na cadeia, vê-se que o momento do carregamento do orçamento
+condiciona tudo o que vem depois, e que a fiabilidade do dado de stock entra num ponto
+específico, a jusante. Uma equipa com recursos limitados decide diferentemente consoante
+o diagrama que tiver à frente.
+
+O critério que proponho para escolher a forma: espinha de peixe quando os fatores são de
+facto paralelos e independentes; árvore de problemas quando há hierarquia entre níveis;
+diagrama de cadeia quando existe sequência temporal ou de dependência, como neste caso.
+
+## Onde acaba a gestão financeira e começa a logística
+
+O caso levanta uma questão de fronteira que o instrumento não resolve. A fraca
+fiabilidade dos dados do mSupply é apresentada como causa. Formalmente, a secção 3.2.4
+autoriza tratá-la como gargalo financeiro, porque gestão de existências está no
+catálogo. Materialmente, o que está descrito é comportamento profissional e sistema de
+informação logística.
+
+A questão tem consequência prática. Classificada como gargalo financeiro, a recomendação
+segue para o Ministério das Finanças, que nada pode fazer sobre a disciplina de registo
+de um farmacêutico. Classificada como obstáculo não financeiro, o FinHealth documenta-a
+e não a recomenda, e alguém terá de a resolver noutro processo.
+
+Há uma terceira via, que me parece mais produtiva: tratar a capacidade de dados como
+objeto de investimento, com justificação financeira própria. O desperdício por expiração
+é mensurável em dinheiro; a encomenda por estimativa grosseira tem custo; a ausência de
+visibilidade de consumo impede qualquer forma de compra estratégica. Formulada assim, a
+recomendação encontra lugar em quatro entradas do catálogo: a secção 3.2.4 onde o
+problema aparece, a 3.1.4 que obriga a orçamentar a operação e não apenas a aquisição do
+sistema, a 3.1.3 que determina se existe rubrica orçamental onde essa operação possa
+viver de ano para ano, e a 3.4.1 sobre gestão de ativos. A secção 3.3.2 acrescenta o
+argumento de fundo, ao afirmar que os dados de produção ao nível da unidade são o
+fundamento da compra estratégica.
+
+O aviso vem do mesmo caso. Em Timor-Leste, a manutenção do equipamento foi transferida
+para as autoridades municipais sem financiamento nem capacidade técnica, e o resultado
+foi equipamento parado e obsoleto a acumular-se por ausência de protocolo de abate. Um
+sistema de informação adquirido sem orçamento recorrente de operação, sem quadro técnico
+e sem rubrica própria repete a mesma história com outro ativo. Uma recomendação de
+investimento em capacidade de dados que não carregue o custo recorrente transforma-se no
+achado do relatório seguinte.
+
+## O que fica em aberto
+
+**A direção da inferência.** Os blocos do Anexo 2 estão escritos do gargalo para o
+problema. Cada um abre com um cabeçalho que já afirma a relação causal e depois enumera
+os achados financeiros. Não é possível saber se a avaliação partiu efetivamente de um
+problema de serviço, como o método manda, ou se inventariou fraquezas do sistema
+financeiro e depois lhes atribuiu consequências de serviço. Como as avaliações são
+anteriores a 2023, feitas sob a versão que revia 24 funções de forma exaustiva, a
+segunda hipótese é plausível.
+
+**A heterogeneidade da evidência.** Os achados do Anexo 2 apoiam-se em bases muito
+diferentes: um indicador PEFA classificado como D, um índice de prontidão de serviços de
+2014, proporções de unidades inquiridas, valores de faturas em atraso. Algumas fontes
+têm mais de uma década. Isto ilustra na prática a dependência assinalada em *Origem, paradigma e
+método*: o FinHealth consome avaliações de serviços que não produz, não valida e não
+critica.
+
+**A ausência dos passos 2 e 4.** O caso permite ver como se enuncia um problema e como se
+constrói uma cadeia causal. Não permite ver o mapeamento que sustentaria a cadeia, nem a
+passagem da cadeia para recomendações priorizadas por impacto e exequibilidade.
+
+## Fonte
+
+FinHealth Toolkit 2.0: Public Financial Management (PFM) in the Health Diagnostic
+Toolkit. Banco Mundial e Organização Mundial da Saúde, junho de 2026. Versão não
+diagramada. Caso de Timor-Leste no Anexo 2, pp. 63, 67, 70 e 73. Método dos passos 1 a 3
+nas secções 2.1 a 2.3, pp. 3 a 12. Orientação de mapeamento no Anexo 1, p. 55. Catálogo
+de gargalos no capítulo 3, pp. 17 a 51. As páginas remetem para o índice do documento.

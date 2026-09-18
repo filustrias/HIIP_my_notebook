@@ -40,6 +40,7 @@ book:
       chapters:
         - finhealth-apresentacao.qmd
         - finhealth-tabela-2-2.qmd
+        - finhealth-caso-timor.qmd
     - references.qmd
 
 # Rótulo do bloco de título: "Published" -> "Last update"
