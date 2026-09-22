@@ -18,7 +18,7 @@ book:
   chapters:
     - index.qmd
     - hiip-proposal-for-action.qmd
-    - planejamento-e-roadmap.qmd
+    - planning-and-roadmap.qmd
     - summary.qmd
     - part: "HHFA"
       chapters:

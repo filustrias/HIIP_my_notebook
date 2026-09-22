@@ -1,0 +1,1092 @@
+# Planning and roadmap
+
+This chapter is the readable version of the HIIP work plan. The single source of truth remains the workbook `HIIP_full_plan_EN.xlsx`, on its *Master* tab; what appears here is generated from it and is meant for reading and discussion, not for editing.
+
+The plan covers **12 workstreams**, **49 outputs** and **176 tasks**, spread over fortnightly sprints from 3 August 2026 to 30 July 2027. **29** tasks are done (16%) and 6 are in progress; 3 have been abandoned and are kept for the record. All tasks are assigned to the project manager.
+
+Delayed and Critical flags are computed from the dates as of **22 September 2026**, when this chapter was generated.
+
+## How to read this plan
+
+The plan has three levels, and the distinction between them is what makes it usable. A **workstream** produces a product and is the only level with external validation. An **output** is an intermediate delivery that closes within one or two sprints, and is the only level with a definition of done. A **task** is the concrete work: it has no criteria of its own, being specific enough that once carried out it is done.
+
+The separation that matters most is between the **definition of done** and **external validation**. The definition of done is a set of internal criteria under the project manager's control: the output closes when they are met. External validation is acceptance by the client — the TWG-PHC, the TWG-PFM, the Minister, the financiers — with its own date and **outside the project manager's control**. A product can meet every internal criterion and still not be validated.
+
+The plan also records **deadlocks**: local constraints that stop an output from being achieved even when the work is ready to proceed. A deadlock is not a delay in the work; it is the reason the work cannot move.
+
+Some tasks have no output. That is not an omission: they serve the workstream's external validation directly, without passing through an intermediate delivery, and are grouped separately under each workstream.
+
+::: {.callout-note collapse="true" title="Statuses and conventions"}
+
+| Level or flag | Meaning |
+|:--|:--|
+| Task | Backlog (identified) - To do (committed to the sprint) - In progress - Blocked (held up by third parties) - Done - Abandoned. |
+| Output | Not started - In progress - Delayed - Critical - Done - Abandoned. |
+| Validation | Not started - In progress - Delayed - Critical - Done - Abandoned. |
+| Delayed (orange) | The date is less than two weeks away and the work has not started. The colour appears automatically. |
+| Critical (red) | The date has passed and the output is not done. The colour appears automatically. |
+| Abandoned (grey, struck through) | Output or task no longer part of the plan. Kept for the record; not counted in sprint load. |
+
+: {tbl-colwidths="[28,72]"}
+
+| Column | Meaning |
+|:--|:--|
+| Sprint | Planned fortnight. Dates on the Sprints tab. 'Recurring' repeats in every sprint; 'TBC' awaits a date. |
+| Estimate | Working days. A first approximation, to be corrected with use. |
+| Depends on | What must be completed first. If it is not, the task is Blocked, not late. |
+| Deadlock | Local constraint preventing the output from being achieved, even when the work is ready to proceed. When filled in, the cell turns purple. |
+| Learning | Critical information that emerged while carrying out the task: consequences, new data, problems recognised. Filled in as the work is done and reviewed at the sprint retrospective. |
+
+: {tbl-colwidths="[18,82]"}
+
+:::
+
+::: {.callout-tip title="Escalation rule"}
+Learning that changes the plan does not stay in the column: it becomes a change to the definition of done, a new task, or a line in the risk log.
+:::
+
+## Workstreams at a glance
+
+Each workstream has its own section below, with its external validation, outputs and tasks. The validation dates are what structure the calendar: they do not move for internal convenience.
+
+| Workstream | Validation | Outputs | Tasks | Done | Deadlocked | Sprints |
+|:---|:---|---:|---:|---:|---:|:---|
+| [TWG-PHC](#ws-twg-phc) | 23 October 2026 | 3 | 18 | 0 | 18 | S3–S9 |
+| [Background document - PHC](#ws-background-document-phc) | 6 November 2026 | 7 | 31 | 16 | — | S1–S7 |
+| [Strategy document - PHC](#ws-strategy-document-phc) | 20 November 2026 | 3 | 9 | 0 | — | S5–S8 |
+| [HHFA and situational diagnosis](#ws-hhfa-and-situational-diagnosis) | 18 December 2026 | 8 | 26 | 0 | 3 | S3–S10 |
+| [PFM](#ws-pfm) | 18 December 2026 | 5 | 24 | 13 | — | S1–S10 |
+| [Investment case - PHC](#ws-investment-case-phc) | 26 February 2027 | 4 | 13 | 0 | — | S5–S14 |
+| [PHC investment plan (costed)](#ws-phc-investment-plan-costed) | 23 April 2027 | 5 | 15 | 0 | — | S11–S20 |
+| [Essential package - PHC](#ws-essential-package-phc) | 15 January 2027 | 4 | 9 | 0 | — | S8–S11 |
+| [Care model and professional profiles - PHC](#ws-care-model-and-professional-profiles-phc) | 15 January 2027 | 4 | 13 | 0 | — | S6–S10 |
+| [Project scoping - PHC](#ws-project-scoping-phc) | 23 April 2027 | 2 | 6 | 0 | — | S6–S18 |
+| [Financing mobilisation - PHC](#ws-financing-mobilisation-phc) | 18 June 2027 | 2 | 8 | 0 | — | S17–S21 |
+| [HIIP contractual reporting](#ws-hiip-contractual-reporting) | — | 2 | 4 | 0 | — | S3–S25 |
+
+::: {.callout-important title="Current deadlocks"}
+
+- [Deadlock]{.st-deadlock} **Awaiting developments with MINSA** — TWG-PHC (18 tasks).
+- [Deadlock]{.st-deadlock} **Agreement with UNICEF and UNFPA abandoned; replaced by the approach to GEPE** — HHFA and situational diagnosis (3 tasks).
+
+:::
+
+::: {.callout-note collapse="true" title="Sprint calendar"}
+
+| Sprint | Start | End | Tasks | Days |
+|:---|:---|:---|---:|---:|
+| S1 | 3 August 2026 | 14 August 2026 | 3 | 6 |
+| S2 | 17 August 2026 | 28 August 2026 | 3 | 6 |
+| S3 | 31 August 2026 | 11 September 2026 | 27 | 48 |
+| S4 | 14 September 2026 | 25 September 2026 | 11 | 28 |
+| S5 | 28 September 2026 | 9 October 2026 | 25 | 73 |
+| S6 | 12 October 2026 | 23 October 2026 | 25 | 53 |
+| S7 | 26 October 2026 | 6 November 2026 | 11 | 24 |
+| S8 | 9 November 2026 | 20 November 2026 | 10 | 25 |
+| S9 | 23 November 2026 | 4 December 2026 | 10 | 28 |
+| S10 | 7 December 2026 | 18 December 2026 | 10 | 30 |
+| S11 | 4 January 2027 | 15 January 2027 | 6 | 17 |
+| S12 | 18 January 2027 | 29 January 2027 | 3 | 13 |
+| S13 | 1 February 2027 | 12 February 2027 | 2 | 13 |
+| S14 | 15 February 2027 | 26 February 2027 | 4 | 12 |
+| S15 | 1 March 2027 | 12 March 2027 | 1 | 8 |
+| S16 | 15 March 2027 | 26 March 2027 | 2 | 6 |
+| S17 | 29 March 2027 | 9 April 2027 | 3 | 19 |
+| S18 | 12 April 2027 | 23 April 2027 | 4 | 12 |
+| S19 | 26 April 2027 | 7 May 2027 | 3 | 9 |
+| S20 | 10 May 2027 | 21 May 2027 | 2 | 8 |
+| S21 | 24 May 2027 | 4 June 2027 | 1 | 5 |
+| S22 | 7 June 2027 | 18 June 2027 | 0 | 0 |
+| S23 | 21 June 2027 | 2 July 2027 | 0 | 0 |
+| S24 | 5 July 2027 | 16 July 2027 | 0 | 0 |
+| S25 | 19 July 2027 | 30 July 2027 | 1 | 5 |
+| Recurring | — | — | 6 | 8 |
+| TBC | — | — | 0 | 0 |
+
+:::
+
+## The contractual calendar
+
+The plan answers to a contract. The [Proposal for Action](hiip-proposal-for-action.qmd) recognises three contractual deliverables and two reports, scheduled in project months; every other product in the plan is intermediate work supporting them. Where the plan's dates and the contract's diverge, **the contract prevails**.
+
+| Contractual deliverable | Activity | Months | Period | Workstream in the plan |
+|:---|:---|:--|:--|:---|
+| **Deliverable 1: Costed PHC Investment Plan developed and launched** | Consultants recruitment | M1 | 1 August 2026 – 31 August 2026 | PHC investment plan (costed) |
+|  | PHC desk review, situation assessment | M2–M3 | 1 September 2026 – 31 October 2026 | Background document - PHC |
+|  | Identification of priority interventions guided by the 14 WHO/UNICEF operational framework levers | M6–M7 | 1 January 2027 – 28 February 2027 | Strategy document - PHC |
+|  | Costing of the prioritized interventions | M7–M9 | 1 February 2027 – 30 April 2027 | PHC investment plan (costed) |
+|  | Stakeholder consultations and validation workshop | M8–M9 | 1 March 2027 – 30 April 2027 | PHC investment plan (costed) |
+|  | Drafting the investment plan (sequencing, costing, theory of change with indicators, project scopes) | M7–M9 | 1 February 2027 – 30 April 2027 | PHC investment plan (costed) |
+|  | Finalization, high-level presentation and launch | M10–M11 | 1 May 2027 – 30 June 2027 | PHC investment plan (costed) |
+|  | Pipeline project scope development | M10–M12 | 1 May 2027 – 31 July 2027 | Project scoping - PHC |
+| **Deliverable 2: National Harmonized Health Facilities Assessment report** | Consultant recruitment | M1–M2 | 1 August 2026 – 30 September 2026 | HHFA and situational diagnosis |
+|  | TWG orientation and HHFA tools adaptation | M3–M4 | 1 October 2026 – 30 November 2026 | HHFA and situational diagnosis |
+|  | Training field teams | M4 | 1 November 2026 – 30 November 2026 | HHFA and situational diagnosis |
+|  | HHFA data collection | M4–M5 | 1 November 2026 – 31 December 2026 | HHFA and situational diagnosis |
+|  | Data cleaning, gap analysis and report writing | M5–M7 | 1 December 2026 – 28 February 2027 | HHFA and situational diagnosis |
+|  | HHFA findings inform the investment plan prioritization | M5 | 1 December 2026 – 31 December 2026 | PHC investment plan (costed) |
+| **Deliverable 3: Health Sector Public Finance Management (PFM) assessment** | Consultants recruitment | M1 | 1 August 2026 – 31 August 2026 | PFM |
+|  | PFMA TWG orientation | M2 | 1 September 2026 – 30 September 2026 | PFM |
+|  | PFMA field data collection and key informants | M2–M5 | 1 September 2026 – 31 December 2026 | PFM |
+|  | PFMA analysis and final report | M5–M6 | 1 December 2026 – 31 January 2027 | PFM |
+|  | PFMA findings inform the investment plan | M5 | 1 December 2026 – 31 December 2026 | Investment case - PHC |
+| **Reports** | HIIP project technical and financial report | M6 | 1 January 2027 – 31 January 2027 | HIIP contractual reporting |
+|  | HIIP project technical and financial report | M12 | 1 July 2027 – 31 July 2027 | HIIP contractual reporting |
+
+: {tbl-colwidths="[22,34,8,20,16]"}
+
+### Plan against contract
+
+For each workstream the contract names, the latest contractual end date against the workstream's validation date in the plan. A positive gap means the plan runs past the contract.
+
+| Workstream | Contract ends | Plan validates | Gap |
+|:---|:---|:---|---:|
+| [Investment case - PHC](#ws-investment-case-phc) | 31 December 2026 | 26 February 2027 | **+57 days** [Past contract]{.st-delayed title="Plan validates after the contract ends"} |
+| [Background document - PHC](#ws-background-document-phc) | 31 October 2026 | 6 November 2026 | **+6 days** [Past contract]{.st-delayed title="Plan validates after the contract ends"} |
+| [PFM](#ws-pfm) | 31 January 2027 | 18 December 2026 | -44 days |
+| [PHC investment plan (costed)](#ws-phc-investment-plan-costed) | 30 June 2027 | 23 April 2027 | -68 days |
+| [HHFA and situational diagnosis](#ws-hhfa-and-situational-diagnosis) | 28 February 2027 | 18 December 2026 | -72 days |
+| [Project scoping - PHC](#ws-project-scoping-phc) | 31 July 2027 | 23 April 2027 | -99 days |
+| [Strategy document - PHC](#ws-strategy-document-phc) | 28 February 2027 | 20 November 2026 | -100 days |
+
+::: {.callout-note collapse="true" title="Notes on the founding document"}
+
+Source: HIIP Proposal for Actions - Angola. Estimated budget USD 786,542. Team leader: Tomas Valdez. Cleared by the HIIP committee on 24/03/2026; WR on 28/04/2026.
+
+- The founding document recognises three contractual deliverables and two reports. The remaining products in the plan are intermediate work supporting them.
+- Compare these dates with the Master and Roadmap tabs: where they diverge, the contract prevails.
+- September 2026 revision: the HHFA and PFM now have a December 2026 horizon; the HHFA will be a light version supporting the expansion of the Angolan tool already in use, in coordination with GEPE.
+
+:::
+
+## The workstreams
+
+### TWG-PHC {#ws-twg-phc}
+
+The technical working group for primary health care is the body the rest of the plan answers to: 6 of the other workstreams have their external validation at a TWG-PHC session. Reconstituting it is not one workstream among others but the precondition that governs the calendar. It is also where the plan is currently held up from outside: its work cannot move until the Ministry does.
+
+::: {.callout-warning title="External validation"}
+**When:** 23 October 2026  
+**Status:** [Not started]{.st-none}
+
+Authorities formally clear the reconstitution of the group; refoundation session held with quorum; workplan accepted by members
+:::
+
+3 outputs and 18 tasks, across S3–S9. None done yet.
+
+::: {.callout-note collapse="true" title="TWG-PHC reconstitution proposal"}
+
+**Due** 9 October 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** List of former members identified; representation gaps identified; ToR drafted and circulated; workplan drafted; invitations and clearance request prepared
+
+[Deadlock]{.st-deadlock} Awaiting developments with MINSA
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Map and re-engage TWG-PHC stakeholders | S3 | 2 d | — | [Backlog]{.st-backlog} |
+| Identify the actors previously convened | S3 | 2 d | — | [Backlog]{.st-backlog} |
+| Identify which actors are still to be convened | S3 | 1 d | Former members identified | [Backlog]{.st-backlog} |
+| Draft and circulate the TWG-PHC Terms of Reference | S3 | 2 d | Stakeholder mapping | [Backlog]{.st-backlog} |
+| Plan the working group activities | S4 | 3 d | List of actors | [Backlog]{.st-backlog} |
+| Prepare the clearance request to the authorities | S5 | 1 d | Workplan | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="TWG-PHC operating"}
+
+**Due** 23 October 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Fortnightly calendar and standing agenda template established; inaugural meeting held with minutes; fortnightly reporting under way
+
+[Deadlock]{.st-deadlock} Awaiting developments with MINSA
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Set the fortnightly calendar and standing agenda template | S6 | 1 d | Refoundation session | [Backlog]{.st-backlog} |
+| Hold the inaugural TWG-PHC meeting | S6 | 1 d | Meeting scheduled | [Backlog]{.st-backlog} |
+| Fortnightly progress reporting to Indrajit and Tomás | Recurring | 1 d | — | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Subgroups and reform needs"}
+
+**Due** 4 December 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Scope and membership defined for the three subgroups; list of management materials and training needs matrix produced
+
+[Deadlock]{.st-deadlock} Awaiting developments with MINSA
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Define the clinical protocols subgroup (scope and members) | S7 | 2 d | Inaugural meeting | [Backlog]{.st-backlog} |
+| Define the patient referral guides subgroup | S7 | 2 d | Inaugural meeting | [Backlog]{.st-backlog} |
+| Define the PHC information digitalisation subgroup | S8 | 2 d | Inaugural meeting | [Backlog]{.st-backlog} |
+| Identify management materials needed by facility and district managers | S8 | 3 d | Pilot visits | [Backlog]{.st-backlog} |
+| Identify specific training needs for the reform | S9 | 3 d | Pilot visits | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Tasks serving the external validation directly"}
+
+Tasks with no intermediate output: they serve this workstream's external validation directly.
+
+[Deadlock]{.st-deadlock} Awaiting developments with MINSA
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Obtain formal clearance from the authorities | S5 | 2 d | Clearance request; DNSP consent | [Backlog]{.st-backlog} |
+| Invite the authorities and the members | S6 | 1 d | Formal clearance | [Backlog]{.st-backlog} |
+| Schedule the meeting with all members | S6 | 1 d | Invitations sent | [Backlog]{.st-backlog} |
+| Hold the refoundation session | S6 | 1 d | Meeting scheduled | [Backlog]{.st-backlog} |
+
+:::
+
+### Background document - PHC {#ws-background-document-phc}
+
+The diagnosis. It inherits work by earlier consultants, which is audited before being reused, and combines a quantitative backbone with pilot field visits. It is the direct input to the strategy document: no strategic prioritisation can be defended without it.
+
+::: {.callout-warning title="External validation"}
+**When:** 6 November 2026  
+**Status:** [Not started]{.st-none}
+
+Presented to the TWG-PHC; position recorded on the diagnosis; minutes with comments and owners; agreed changes incorporated in a dated version
+:::
+
+7 outputs and 31 tasks, across S1–S7. 16 done.
+
+::: {.callout-note collapse="true" title="Audit of the consultants' previous work"}
+
+**Due** 28 August 2026 · **Status** [Done]{.st-done}
+
+**Definition of done.** Methodology previously applied identified; inventory of data collected and still to collect; record of what was promised to the client, with deadlines and products; gaps listed
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Meetings with the consultants | S1 | 2 d | — | [Done]{.st-done} |
+| Identification of the methodology previously applied | S1 | 2 d | — | [Done]{.st-done} |
+| Inventory of data collected and still to be collected | S2 | 2 d | — | [Done]{.st-done} |
+| Record of what was promised to the client, with deadlines and products | S2 | 2 d | — | [Done]{.st-done} |
+
+:::
+
+::: {.callout-note collapse="true" title="Analytical structure"}
+
+**Due** 11 September 2026 · **Status** [Done]{.st-done}
+
+**Definition of done.** Document structured around the operational framework levers; interview guides mapped to the levers; consultants' material mapped; presentation format for barriers, gaps, bottlenecks and strengths defined
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Structure the document around the operational framework levers | S3 | 2 d | Audit | [Done]{.st-done} |
+| Rewrite the interview guides mapped to the levers | S3 | 3 d | Analytical structure | [Done]{.st-done} |
+| Map the consultants' material against the levers | S3 | 2 d | Analytical structure | [Done]{.st-done} |
+| Define how barriers, gaps, bottlenecks and strengths will be presented | S3 | 1 d | — | [Done]{.st-done} |
+
+:::
+
+::: {.callout-note collapse="true" title="Quantitative backbone"}
+
+**Due** 11 September 2026 · **Status** [Done]{.st-done}
+
+**Definition of done.** Indicators extracted with extraction date; quality and completeness assessed; anomalies listed to probe in the field
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Extract the DHIS2 indicators | S3 | 3 d | — | [Done]{.st-done} |
+| Assess the quality and completeness of the extracted data | S3 | 2 d | DHIS2 extraction | [Done]{.st-done} |
+| Identify anomalies to probe in the field | S3 | 1 d | Quality assessment | [Done]{.st-done} |
+
+:::
+
+::: {.callout-note collapse="true" title="Pilot visits preparation"}
+
+**Due** 11 September 2026 · **Status** [Done]{.st-done}
+
+**Definition of done.** DNSP consent recorded; HHFA items selected with justification; questionnaires tested on the device before departure; list of facilities and informants agreed
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Request DNSP consent for the pilot visits and interviews | S3 | 2 d | — | [Done]{.st-done} |
+| Select which HHFA items to capture in this pilot | S3 | 2 d | — | [Done]{.st-done} |
+| Prepare the questionnaires from the HHFA | S3 | 3 d | HHFA item selection | [Done]{.st-done} |
+| Load the questionnaires into KoboToolbox | S3 | 1 d | Questionnaires prepared | [Done]{.st-done} |
+| Define facilities, dates and informant profiles | S3 | 2 d | DNSP consent | [Done]{.st-done} |
+
+:::
+
+::: {.callout-note collapse="true" title="Pilot visits carried out"}
+
+**Due** 25 September 2026 · **Status** [Not started]{.st-none} [Delayed]{.st-delayed title="Due 25 September 2026 and not started"}
+
+**Definition of done.** Planned facilities visited; Kobo data synchronised; interview notes transcribed; instrument limitations noted
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Conduct the visits to health facilities | S4 | 6 d | Pilot visits preparation | [Backlog]{.st-backlog} |
+| Conduct interviews with health workers and local, provincial and national managers | S4 | 4 d | Pilot visits preparation | [Backlog]{.st-backlog} |
+| Record and organise the material collected | S4 | 2 d | Visits carried out | [Backlog]{.st-backlog} |
+| Record the pilot lessons for the HHFA design | S4 | 1 d | Visits carried out | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Synthesis and mapping"}
+
+**Due** 9 October 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Findings coded; barriers, gaps, bottlenecks and strengths classified by structure, process and outcome and mapped to the levers; current care model described; informants' evidence contrasted with current scientific evidence
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Code and synthesise the qualitative findings | S5 | 4 d | Pilot visits carried out | [Backlog]{.st-backlog} |
+| Map barriers, gaps, bottlenecks and strengths by structure, process and outcome | S5 | 3 d | Qualitative synthesis | [Backlog]{.st-backlog} |
+| Describe the current care model | S5 | 3 d | Qualitative synthesis | [Backlog]{.st-backlog} |
+| Contrast the informants' evidence with current scientific evidence | S5 | 3 d | Mapping | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Background document v1"}
+
+**Due** 23 October 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Presentation format applied; contrast section written; language adapted to the client; evidence and references reviewed; country office review resolved
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Draft the contrast section between what is believed and what was observed | S5 | 2 d | Synthesis and mapping | [Backlog]{.st-backlog} |
+| Draft the background document v1 | S5 | 5 d | Synthesis and mapping | [Backlog]{.st-backlog} |
+| Adapt the language to the client | S6 | 2 d | Background document v1 | [Backlog]{.st-backlog} |
+| Review evidence and references | S6 | 2 d | Background document v1 | [Backlog]{.st-backlog} |
+| Country office review | S6 | 2 d | Background document v1 | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Tasks serving the external validation directly"}
+
+Tasks with no intermediate output: they serve this workstream's external validation directly.
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Present the document to the TWG-PHC for validation | S6 | 1 d | TWG-PHC refounded; Background v1 | [Backlog]{.st-backlog} |
+| Incorporate the TWG-PHC comments | S7 | 2 d | Validation session | [Backlog]{.st-backlog} |
+
+:::
+
+### Strategy document - PHC {#ws-strategy-document-phc}
+
+Turns the diagnosis into choices through an explicit chain: map of barriers and gaps, theory of change, prioritised areas. Validation requires the Ministry to confirm that the strategy serves as the enabling policy document; without that, the investment plan and the essential package have no normative basis.
+
+::: {.callout-warning title="External validation"}
+**When:** 20 November 2026  
+**Status:** [Not started]{.st-none}
+
+Presented to the TWG-PHC; position recorded on each prioritized area (accepted/amended/rejected); minutes with decisions and owners; MINSA confirms it serves as the enabling policy document; agreed changes incorporated in a dated version
+:::
+
+3 outputs and 9 tasks, across S5–S8. None done yet.
+
+::: {.callout-note collapse="true" title="Map of barriers, gaps, bottlenecks and strengths"}
+
+**Due** 9 October 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Items classified by structure, process and outcome and mapped to the framework levers; each item with an identified source; candidate interventions with reference and level of evidence
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Map barriers, gaps, bottlenecks and strengths by structure, process and outcome | S5 | 4 d | Field qualitative synthesis | [Backlog]{.st-backlog} |
+| Review evidence on interventions for each barrier, gap and bottleneck | S5 | 5 d | Barrier map | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Theory of change and menu of options"}
+
+**Due** 9 October 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Barrier > intervention > outcome chain made explicit; each option with relative cost, time to effect and preconditions; discarded alternatives with the reason; candidate areas and actions for prioritization identified
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Design the theory of change | S5 | 3 d | Evidence table | [Backlog]{.st-backlog} |
+| Build the menu of options for debate | S5 | 3 d | Theory of change | [Backlog]{.st-backlog} |
+| Identify areas and actions for prioritization | S5 | 3 d | Menu of options | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Strategy v1 with prioritized areas"}
+
+**Due** 23 October 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Covers all framework levers; each recommendation traceable to a barrier and its evidence; prioritization criteria explicit; country office review resolved; Portuguese version ready
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Draft the strategy v1 | S5 | 5 d | Prioritized areas and actions | [Backlog]{.st-backlog} |
+| Internal review and pre-alignment with MINSA | S6 | 2 d | Strategy v1 | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Tasks serving the external validation directly"}
+
+Tasks with no intermediate output: they serve this workstream's external validation directly.
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Hold the validation policy dialogue | S7 | 2 d | TWG-PHC refounded; Strategy v1 | [Backlog]{.st-backlog} |
+| Incorporate the agreed changes | S8 | 3 d | Policy dialogue | [Backlog]{.st-backlog} |
+
+:::
+
+### HHFA and situational diagnosis {#ws-hhfa-and-situational-diagnosis}
+
+Revised in September 2026. The inter-agency agreement with UNICEF and UNFPA was abandoned and replaced by an approach to GEPE, the Ministry's planning and statistics office. The HHFA becomes a light version built into the Angolan assessment tool already in use, in support of the Health Map (*Mapa Sanitário*), on a December 2026 horizon. Its legacy is a proposal to extend that tool with the HHFA items, so that assessment does not end with the project. The instrument itself is covered in the HHFA part of this notebook.
+
+::: {.callout-warning title="External validation"}
+**When:** 18 December 2026  
+**Status:** [Not started]{.st-none}
+
+Light HHFA presented and accepted; support to the Health Map (Mapa Sanitário) and to the expansion of the Angolan tool already in use agreed with GEPE
+:::
+
+8 outputs and 26 tasks, across S3–S10. None done yet. 3 abandoned.
+
+::: {.callout-note collapse="true" title="Inter-agency agreement"}
+
+**Due** 9 October 2026 · **Status** [Abandoned]{.st-aband}
+
+**Definition of done.** Shared scope agreed; cost sharing defined; co-financing agreement formalised
+
+[Deadlock]{.st-deadlock} Agreement with UNICEF and UNFPA abandoned; replaced by the approach to GEPE
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Continue the alignment meetings with UNICEF and UNFPA | S3 | 2 d | — | [Abandoned]{.st-aband} |
+| Define the shared scope and cost sharing | S4 | 2 d | Alignment meetings | [Abandoned]{.st-aband} |
+| Formalise the co-financing agreement | S5 | 2 d | Scope and costs defined | [Abandoned]{.st-aband} |
+
+:::
+
+::: {.callout-note collapse="true" title="Approach to GEPE and support to the Health Map"}
+
+**Due** 23 October 2026 · **Status** [In progress]{.st-prog}
+
+**Definition of done.** Scope of WHO support to the Health Map (Mapa Sanitário) agreed with GEPE; WHO local resources identified and allocated; plan to strengthen data management and collection agreed
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Establish the approach to GEPE | S4 | 2 d | — | [In progress]{.st-prog} |
+| Define WHO support to producing the Health Map | S5 | 2 d | Approach to GEPE | [Backlog]{.st-backlog} |
+| Map the WHO local resources available for data management and collection | S5 | 2 d | — | [Backlog]{.st-backlog} |
+| Agree with GEPE the plan to strengthen data management and collection | S6 | 2 d | Health Map support defined | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Joining the survey already contracted"}
+
+**Due** 11 September 2026 · **Status** [In progress]{.st-prog} [Critical]{.st-critical title="Due 11 September 2026, which has passed"}
+
+**Definition of done.** Sample and ToR obtained and analysed; gaps against the HIIP questions identified in writing; margin for adding items confirmed with UNFPA; data collection schedule known and recorded
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Obtain and review the sampling, ToR and contract already decided | S3 | 1 d | — | [Backlog]{.st-backlog} |
+| Assess whether the sample serves the PHC diagnosis questions | S3 | 2 d | Sampling obtained | [Backlog]{.st-backlog} |
+| Identify the margin for adding items to the instrument | S3 | 1 d | Sample assessment | [Backlog]{.st-backlog} |
+| Take part in the kick-off meeting with the contracted firm | S3 | 1 d | — | [Backlog]{.st-backlog} |
+| Align the data collection schedule with the HIIP calendar | S3 | 1 d | Kick-off meeting | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Item selection"}
+
+**Due** 9 October 2026 · **Status** [In progress]{.st-prog}
+
+**Definition of done.** HHFA items for the pilot selected with justification; list of summary structure, process and outcome items defined from the pilot
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Select the HHFA items to capture in the pilot | S3 | 2 d | Margin for adding items confirmed | [Backlog]{.st-backlog} |
+| Define the list of summary items from the pilot | S5 | 3 d | Pilot visits carried out | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Light HHFA on the Angolan tool"}
+
+**Due** 23 October 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Angolan tool in use reviewed; light set of HHFA items selected and integrated into the tool; tool tested; mixed-methods design documented
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Review the Angolan assessment tool already in use | S5 | 2 d | Approach to GEPE | [Backlog]{.st-backlog} |
+| Select the light set of HHFA items to add to the tool | S5 | 2 d | Tool review; list of summary items | [Backlog]{.st-backlog} |
+| Integrate the items into the Angolan tool and test it | S6 | 3 d | Items selected | [Backlog]{.st-backlog} |
+| Document the exploratory sequential mixed-methods design | S6 | 2 d | — | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Data collection"}
+
+**Due** 20 November 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Collection under way according to schedule, using WHO local resources; quality monitored by wave
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Follow the training of the data collection teams | S7 | 2 d | Tool tested | [Backlog]{.st-backlog} |
+| Follow the field logistics | S7 | 1 d | — | [Backlog]{.st-backlog} |
+| Monitor data quality by wave | Recurring | 1 d | Collection under way | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Analysis"}
+
+**Due** 18 December 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Dataset cleaned and documented; analysis completed; light HHFA report drafted
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Clean and organise the dataset | S9 | 2 d | Collection completed | [Backlog]{.st-backlog} |
+| Analyse the data | S9 | 3 d | Dataset cleaned | [Backlog]{.st-backlog} |
+| Draft the light HHFA report | S10 | 4 d | Analysis | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Expansion of the Angolan tool (legacy)"}
+
+**Due** 18 December 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Proposal to expand the Angolan tool in use, with the HHFA items, submitted to GEPE and MINSA
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Propose expanding the Angolan tool for routine facility assessment | S10 | 3 d | Light HHFA report | [Backlog]{.st-backlog} |
+| Present the proposal to GEPE and MINSA | S10 | 1 d | Proposal drafted | [Backlog]{.st-backlog} |
+
+:::
+
+### PFM {#ws-pfm}
+
+Public financial management. It runs with its own working group, the TWG-PFM, separate from the TWG-PHC and with its own validation, and shares the December 2026 horizon with the HHFA. The method that structures it is covered in the FinHealth 2.0 part of this notebook.
+
+::: {.callout-warning title="External validation"}
+**When:** 18 December 2026  
+**Status:** [Not started]{.st-none}
+
+Assessment presented to the TWG-PFM; position recorded; minutes with decisions; agreed changes incorporated in a dated version
+:::
+
+5 outputs and 24 tasks, across S1–S10. 13 done.
+
+::: {.callout-note collapse="true" title="TWG-PFM constituted"}
+
+**Due** 25 September 2026 · **Status** [Done]{.st-done}
+
+**Definition of done.** ToR approved by MINSA; membership confirmed; preparatory interview report shared; minutes of the inaugural session with an agreed workplan
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Finalise the TWG-PFM Terms of Reference | S1 | 2 d | — | [Done]{.st-done} |
+| Confirm the list of participants | S2 | 2 d | ToR | [Done]{.st-done} |
+| Organise the calendar and send the invitations | S3 | 2 d | List of participants | [Done]{.st-done} |
+| Conduct the preparatory interviews with members | S3 | 4 d | Invitations | [Done]{.st-done} |
+| Produce the preparatory interview report | S4 | 3 d | Preparatory interviews | [Done]{.st-done} |
+| Hold the inaugural session | S4 | 1 d | Interview report | [Done]{.st-done} |
+| Agree the workplan and the fortnightly calendar | S4 | 1 d | Inaugural session | [Done]{.st-done} |
+
+:::
+
+::: {.callout-note collapse="true" title="PFM consultancy contracted"}
+
+**Due** 6 November 2026 · **Status** [Done]{.st-done}
+
+**Definition of done.** ToR approved; contract signed; local specialist on board; inception report accepted
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Meeting with the World Bank on financing the local specialist | S3 | 1 d | — | [Done]{.st-done} |
+| Draft the consultancy ToR and specifications | S4 | 3 d | Interview report | [Done]{.st-done} |
+| Run the selection process | S5 | 5 d | Consultancy ToR | [Done]{.st-done} |
+| Contract the consultancy | S6 | 2 d | Selection process | [Done]{.st-done} |
+| Bring the local specialist on board | S6 | 3 d | World Bank agreement | [Done]{.st-done} |
+| Inception meeting and workplan validation | S7 | 2 d | Contract signed | [Done]{.st-done} |
+
+:::
+
+::: {.callout-note collapse="true" title="Running the consultancy"}
+
+**Due** 18 December 2026 · **Status** [In progress]{.st-prog}
+
+**Definition of done.** Fortnightly meetings held with minutes; first draft reviewed; final report accepted
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Run the fortnightly TWG-PFM meetings | Recurring | 1 d | Inaugural session | [In progress]{.st-prog} |
+| Supervise the interviews and activities with the group | Recurring | 2 d | Inception meeting | [In progress]{.st-prog} |
+| Review the consultancy first draft | S8 | 2 d | Consultancy under way | [Backlog]{.st-backlog} |
+| Review and accept the final report | S10 | 3 d | First draft | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="TWG-PFM capacity building"}
+
+**Due** 18 December 2026 · **Status** [In progress]{.st-prog}
+
+**Definition of done.** Weekly workshops held with a record; health public finance management concepts aligned with the group; FinHealth tool learned and applied
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Run weekly workshops with the group | Recurring | 1 d | Inaugural session | [In progress]{.st-prog} |
+| Align health public finance management concepts with the group | S5 | 2 d | Workshops under way | [In progress]{.st-prog} |
+| Learn the FinHealth tool | S5 | 3 d | — | [In progress]{.st-prog} |
+| Apply the FinHealth tool with the group | S7 | 3 d | Tool learned | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Partner alignment"}
+
+**Due** 20 November 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Division of labour documented with UNDP and the World Bank
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Align with UNDP and the World Bank on the PFM modernisation workstreams | S4 | 2 d | — | [Backlog]{.st-backlog} |
+| Document the division of labour between the three institutions | S8 | 1 d | Alignment | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Tasks serving the external validation directly"}
+
+Tasks with no intermediate output: they serve this workstream's external validation directly.
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Present the assessment to the TWG-PFM for validation | S10 | 1 d | Final report | [Backlog]{.st-backlog} |
+
+:::
+
+### Investment case - PHC {#ws-investment-case-phc}
+
+The only product with **two** external validations: a political dialogue with the Minister on the first version, and a technical validation of the second, with HHFA data, by the TWG-PHC. The split recognises that persuading and proving are distinct moments, with different audiences and different criteria.
+
+::: {.callout-warning title="External validation"}
+**When:** 26 February 2027  
+**Status:** [Not started]{.st-none}
+
+Two validations: internal MINSA dialogue with the Minister on v1 (06/11/2026); technical validation of v2, with HHFA, by the TWG-PHC (26/02/2027)
+:::
+
+4 outputs and 13 tasks, across S5–S14. None done yet.
+
+::: {.callout-note collapse="true" title="Structure and traction strategy"}
+
+**Due** 9 October 2026 · **Status** [In progress]{.st-prog}
+
+**Definition of done.** Document structure agreed internally; key actors identified by position and influence; sequence of conversations planned up to November
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Define the structure of the investment case | S5 | 2 d | — | [Backlog]{.st-backlog} |
+| Identify the actors whose support gives the document weight inside MINSA | S5 | 2 d | — | [Backlog]{.st-backlog} |
+| Plan the engagement of those actors throughout production | S5 | 2 d | Actors identified | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Financial evidence base"}
+
+**Due** 23 October 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Financing data gathered with source and extraction date; donor mapping obtained from project scoping; financing gap estimated in order of magnitude
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Gather the available financing data | S6 | 3 d | — | [Backlog]{.st-backlog} |
+| Obtain the project and donor mapping from project scoping | S6 | 1 d | Donor mapping | [Backlog]{.st-backlog} |
+| Estimate the PHC financing gap in order of magnitude | S6 | 3 d | Financing data | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Investment case v1"}
+
+**Due** 6 November 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Narrative per prioritized area written; country office review resolved; dated version ready for the dialogue with the Minister
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Write the investment narrative per prioritized area | S6 | 4 d | Strategy v1; evidence base | [Backlog]{.st-backlog} |
+| Draft the investment case v1 | S7 | 5 d | Investment narrative | [Backlog]{.st-backlog} |
+| Country office review | S7 | 2 d | Investment case v1 | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Investment case v2 with HHFA"}
+
+**Due** 26 February 2027 · **Status** [Not started]{.st-none}
+
+**Definition of done.** HHFA findings incorporated; figures revised; dated version
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Incorporate the HHFA findings | S14 | 4 d | HHFA report | [Backlog]{.st-backlog} |
+| Revise the figures and the narrative | S14 | 2 d | HHFA findings incorporated | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Tasks serving the external validation directly"}
+
+Tasks with no intermediate output: they serve this workstream's external validation directly.
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Present v1 at the internal MINSA dialogue with the Minister | S7 | 1 d | Investment case v1 | [Backlog]{.st-backlog} |
+| Present v2 to the TWG-PHC for validation | S14 | 1 d | Investment case v2 | [Backlog]{.st-backlog} |
+
+:::
+
+### PHC investment plan (costed) {#ws-phc-investment-plan-costed}
+
+Turns the strategy into figures. The order matters: consensus on the investment areas comes before any costing, because costing before deciding where to invest produces a number nobody owns.
+
+::: {.callout-warning title="External validation"}
+**When:** 23 April 2027  
+**Status:** [Not started]{.st-none}
+
+Plan validated by the TWG-PHC; position recorded; agreed changes incorporated in a dated version
+:::
+
+5 outputs and 15 tasks, across S11–S20. None done yet.
+
+::: {.callout-note collapse="true" title="Consensus on investment areas"}
+
+**Due** 29 January 2027 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Stakeholder buy-in recorded; technical prioritization completed; political consensus obtained; government due process followed and documented
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Obtain stakeholder buy-in on the geographic and thematic areas | S11 | 4 d | PFM; HHFA; background document; strategy document; investment case | [Backlog]{.st-backlog} |
+| Run the technical prioritization | S11 | 4 d | Stakeholder buy-in | [Backlog]{.st-backlog} |
+| Build the political consensus | S12 | 3 d | Technical prioritization | [Backlog]{.st-backlog} |
+| Follow the due process within government | Recurring | 2 d | Political consensus | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Financial evidence"}
+
+**Due** 29 January 2027 · **Status** [Not started]{.st-none}
+
+**Definition of done.** National health accounts mapped; World Bank resource tracking verification completed; donor resource tracking matrix built
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Map the national health accounts relevant to PHC | S11 | 4 d | PFM (final report) | [Backlog]{.st-backlog} |
+| Verify whether the World Bank has done resource tracking and obtain the data | S11 | 1 d | — | [Backlog]{.st-backlog} |
+| Build the donor resource tracking matrix | S12 | 5 d | Resource tracking verification | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Implementation planning"}
+
+**Due** 26 February 2027 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Planning exercises held per area; deep dive documented; investment packages defined and translated into action plans
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Run the action planning exercises per investment area | S13 | 5 d | Consensus on areas | [Backlog]{.st-backlog} |
+| Run the implementation deep dive per area | S13 | 8 d | Planning exercises | [Backlog]{.st-backlog} |
+| Define the investment packages and translate them into action plans | S14 | 5 d | Deep dive | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Costing and forecasting"}
+
+**Due** 26 March 2027 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Investment packages costed; financing needs and donor coordination forecast
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Cost the investment packages | S15 | 8 d | Packages defined | [Backlog]{.st-backlog} |
+| Forecast financing needs and donor coordination | S16 | 4 d | Costing; resource tracking matrix | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Investment plan"}
+
+**Due** 4 June 2027 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Plan v1 consolidated; post-validation revision done; final plan handed over to MINSA
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Consolidate the investment plan v1 | S17 | 6 d | Costing and forecasting | [Backlog]{.st-backlog} |
+| Post-validation revision and handover to MINSA | S20 | 4 d | Validation; donor meetings | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Tasks serving the external validation directly"}
+
+Tasks with no intermediate output: they serve this workstream's external validation directly.
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Hold the investment plan validation policy dialogue | S18 | 2 d | Investment plan v1 | [Backlog]{.st-backlog} |
+
+:::
+
+### Essential package - PHC {#ws-essential-package-phc}
+
+Defines what primary care should actually offer, by filtering the UHC Compendium down to the primary care level and fitting it to the country's epidemiological profile.
+
+::: {.callout-warning title="External validation"}
+**When:** 15 January 2027  
+**Status:** [Not started]{.st-none}
+
+Essential package presented to the TWG-PHC; position recorded; agreed changes incorporated in a dated version
+:::
+
+4 outputs and 9 tasks, across S8–S11. None done yet.
+
+::: {.callout-note collapse="true" title="Criteria and scope"}
+
+**Due** 20 November 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Service inclusion criteria defined; scope delimited by facility level
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Define the criteria for including services in the package | S8 | 3 d | Strategy validated | [Backlog]{.st-backlog} |
+| Delimit the scope by health facility level | S8 | 2 d | Inclusion criteria | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Selection from the UHC Compendium"}
+
+**Due** 4 December 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Interventions filtered for the PHC level; selection adapted to the epidemiological profile and installed capacity; comparison with current provision documented
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Filter the UHC Compendium interventions applicable at PHC level | S9 | 3 d | Criteria and scope | [Backlog]{.st-backlog} |
+| Adapt the selection to Angola's epidemiological profile and installed capacity | S9 | 3 d | Compendium selection | [Backlog]{.st-backlog} |
+| Compare the selection with what facilities actually provide today | S9 | 2 d | Pilot; HHFA | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Essential package v1"}
+
+**Due** 18 December 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Package drafted; resource implications estimated per service included
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Draft the essential package v1 | S10 | 5 d | Compendium selection | [Backlog]{.st-backlog} |
+| Estimate resource implications per service included | S10 | 3 d | Package v1 | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Implementation and monitoring"}
+
+**Due** 15 January 2027 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Implementation indicators defined; monitoring and evaluation indicators defined
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Define implementation indicators | S11 | 2 d | Package v1 | [Backlog]{.st-backlog} |
+| Define monitoring and evaluation indicators | S11 | 2 d | Package v1 | [Backlog]{.st-backlog} |
+
+:::
+
+### Care model and professional profiles - PHC {#ws-care-model-and-professional-profiles-phc}
+
+The operational counterpart of the essential package: where the package says *what*, this workstream says *by whom and how* — team composition, the functions actually performed, professional profiles.
+
+::: {.callout-warning title="External validation"}
+**When:** 15 January 2027  
+**Status:** [Not started]{.st-none}
+
+Model presented to the TWG-PHC; position recorded; agreed changes incorporated in a dated version
+:::
+
+4 outputs and 13 tasks, across S6–S10. None done yet.
+
+::: {.callout-note collapse="true" title="Diagnosis of the current model"}
+
+**Due** 23 October 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Current model described; limitations identified from field interviews; team composition and functions actually performed mapped
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Describe the care model currently in place in PHC | S6 | 3 d | Field qualitative synthesis | [Backlog]{.st-backlog} |
+| Identify the limitations of the current model | S6 | 2 d | Current model described | [Backlog]{.st-backlog} |
+| Map current team composition and the functions actually performed | S6 | 3 d | Pilot visits | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="New care model"}
+
+**Due** 20 November 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Principles defined; proposed model designed; articulation with the essential package made explicit
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Define the principles of the new model | S8 | 2 d | Diagnosis of the current model | [Backlog]{.st-backlog} |
+| Design the proposed model | S8 | 5 d | Principles defined | [Backlog]{.st-backlog} |
+| Articulate the model with the essential package | S8 | 2 d | Package criteria | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Professional profiles and teams"}
+
+**Due** 4 December 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Actions per professional cadre derived from the UHC Compendium; team redesign proposed; training and staffing implications identified
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Derive actions per professional cadre from the UHC Compendium | S9 | 4 d | Compendium selection | [Backlog]{.st-backlog} |
+| Define the specific actions of each professional cadre | S9 | 3 d | Compendium actions | [Backlog]{.st-backlog} |
+| Propose the team redesign | S9 | 3 d | Actions per cadre | [Backlog]{.st-backlog} |
+| Identify training and staffing implications | S9 | 2 d | Team redesign | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Care model document"}
+
+**Due** 18 December 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Document drafted; professional bodies consulted; country office review resolved
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Draft the care model document | S10 | 5 d | Professional profiles | [Backlog]{.st-backlog} |
+| Consult the professional orders and associations | S10 | 3 d | Document drafted | [Backlog]{.st-backlog} |
+| Country office review | S10 | 2 d | Document drafted | [Backlog]{.st-backlog} |
+
+:::
+
+### Project scoping - PHC {#ws-project-scoping-phc}
+
+Maps who already finances primary care, where and for what, identifies overlaps and gaps, and turns the result into project profiles that can be put to financiers.
+
+::: {.callout-warning title="External validation"}
+**When:** 23 April 2027  
+**Status:** [Not started]{.st-none}
+
+Project profiles reviewed with MINSA and prospective financiers
+:::
+
+2 outputs and 6 tasks, across S6–S18. None done yet.
+
+::: {.callout-note collapse="true" title="Mapping of projects and donors"}
+
+**Due** 23 October 2026 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Projects financing PHC mapped; who funds what, for what and where identified; geographic and thematic overlaps and gaps identified
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Map the projects currently financing PHC | S6 | 3 d | — | [Backlog]{.st-backlog} |
+| Identify who funds what, for what and where | S6 | 3 d | Projects mapped | [Backlog]{.st-backlog} |
+| Identify geographic and thematic overlaps and gaps | S6 | 2 d | Mapping | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="Project profiles"}
+
+**Due** 23 April 2027 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Areas selected with MINSA; profiles developed; profiles reviewed with MINSA and financiers
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Select 2 to 3 areas for profile development | S16 | 2 d | Investment packages | [Backlog]{.st-backlog} |
+| Develop the project profiles | S17 | 10 d | Areas selected | [Backlog]{.st-backlog} |
+| Review the profiles with MINSA and prospective financiers | S18 | 4 d | Profiles developed | [Backlog]{.st-backlog} |
+
+:::
+
+### Financing mobilisation - PHC {#ws-financing-mobilisation-phc}
+
+The end of the arc: engaging the European Investment Bank, other donors and the EU delegation, and a World Bank loan. Its validation is the furthest away in time and depends on almost every other workstream.
+
+::: {.callout-warning title="External validation"}
+**When:** 18 June 2027  
+**Status:** [Not started]{.st-none}
+
+Financier commitments recorded; loan proposal signed
+:::
+
+2 outputs and 8 tasks, across S17–S21. None done yet.
+
+::: {.callout-note collapse="true" title="Financier engagement"}
+
+**Due** 7 May 2027 · **Status** [Not started]{.st-none}
+
+**Definition of done.** EIB engaged in the discussions and in prioritization; other donors and the EU delegation mapped; validation and buy-in meetings held with a record
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Engage the EIB in the discussions on investment areas | S17 | 3 d | Investment plan v1 | [Backlog]{.st-backlog} |
+| Involve the EIB in the prioritization exercises | S18 | 3 d | EIB engaged | [Backlog]{.st-backlog} |
+| Map other donors and the EU delegation | S18 | 3 d | — | [Backlog]{.st-backlog} |
+| Organise the validation and buy-in meetings | S19 | 5 d | Donors mapped | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="World Bank loan"}
+
+**Due** 18 June 2027 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Document pack prepared; single dated version on both routes; technical queries answered; final proposal consolidated
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Prepare the document pack for the World Bank | S19 | 3 d | Investment case; investment plan | [Backlog]{.st-backlog} |
+| Ensure the version going through the Minister and through WHO is the same, dated | S19 | 1 d | Document pack | [Backlog]{.st-backlog} |
+| Follow the negotiation and answer technical queries | S20 | 4 d | Pack delivered | [Backlog]{.st-backlog} |
+| Consolidate the final proposal | S21 | 5 d | Negotiation | [Backlog]{.st-backlog} |
+
+:::
+
+### HIIP contractual reporting {#ws-hiip-contractual-reporting}
+
+Contractual reporting obligations. The only workstream with no external validation, because the test is not acceptance by a technical client but meeting the contractual deadline.
+
+*No external validation recorded: the test for this workstream is meeting the contractual deadline.*
+
+2 outputs and 4 tasks, across S3–S25. None done yet.
+
+::: {.callout-note collapse="true" title="Reporting calendar"}
+
+**Due** 11 September 2026 · **Status** [Not started]{.st-none} [Critical]{.st-critical title="Due 11 September 2026, which has passed"}
+
+**Definition of done.** Project month 1 (M1) confirmed; M6 and M12 report dates converted into calendar dates and entered in the plan
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Confirm project month 1 (M1) with the country office | S3 | 1 d | — | [Backlog]{.st-backlog} |
+| Convert M6 and M12 into calendar dates and enter them in the plan | S3 | 1 d | M1 confirmed | [Backlog]{.st-backlog} |
+
+:::
+
+::: {.callout-note collapse="true" title="HIIP technical and financial reports"}
+
+**Due** 30 July 2027 · **Status** [Not started]{.st-none}
+
+**Definition of done.** Interim (M6) and final (M12) technical and financial reports submitted and accepted within contractual deadlines
+
+| Task | Sprint | Est. | Depends on | Status |
+|:---|:---|---:|:---|:---|
+| Interim technical and financial report (M6 - January 2027) | S12 | 5 d | Reporting calendar | [Backlog]{.st-backlog} |
+| Final technical and financial report (M12 - July 2027) | S25 | 5 d | Reporting calendar | [Backlog]{.st-backlog} |
+
+:::

@@ -72,6 +72,10 @@ font-weight: 600;
 .pfm-2,
 .pfm-3,
 .pfm-4,
+.st-critical,
+.st-delayed,
+.st-deadlock,
+.st-aband,
 .st-none {
   display: inline-block;
   font-family: $headings-font-family;
@@ -91,40 +95,67 @@ font-weight: 600;
   border-color: rgba(26, 160, 92, 0.35);
 }
 
+/* O plano em inglês acrescenta Delayed (laranja) e Critical (vermelho),
+   por isso "In progress" passa de âmbar para azul: não pode confundir-se
+   com um alerta. */
 .st-prog {
-  color: #b06a00;
-  background: rgba(217, 138, 10, 0.16);
-  border-color: rgba(217, 138, 10, 0.38);
+  color: #1c62c4;
+  background: rgba(35, 110, 210, 0.14);
+  border-color: rgba(35, 110, 210, 0.35);
 }
 
-.st-block {
+.st-block,
+.st-critical {
   color: #b3261e;
   background: rgba(200, 45, 40, 0.14);
   border-color: rgba(200, 45, 40, 0.35);
 }
 
 .st-todo {
-  color: #1c62c4;
-  background: rgba(35, 110, 210, 0.14);
-  border-color: rgba(35, 110, 210, 0.35);
+  color: #0f7a6c;
+  background: rgba(17, 148, 130, 0.14);
+  border-color: rgba(17, 148, 130, 0.34);
+}
+
+.st-delayed {
+  color: #b54708;
+  background: rgba(230, 110, 20, 0.15);
+  border-color: rgba(230, 110, 20, 0.38);
+}
+
+/* Deadlock: roxo, como na célula da folha de cálculo. */
+.st-deadlock {
+  color: #6d3fb0;
+  background: rgba(130, 85, 200, 0.14);
+  border-color: rgba(130, 85, 200, 0.36);
 }
 
 .st-backlog,
-.st-none {
+.st-none,
+.st-aband {
   color: #6b7280;
   background: rgba(128, 137, 150, 0.14);
   border-color: rgba(128, 137, 150, 0.3);
 }
 
+/* Abandoned: cinzento e riscado, como na folha de cálculo. */
+.st-aband {
+  text-decoration: line-through;
+}
+
 /* No tema escuro os tons cheios ficam ilegíveis sobre fundo escuro:
    clareia o texto e mantém o fundo translúcido. */
 .quarto-dark {
-  .st-done    { color: #5fd99a; }
-  .st-prog    { color: #f0b350; }
-  .st-block   { color: #f2837c; }
-  .st-todo    { color: #79aef5; }
+  .st-done     { color: #5fd99a; }
+  .st-prog     { color: #79aef5; }
+  .st-block,
+  .st-critical { color: #f2837c; }
+  .st-todo     { color: #4fc9b5; }
+  .st-delayed  { color: #f5a55c; }
+  .st-deadlock { color: #b89af0; }
   .st-backlog,
-  .st-none    { color: #9aa4b2; }
+  .st-none,
+  .st-aband    { color: #9aa4b2; }
 }
 
 /* Tabelas de tarefas dentro dos callouts: mais compactas e sem
