@@ -246,3 +246,421 @@ font-weight: 600;
   .pfm-3 { color: #b89af0; }
   .pfm-4 { color: #e0b65c; }
 }
+
+/* ======================================================================
+   Capítulo "Narrative structure of PHC investment actions" (.pia-*).
+   O corpo desta página é mais largo (grid.body-width no front matter);
+   são os blocos em grelha que ocupam a largura: opções lado a lado,
+   horizonte em linha do tempo, grelha das 14 alavancas.
+   ====================================================================== */
+$pia-navy: #203864;
+$pia-blue: #2e5a88;
+$pia-sky: #bdd7ee;
+$pia-line: rgba(128, 137, 150, 0.28);
+$pia-soft: rgba(128, 137, 150, 0.07);
+
+.pia-block { margin: 1.6rem 0; }
+
+.pia-label {
+  font-family: $headings-font-family;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $pia-blue;
+  border-bottom: 1px solid $pia-line;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
+
+  em {
+    font-family: $font-family-sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #6b7280;
+    margin-left: 0.4rem;
+  }
+}
+
+/* Dentro de cartões e colunas o texto ocupa a caixa toda. */
+.pia-card p, .pia-step p, .pia-study p, .pia-answer p,
+.pia-nine p, .pia-cost, .pia-narrative p { max-width: none; }
+
+/* Lacunas: cinzento e entre chavetas, como no documento. */
+.pia-gap {
+  color: #7a818c;
+  font-size: 0.86em;
+  font-style: italic;
+  &::before { content: "{"; font-style: normal; }
+  &::after  { content: "}"; font-style: normal; }
+}
+
+/* Marcadores de função no parágrafo contínuo. */
+.pia-mark {
+  display: inline-block;
+  font-family: $headings-font-family;
+  font-size: 0.66em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $pia-blue;
+  border: 1px solid rgba(46, 90, 136, 0.4);
+  border-radius: 4px;
+  padding: 0 0.35em;
+  vertical-align: 0.15em;
+}
+
+/* Narrativa e ação de investimento em destaque. */
+.pia-lead {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 4fr);
+  gap: 2rem;
+  align-items: start;
+  margin: 1rem 0 1.4rem;
+}
+
+.pia-narrative p { line-height: 1.7; }
+
+.pia-answer {
+  background: rgba(46, 90, 136, 0.08);
+  border-left: 4px solid $pia-navy;
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.2rem;
+  position: sticky;
+  top: 5rem;
+
+  p { font-size: 1.02rem; line-height: 1.55; margin: 0.4rem 0 0.8rem; }
+}
+
+.pia-lever-tag {
+  display: inline-block;
+  background: $pia-navy;
+  color: #fff;
+  font-family: $headings-font-family;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 100px;
+  padding: 0.12rem 0.65rem;
+  margin-bottom: 0.6rem;
+}
+
+.pia-kicker {
+  font-family: $headings-font-family;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.pia-evlink { font-size: 0.85rem; }
+
+/* Três opções lado a lado; a borda superior escurece com a ambição. */
+.pia-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.pia-card {
+  background: $pia-soft;
+  border: 1px solid $pia-line;
+  border-top: 4px solid rgba(46, 90, 136, 0.35);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+  font-size: 0.93rem;
+
+  &:nth-child(2) { border-top-color: rgba(46, 90, 136, 0.65); }
+  &:nth-child(3) { border-top-color: $pia-navy; }
+  p { margin: 0.3rem 0 0; }
+}
+
+.pia-card-n {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: $pia-navy;
+  color: #fff;
+  font-family: $headings-font-family;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.pia-card-title {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.pia-prior {
+  margin-top: 0.8rem;
+  border: 1px dashed rgba(46, 90, 136, 0.45);
+  border-radius: 8px;
+  padding: 0.55rem 0.9rem;
+  font-size: 0.93rem;
+
+  span {
+    font-family: $headings-font-family;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $pia-blue;
+    margin-right: 0.6rem;
+  }
+}
+
+/* Duas colunas: evitar e custo; base e estudos. */
+.pia-two {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  .pia-block { margin: 0.6rem 0; }
+}
+
+.pia-avoid {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.55rem;
+    font-size: 0.93rem;
+    &::before {
+      content: "\2715";
+      position: absolute;
+      left: 0.1rem;
+      top: 0.05rem;
+      color: #b3261e;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+  }
+}
+
+.pia-cost { font-size: 0.95rem; }
+
+/* Linha do tempo 1 / 2 / 5 / 10 anos. */
+.pia-timeline {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  position: relative;
+  padding-top: 0.9rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.9rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    border-top: 2px solid rgba(46, 90, 136, 0.35);
+  }
+}
+
+.pia-step {
+  position: relative;
+  padding-top: 1rem;
+  font-size: 0.92rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -0.38rem;
+    left: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: $pia-navy;
+  }
+  p { margin: 0.25rem 0 0; }
+}
+
+.pia-when {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  color: $pia-navy;
+}
+
+/* Grelha das 14 alavancas, redesenhada a partir dos diagramas. */
+.lever-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 0.7rem;
+  span { display: inline-flex; align-items: center; gap: 0.4rem; }
+}
+
+.sw {
+  display: inline-block;
+  width: 1.3rem;
+  height: 0.85rem;
+  border-radius: 3px;
+  &.own  { background: $pia-navy; }
+  &.act  { background: $pia-sky; border: 1.5px solid $pia-blue; }
+  &.none { background: rgba(128, 137, 150, 0.12); border: 1px solid $pia-line; }
+}
+
+.lever-grid {
+  display: grid;
+  grid-template-columns: 1.6rem repeat(10, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.lever-rowlabel {
+  grid-column: 1;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #8a919c;
+  text-align: center;
+  align-self: center;
+}
+
+.lever {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 0.45rem 0.6rem 0.55rem;
+  min-height: 5.2rem;
+  font-size: 0.82rem;
+  line-height: 1.25;
+
+  &.none {
+    background: rgba(128, 137, 150, 0.08);
+    border: 1px solid $pia-line;
+    color: #9aa1ab;
+  }
+  &.act {
+    background: rgba(189, 215, 238, 0.55);
+    border: 2px solid $pia-blue;
+    color: $pia-navy;
+  }
+  &.own {
+    background: $pia-navy;
+    border: 2px solid $pia-navy;
+    color: #fff;
+  }
+}
+
+.lever-n { font-family: $headings-font-family; font-weight: 700; font-size: 0.85rem; }
+.lever-name { font-family: $headings-font-family; font-weight: 600; margin-top: 0.1rem; }
+.lever-note { font-size: 0.74rem; margin-top: 0.3rem; }
+
+/* Evidência. */
+.pia-ev-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid $pia-line;
+    font-size: 0.92rem;
+  }
+}
+
+.pia-status {
+  flex: 0 0 auto;
+  max-width: 55%;
+  text-align: right;
+  color: #7a818c;
+  font-size: 0.8rem;
+  font-style: italic;
+  &::before { content: "{"; font-style: normal; }
+  &::after  { content: "}"; font-style: normal; }
+  &.read { color: #1a7f4b; font-style: normal; font-weight: 600; }
+}
+
+.pia-studies { display: grid; gap: 0.6rem; }
+
+.pia-study {
+  background: $pia-soft;
+  border: 1px solid $pia-line;
+  border-left: 3px solid $pia-blue;
+  border-radius: 0 6px 6px 0;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  p { margin: 0.15rem 0 0; }
+}
+
+.pia-study-name { font-family: $headings-font-family; font-weight: 600; }
+
+/* Os nove blocos. */
+.pia-nine {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin: 1rem 0 0.4rem;
+}
+
+.pia-nine-item {
+  display: flex;
+  gap: 0.7rem;
+  border: 1px solid $pia-line;
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.9rem;
+  p { margin: 0.15rem 0 0; }
+  &.pia-nine-para { background: rgba(46, 90, 136, 0.08); border-color: rgba(46, 90, 136, 0.35); }
+}
+
+.pia-nine-n {
+  flex: 0 0 auto;
+  font-family: $headings-font-family;
+  font-weight: 700;
+  color: $pia-blue;
+}
+
+.pia-nine-key { font-size: 0.82rem; color: #6b7280; }
+
+.pia-nine-sw {
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 3px;
+  background: rgba(46, 90, 136, 0.16);
+  border: 1px solid rgba(46, 90, 136, 0.35);
+  vertical-align: -0.12rem;
+  margin-right: 0.4rem;
+}
+
+/* Tema escuro. */
+.quarto-dark {
+  .pia-label, .pia-mark, .pia-prior span, .pia-nine-n { color: #8fb8e8; }
+  .pia-mark { border-color: rgba(143, 184, 232, 0.45); }
+  .pia-when { color: #b8d3f3; }
+  .pia-answer { background: rgba(80, 140, 210, 0.12); border-left-color: #6b9bd8; }
+  .pia-lever-tag, .pia-card-n, .pia-step::before, .sw.own { background: #3b6db3; }
+  .pia-card:nth-child(3) { border-top-color: #6b9bd8; }
+  .lever.own { background: #3b6db3; border-color: #3b6db3; }
+  .lever.act { background: rgba(80, 140, 210, 0.2); border-color: #6b9bd8; color: #dbe8f8; }
+  .lever.none { color: #7d8591; }
+  .sw.act { background: rgba(80, 140, 210, 0.3); border-color: #6b9bd8; }
+  .pia-status.read { color: #5fd99a; }
+  .pia-avoid li::before { color: #f2837c; }
+}
+
+/* Ecrãs estreitos: tudo em coluna; na grelha de alavancas só as envolvidas. */
+@media (max-width: 991.98px) {
+  .pia-lead, .pia-two { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .pia-answer { position: static; }
+  .pia-options, .pia-nine { grid-template-columns: minmax(0, 1fr); }
+  .pia-timeline { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 1.6rem; }
+  .pia-timeline::before { display: none; }
+  .lever-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lever { grid-row: auto !important; grid-column: auto !important; }
+  .lever.none, .lever-rowlabel { display: none; }
+}

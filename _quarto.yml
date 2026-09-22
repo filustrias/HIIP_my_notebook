@@ -19,6 +19,7 @@ book:
     - index.qmd
     - hiip-proposal-for-action.qmd
     - planning-and-roadmap.qmd
+    - phc-investment-actions.qmd
     - summary.qmd
     - part: "HHFA"
       chapters:
