@@ -22,6 +22,7 @@ book:
     - summary.qmd
     - part: "HHFA"
       chapters:
+        - hhfa-portugues.qmd
         - hhfa-overview.qmd
         - hhfa-modules.qmd
         - indicadores-hhfa-organizacao.qmd

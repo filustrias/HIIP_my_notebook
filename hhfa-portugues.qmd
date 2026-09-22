@@ -1,0 +1,146 @@
+---
+title: "HHFA Português"
+---
+
+## O que é
+
+O *Harmonized Health Facility Assessment* (HHFA, avaliação harmonizada de unidades
+sanitárias) é um inquérito padronizado às unidades sanitárias, desenvolvido pela
+Organização Mundial da Saúde (OMS) no âmbito do *Health Data Collaborative*. Avalia a
+disponibilidade de serviços, a capacidade de recursos e os sistemas de gestão das
+unidades.
+
+O HHFA substitui o *Service Availability and Readiness Assessment* (SARA, avaliação da
+disponibilidade e prontidão dos serviços) da OMS e incorpora elementos do *Service
+Provision Assessment* (SPA, avaliação da prestação de serviços) e dos *Service Delivery
+Indicators* (SDI, indicadores de prestação de serviços). Foi publicado em 2021 e os
+questionários foram revistos em junho de 2023.
+
+O HHFA é um inquérito às unidades. Não mede a cobertura da população, as barreiras
+geográficas, os obstáculos financeiros ao acesso nem o comportamento dos utentes. Essas
+dimensões exigem inquéritos aos agregados familiares ou outras metodologias.
+
+## Os quatro módulos
+
+| Módulo | Pergunta a que responde | Conteúdo | Método |
+|:--|:--|:--|:--|
+| **1. Disponibilidade dos serviços** | A infraestrutura básica e os serviços existem? | Infraestrutura, pessoal, camas, serviços oferecidos | Auditoria da unidade |
+| **2. Prontidão dos serviços** | Os pré-requisitos de um serviço de qualidade estão presentes? | Normas, pessoal formado, equipamento, diagnóstico, medicamentos | Auditoria da unidade |
+| **3. Qualidade do cuidado** | Os doentes receberam cuidados de acordo com as normas? | Adesão às normas registada nos processos clínicos | Revisão retrospetiva de registos |
+| **4. Gestão e finanças** | Existem sistemas que sustentem a disponibilidade e a qualidade? | Governação, finanças, pessoal, gestão de produtos, sistemas de informação, garantia da qualidade | Auditoria da unidade |
+
+: {tbl-colwidths="[20,28,34,18]"}
+
+A auditoria da unidade combina entrevistas a informantes-chave com observação direta. O
+módulo 3 exige a revisão retrospetiva de uma amostra de processos clínicos individuais.
+
+## Organização das perguntas
+
+Cada pergunta é **nuclear** (o mínimo recomendado) ou **adicional** (detalhe sobre temas
+selecionados). No questionário em papel, a coluna `Mod/Ind` mostra, antes da barra, a
+sigla do módulo — por exemplo, `A_C` para disponibilidade nuclear e `R_C` para prontidão
+nuclear — e, depois dela, o código permanente de três letras do indicador.
+
+A relação entre perguntas e indicadores é de muitos para muitos: uma pergunta pode
+alimentar vários indicadores, e um indicador pode precisar de várias perguntas.
+
+## Dimensões de serviço
+
+Os indicadores organizam-se em cinco dimensões de serviço:
+
+1. disponibilidade geral;
+2. prontidão geral (comodidades básicas, equipamento, prevenção de infeção, diagnóstico
+   e medicamentos essenciais);
+3. disponibilidade e prontidão específicas por serviço;
+4. sistemas de gestão e finanças;
+5. qualidade clínica do cuidado.
+
+## Requisitos de implementação
+
+**Base de amostragem.** A implementação exige uma lista-mestra de unidades sanitárias
+atualizada. O HHFA pode ser feito como censo, que atualiza a lista-mestra e produz dados
+nacionais, ou por amostra representativa.
+
+**Recolha.** Usa uma aplicação CSPro em dispositivos Android.
+
+**Análise.** É feita na plataforma de análise do HHFA, que produz tabelas, gráficos e
+mapas padronizados.
+
+## Regras para aplicar o inquérito
+
+**A recolha é conduzida pelos indicadores.** Todos os dados recolhidos devem estar
+ligados a indicadores claramente definidos (Guia Abrangente, p. 13). O país começa por
+rever o inventário de indicadores, identifica os de que precisa e só depois escolhe os
+questionários e as perguntas (Guia Abrangente, p. 16).
+
+**Não aplicar todos os módulos em todas as unidades.** O ciclo recomendado é este (Guia
+Abrangente, p. 6):
+
+- módulo de disponibilidade nuclear como censo de todas as unidades, de 5 em 5 anos;
+- restantes módulos por amostra, de 1 a 3 anos;
+- a prontidão, o módulo mais extenso, pode alternar com gestão e finanças e com
+  qualidade do cuidado.
+
+**Escolher entre censo e amostra conforme o objetivo** (Guia Abrangente, p. 29):
+
+- o censo é necessário para atualizar a lista-mestra e para calcular densidades de
+  unidades, camas e pessoal por população;
+- a amostra serve para estimativas nacionais ou, com mais unidades, para comparar
+  províncias.
+
+**Recolher por local, não por tema.** O questionário combinado está organizado por local
+de serviço e por respondente: consulta externa, serviços específicos, laboratório,
+farmácia. Um mesmo indicador pode precisar de perguntas feitas em vários locais.
+
+**Formar os inquiridores durante 8 a 10 dias**, incluindo um dia de prática no terreno,
+depois de uma formação de formadores (Guia Abrangente, p. 48).
+
+## O que fazer e o que não fazer ao selecionar as perguntas
+
+::: {.callout-tip title="O que fazer"}
+- **Partir dos indicadores e não das perguntas.** A seleção de conteúdo é conduzida
+  pelos indicadores necessários.
+- **Decidir por tabela inteira.** Todos os indicadores de uma tabela partilham o mesmo
+  denominador (Guia Abrangente, p. 60). Retirar uma tabela inteira é uma perda limpa e
+  declarável.
+- **Antes de retirar uma tabela, verificar três coisas:**
+    - de que pergunta de abertura depende, e que tabelas dependem dela;
+    - quantas das suas perguntas não são usadas por nenhuma outra tabela;
+    - quantas unidades da amostra vão cair no denominador.
+- **Usar a seleção de módulos e níveis na aplicação CSPro** (nuclear, nuclear mais
+  adicional, suplementar). O que não for selecionado é desligado automaticamente (Guia
+  do Gestor de Dados, pp. 37–38).
+- **Desligar perguntas ou secções pela folha de ativação**, que reajusta os saltos
+  automaticamente (Guia do Gestor de Dados, pp. 38–41).
+- **Se for preciso reduzir mais, usar o desenho modular** — alternar módulos ao longo do
+  tempo — em vez de eliminar perguntas.
+:::
+
+::: {.callout-caution title="O que não fazer"}
+- **Escolher as perguntas a cortar pela leitura do texto.** Nos testes feitos,
+  sobreviveram apenas 36% dos indicadores, e o corte produziu viés.
+- **Cortar um ramo de um indicador composto.** Um indicador perdido é honesto. Um
+  indicador enviesado entra no relatório como facto.
+- **Cortar as perguntas que abrem cada secção.** Perdem-se os indicadores de
+  disponibilidade e quebram-se os saltos do CSPro.
+- **Manter a pergunta de abertura e cortar todo o conteúdo por baixo dela.** É tempo
+  gasto sem nenhuma medição.
+- **Cortar as opções de verificação** ("observado", "referido, não visto"). São todo o
+  conteúdo probatório desses indicadores.
+- **Cortar itens dentro de um índice.** O índice continua a ser calculado, mas perde o
+  seu significado original.
+- **Apagar perguntas da aplicação CSPro.** Pode bloquear o programa. O caminho é
+  desligar (Guia do Gestor de Dados, p. 74).
+- **Reordenar as perguntas dentro do CSPro.** Obriga a verificar todos os saltos e é
+  propenso a erro (Guia do Gestor de Dados, p. 74). A reorganização faz-se pela
+  distribuição das secções entre os inquiridores.
+- **Encurtar a formação dos inquiridores.** Um inquiridor mal formado é mais lento e
+  produz pior dado.
+:::
+
+## Referências
+
+- OMS. *Harmonized Health Facility Assessment (HHFA): Comprehensive guide.* Genebra:
+  Organização Mundial da Saúde; 2022.
+- OMS. *Harmonized Health Facility Assessment (HHFA): Data manager guide.* Genebra:
+  Organização Mundial da Saúde; 2023.
